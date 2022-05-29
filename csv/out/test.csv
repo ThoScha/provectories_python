@@ -1,0 +1,115 @@
+timestamp,x,y,line,user,action,multiplicity[1;7]
+1653798032447,14.526185,-5.2112956,1,5d242f41-c7df-43ab-8734-3e3b3986cc60,Root,7
+1653798039063,13.166619,-5.0152617,1,5d242f41-c7df-43ab-8734-3e3b3986cc60,New Hires by Region (clusteredBarChart) - Region: Northwest selected,1
+1653798040259,12.827984,-6.0488453,1,5d242f41-c7df-43ab-8734-3e3b3986cc60,New Hires by Region (clusteredBarChart) - Region: East selected,1
+1653798041355,13.221471,-5.96177,1,5d242f41-c7df-43ab-8734-3e3b3986cc60,New Hires by Region (clusteredBarChart) - Region: Central selected,1
+1653798042505,13.11934,-5.325474,1,5d242f41-c7df-43ab-8734-3e3b3986cc60,New Hires by Region (clusteredBarChart) - Region: South selected,1
+1653798043968,13.136705,-5.1062746,1,5d242f41-c7df-43ab-8734-3e3b3986cc60,New Hires by Region (clusteredBarChart) - Region: North selected,1
+1653798045395,13.94866,-4.9173536,1,5d242f41-c7df-43ab-8734-3e3b3986cc60,New Hires by Ethnicity (clusteredColumnChart) - Ethnicity: Group A selected,1
+1653798046852,13.290566,-5.823255,1,5d242f41-c7df-43ab-8734-3e3b3986cc60,New Hires by Ethnicity (clusteredColumnChart) - Ethnicity: Group B selected,1
+1653798048945,12.523126,-5.7931514,1,5d242f41-c7df-43ab-8734-3e3b3986cc60,New Hires by Ethnicity (clusteredColumnChart) - Ethnicity: Group C selected,1
+1653798051867,11.19862,-3.9807553,1,5d242f41-c7df-43ab-8734-3e3b3986cc60,Ethnicity (slicer) - Ethnicity: Group A selected,1
+1653798053587,2.636785,6.9855976,1,5d242f41-c7df-43ab-8734-3e3b3986cc60,Region (slicer) - Region: Northwest selected,1
+1653798054595,2.8905656,0.33261773,1,5d242f41-c7df-43ab-8734-3e3b3986cc60,New Hires by Ethnicity (clusteredColumnChart) - Ethnicity: Group A selected,1
+1653798057337,2.8259885,0.2624606,1,5d242f41-c7df-43ab-8734-3e3b3986cc60,"New Hires by Month and FPDesc (lineChart) - Month: Oct, FPDesc: Part-Time selected",1
+1653798062226,14.560478,-5.788,2,5d242f41-c7df-43ab-8734-3e3b3986cc60,Root,7
+1653798069028,11.761142,-5.0694885,2,5d242f41-c7df-43ab-8734-3e3b3986cc60,New Hires and New Hires Same Period Last Year (clusteredColumnChart) - Month: Jan selected,1
+1653798071784,3.1580575,9.628161,2,5d242f41-c7df-43ab-8734-3e3b3986cc60,Ethnicity (slicer) - Ethnicity: Group C selected,2
+1653798072184,3.146508,9.626126,2,5d242f41-c7df-43ab-8734-3e3b3986cc60,Region (slicer) - Region: Midwest selected,2
+1653798073486,2.754121,1.837588,2,5d242f41-c7df-43ab-8734-3e3b3986cc60,Region (slicer) - Region: South selected,1
+1653798074816,2.8451638,1.5323533,2,5d242f41-c7df-43ab-8734-3e3b3986cc60,Ethnicity (slicer) - Ethnicity: Group A selected,1
+1653798075900,2.6532176,1.2188654,2,5d242f41-c7df-43ab-8734-3e3b3986cc60,"New Hires by Region (clusteredBarChart) - Region: South, Region: South selected",1
+1653798077104,3.7301307,5.962261,2,5d242f41-c7df-43ab-8734-3e3b3986cc60,New Hires by Ethnicity (clusteredColumnChart) - Ethnicity: Group A selected,1
+1653798078052,3.915814,6.178815,2,5d242f41-c7df-43ab-8734-3e3b3986cc60,New Hires and New Hires Same Period Last Year (clusteredColumnChart) - Month: Dec selected,1
+1653798079311,3.9611552,6.127466,2,5d242f41-c7df-43ab-8734-3e3b3986cc60,New Hires and New Hires Same Period Last Year (clusteredColumnChart) - Month: Nov selected,1
+1653798080282,2.867867,1.334202,2,5d242f41-c7df-43ab-8734-3e3b3986cc60,New Hires and New Hires Same Period Last Year (clusteredColumnChart) - Month: Oct selected,1
+1653798081724,3.4778013,5.986698,2,5d242f41-c7df-43ab-8734-3e3b3986cc60,"New Hires by Month and FPDesc (lineChart) - Month: Oct, FPDesc: Part-Time selected",1
+1653798082010,3.5900912,6.226702,2,5d242f41-c7df-43ab-8734-3e3b3986cc60,New Hires and New Hires Same Period Last Year (clusteredColumnChart) - Month: Aug selected,1
+1653798084008,4.122575,7.3216047,2,5d242f41-c7df-43ab-8734-3e3b3986cc60,Ethnicity (slicer) - Ethnicity: Group B selected,1
+1653798084858,4.453787,8.244321,2,5d242f41-c7df-43ab-8734-3e3b3986cc60,Region (slicer) - Region: North selected,1
+1653798087560,0.81270415,0.3304515,2,5d242f41-c7df-43ab-8734-3e3b3986cc60,"New Hires by Region (clusteredBarChart) - Region: North, Region: North selected",1
+1653798088540,0.7908017,0.44250113,2,5d242f41-c7df-43ab-8734-3e3b3986cc60,New Hires by Ethnicity (clusteredColumnChart) - Ethnicity: Group B selected,1
+1653798090215,4.4865136,8.377115,2,5d242f41-c7df-43ab-8734-3e3b3986cc60,New Hires and New Hires Same Period Last Year (clusteredColumnChart) - Month: Dec selected,1
+1653798091666,4.4422626,8.452203,2,5d242f41-c7df-43ab-8734-3e3b3986cc60,New Hires and New Hires Same Period Last Year (clusteredColumnChart) - Month: Jan selected,1
+1653798100128,14.574518,-4.7628393,3,d7bfb8f6-5baf-4f2c-9dc0-0ab117d3fbba,Root,7
+1653798103780,14.316557,-4.007316,3,d7bfb8f6-5baf-4f2c-9dc0-0ab117d3fbba,Ethnicity (slicer) - Ethnicity: Group A selected,1
+1653798104488,2.751177,1.2455205,3,d7bfb8f6-5baf-4f2c-9dc0-0ab117d3fbba,Region (slicer) - Region: South selected,1
+1653798106296,2.8885484,1.1266286,3,d7bfb8f6-5baf-4f2c-9dc0-0ab117d3fbba,New Hires by Ethnicity (clusteredColumnChart) - Ethnicity: Group A selected,1
+1653798107750,5.0695767,0.5246342,3,d7bfb8f6-5baf-4f2c-9dc0-0ab117d3fbba,Ethnicity (slicer) - deselected,1
+1653798108827,4.986965,0.45158172,3,d7bfb8f6-5baf-4f2c-9dc0-0ab117d3fbba,"New Hires by Region (clusteredBarChart) - Region: South, Region: South selected",1
+1653798110392,5.2508073,0.4031073,3,d7bfb8f6-5baf-4f2c-9dc0-0ab117d3fbba,New Hires by Ethnicity (clusteredColumnChart) - Ethnicity: Group C selected,2
+1653798112145,5.90249,1.0539175,3,d7bfb8f6-5baf-4f2c-9dc0-0ab117d3fbba,Region (slicer) - Region: Midwest selected,1
+1653798113289,5.800931,1.4520642,3,d7bfb8f6-5baf-4f2c-9dc0-0ab117d3fbba,New Hires by Ethnicity (clusteredColumnChart) - Ethnicity: Group B selected,1
+1653798114342,5.870531,1.2006536,3,d7bfb8f6-5baf-4f2c-9dc0-0ab117d3fbba,New Hires by Ethnicity (clusteredColumnChart) - Ethnicity: Group A selected,1
+1653798115526,6.0143957,1.1818923,3,d7bfb8f6-5baf-4f2c-9dc0-0ab117d3fbba,"New Hires by Region (clusteredBarChart) - Region: Midwest, Region: Midwest selected",1
+1653798117153,6.1982207,1.5362991,3,d7bfb8f6-5baf-4f2c-9dc0-0ab117d3fbba,"New Hires by Month and FPDesc (lineChart) - Month: Aug, FPDesc: Part-Time selected",2
+1653798118708,5.883373,3.7406657,3,d7bfb8f6-5baf-4f2c-9dc0-0ab117d3fbba,New Hires and New Hires Same Period Last Year (clusteredColumnChart) - Month: Nov selected,1
+1653798122168,6.2007747,1.5353584,3,d7bfb8f6-5baf-4f2c-9dc0-0ab117d3fbba,"New Hires by Month and FPDesc (lineChart) - Month: Aug, FPDesc: Part-Time selected",2
+1653798125301,0.30879536,4.7521334,3,d7bfb8f6-5baf-4f2c-9dc0-0ab117d3fbba,Ethnicity (slicer) - Ethnicity: Group E selected,1
+1653798129383,0.29843828,4.8868613,3,d7bfb8f6-5baf-4f2c-9dc0-0ab117d3fbba,Year (slicer) - Year: 2013 selected,1
+1653798135220,0.72971356,9.215968,3,d7bfb8f6-5baf-4f2c-9dc0-0ab117d3fbba,New Hires and New Hires Same Period Last Year (clusteredColumnChart) - Month: Mar selected,1
+1653798138785,0.74080646,9.147499,3,d7bfb8f6-5baf-4f2c-9dc0-0ab117d3fbba,Year (slicer) - Year: 2011 selected,1
+1653798140622,0.47081354,8.905873,3,d7bfb8f6-5baf-4f2c-9dc0-0ab117d3fbba,New Hires and New Hires Same Period Last Year (clusteredColumnChart) - Month: Oct selected,1
+1653798145216,14.574517,-4.762837,4,d7bfb8f6-5baf-4f2c-9dc0-0ab117d3fbba,Root,7
+1653798150093,5.4727387,-0.81519735,4,d7bfb8f6-5baf-4f2c-9dc0-0ab117d3fbba,Year (slicer) - Year: 2012 selected,1
+1653798151991,1.9644654,-1.4684427,4,d7bfb8f6-5baf-4f2c-9dc0-0ab117d3fbba,Ethnicity (slicer) - Ethnicity: Group C selected,1
+1653798153752,1.067044,-0.8210968,4,d7bfb8f6-5baf-4f2c-9dc0-0ab117d3fbba,Region (slicer) - Region: North selected,2
+1653798157562,4.2894983,9.593451,4,d7bfb8f6-5baf-4f2c-9dc0-0ab117d3fbba,New Hires and New Hires Same Period Last Year (clusteredColumnChart) - Month: Oct selected,2
+1653798159769,1.0657763,-0.8219016,4,d7bfb8f6-5baf-4f2c-9dc0-0ab117d3fbba,New Hires and New Hires Same Period Last Year (clusteredColumnChart) - deselected,2
+1653798160624,4.292668,9.593117,4,d7bfb8f6-5baf-4f2c-9dc0-0ab117d3fbba,New Hires and New Hires Same Period Last Year (clusteredColumnChart) - Month: Oct selected,2
+1653798164909,1.0264754,-0.82236224,4,d7bfb8f6-5baf-4f2c-9dc0-0ab117d3fbba,"New Hires by Region (clusteredBarChart) - Region: North, Region: North selected",1
+1653798167716,0.9633757,-0.9411852,4,d7bfb8f6-5baf-4f2c-9dc0-0ab117d3fbba,"New Hires by Month and FPDesc (lineChart) - Month: Aug, FPDesc: Part-Time selected",1
+1653798175687,14.560478,-5.788,5,e6cfd1c3-adc6-4006-838a-1752c355bba7,Root,7
+1653798180428,12.784554,-5.508733,5,e6cfd1c3-adc6-4006-838a-1752c355bba7,New Hires by Region (clusteredBarChart) - Region: West selected,1
+1653798184149,4.9512625,1.4799829,5,e6cfd1c3-adc6-4006-838a-1752c355bba7,Region (slicer) - Region: West selected,1
+1653798186083,4.9219437,1.5020808,5,e6cfd1c3-adc6-4006-838a-1752c355bba7,New Hires by Ethnicity (clusteredColumnChart) - Ethnicity: Group F selected,1
+1653798187913,-0.7830617,0.8696183,5,e6cfd1c3-adc6-4006-838a-1752c355bba7,Ethnicity (slicer) - Ethnicity: Group F selected,1
+1653798190855,-0.9233994,1.0127227,5,e6cfd1c3-adc6-4006-838a-1752c355bba7,Year (slicer) - Year: 2011 selected,1
+1653798208671,-1.076427,1.3678923,5,e6cfd1c3-adc6-4006-838a-1752c355bba7,"New Hires by Month and FPDesc (lineChart) - Month: Sep, FPDesc: Part-Time selected",1
+1653798214868,-1.489475,2.6889007,5,e6cfd1c3-adc6-4006-838a-1752c355bba7,Region (slicer) - Region: Northwest selected,1
+1653798218897,-0.39411652,2.4388826,5,e6cfd1c3-adc6-4006-838a-1752c355bba7,Ethnicity (slicer) - Ethnicity: Group B selected,1
+1653798220156,-0.13963617,2.3836336,5,e6cfd1c3-adc6-4006-838a-1752c355bba7,New Hires by Ethnicity (clusteredColumnChart) - Ethnicity: Group B selected,1
+1653798222446,3.4997842,8.124732,5,e6cfd1c3-adc6-4006-838a-1752c355bba7,New Hires and New Hires Same Period Last Year (clusteredColumnChart) - Month: Nov selected,1
+1653798223944,-0.2722848,2.4568899,5,e6cfd1c3-adc6-4006-838a-1752c355bba7,"New Hires by Month and FPDesc (lineChart) - Month: Nov, FPDesc: Part-Time selected",1
+1653798226442,-0.15788236,2.4902575,5,e6cfd1c3-adc6-4006-838a-1752c355bba7,"New Hires by Month and FPDesc (lineChart) - Month: Aug, FPDesc: Full-Time selected",1
+1653798230893,2.8080444,8.454831,5,e6cfd1c3-adc6-4006-838a-1752c355bba7,Year (slicer) - Year: 2015 selected,1
+1653798235371,2.535648,8.177987,5,e6cfd1c3-adc6-4006-838a-1752c355bba7,New Hires and New Hires Same Period Last Year (clusteredColumnChart) - Month: Jul selected,1
+1653798238408,2.5851882,8.159889,5,e6cfd1c3-adc6-4006-838a-1752c355bba7,New Hires and New Hires Same Period Last Year (clusteredColumnChart) - Month: Dec selected,1
+1653798240176,2.6058042,8.1182,5,e6cfd1c3-adc6-4006-838a-1752c355bba7,New Hires and New Hires Same Period Last Year (clusteredColumnChart) - deselected,1
+1653798243155,2.4227254,7.9467297,5,e6cfd1c3-adc6-4006-838a-1752c355bba7,Ethnicity (slicer) - deselected,1
+1653798245368,1.861663,7.422858,5,e6cfd1c3-adc6-4006-838a-1752c355bba7,Region (slicer) - deselected,2
+1653798249199,-0.25928253,-0.4099682,5,e6cfd1c3-adc6-4006-838a-1752c355bba7,Year (slicer) - Year: 2014 selected,1
+1653798250169,1.864812,7.424382,5,e6cfd1c3-adc6-4006-838a-1752c355bba7,Year (slicer) - Year: 2015 selected,2
+1653798252060,0.6218929,8.540867,5,e6cfd1c3-adc6-4006-838a-1752c355bba7,Year (slicer) - Year: 2016 selected,1
+1653798253281,6.591429,-1.331367,5,e6cfd1c3-adc6-4006-838a-1752c355bba7,Year (slicer) - Year: 2014 selected,1
+1653798257380,8.2649555,-1.427109,5,e6cfd1c3-adc6-4006-838a-1752c355bba7,New Hires and New Hires Same Period Last Year (clusteredColumnChart) - Month: Nov selected,1
+1653797551311,14.518656,-5.4739065,6,5d242f41-c7df-43ab-8734-3e3b3986cc60,Root,7
+1653797938611,12.4570875,-4.3227015,6,5d242f41-c7df-43ab-8734-3e3b3986cc60,New Hires and New Hires Same Period Last Year (clusteredColumnChart) - Month: Jul selected,1
+1653797942160,11.857347,-5.06031,6,5d242f41-c7df-43ab-8734-3e3b3986cc60,New Hires and New Hires Same Period Last Year (clusteredColumnChart) - Month: Nov selected,1
+1653797944256,15.047287,-5.614228,6,5d242f41-c7df-43ab-8734-3e3b3986cc60,"New Hires by Month and FPDesc (lineChart) - Month: Nov, FPDesc: Part-Time selected",1
+1653797946111,15.148142,-5.1876836,6,5d242f41-c7df-43ab-8734-3e3b3986cc60,"New Hires by Month and FPDesc (lineChart) - Month: Oct, FPDesc: Part-Time selected",1
+1653797950280,12.465236,-5.8919005,6,5d242f41-c7df-43ab-8734-3e3b3986cc60,New Hires by Ethnicity (clusteredColumnChart) - Ethnicity: Group D selected,1
+1653797953370,6.3150644,6.601293,6,5d242f41-c7df-43ab-8734-3e3b3986cc60,Ethnicity (slicer) - Ethnicity: Group B selected,1
+1653797956372,3.7044146,-1.6376024,6,5d242f41-c7df-43ab-8734-3e3b3986cc60,New Hires by Ethnicity (clusteredColumnChart) - Ethnicity: Group B selected,1
+1653797964464,3.6368349,-1.643647,6,5d242f41-c7df-43ab-8734-3e3b3986cc60,New Hires by Region (clusteredBarChart) - Region: Northwest selected,1
+1653797970043,3.6332386,-1.6127902,6,5d242f41-c7df-43ab-8734-3e3b3986cc60,New Hires by Region (clusteredBarChart) - Region: South selected,2
+1653797971684,3.6248848,-1.6128169,6,5d242f41-c7df-43ab-8734-3e3b3986cc60,New Hires by Region (clusteredBarChart) - Region: South selected,2
+1653797976711,1.5016772,1.2998477,6,5d242f41-c7df-43ab-8734-3e3b3986cc60,Region (slicer) - Region: South selected,3
+1653797978560,1.5009407,1.3012348,6,5d242f41-c7df-43ab-8734-3e3b3986cc60,"New Hires by Region (clusteredBarChart) - Region: South, Region: South selected",3
+1653797980172,4.6403522,7.1195865,6,5d242f41-c7df-43ab-8734-3e3b3986cc60,New Hires and New Hires Same Period Last Year (clusteredColumnChart) - Month: Oct selected,3
+1653797985937,4.5455112,6.9596,6,5d242f41-c7df-43ab-8734-3e3b3986cc60,Ethnicity (slicer) - deselected,1
+1653797987441,10.130083,-2.9317849,6,5d242f41-c7df-43ab-8734-3e3b3986cc60,Region (slicer) - deselected,1
+1653797989390,12.092565,-4.5629716,6,5d242f41-c7df-43ab-8734-3e3b3986cc60,New Hires and New Hires Same Period Last Year (clusteredColumnChart) - Month: Oct selected,3
+1653797990924,14.877662,-4.845979,6,5d242f41-c7df-43ab-8734-3e3b3986cc60,New Hires and New Hires Same Period Last Year (clusteredColumnChart) - deselected,7
+1653797996069,12.224505,-4.422176,6,5d242f41-c7df-43ab-8734-3e3b3986cc60,New Hires and New Hires Same Period Last Year (clusteredColumnChart) - Month: Oct selected,3
+1653797997328,6.176034,6.537736,6,5d242f41-c7df-43ab-8734-3e3b3986cc60,Ethnicity (slicer) - Ethnicity: Group B selected,2
+1653797998178,4.6407466,7.118972,6,5d242f41-c7df-43ab-8734-3e3b3986cc60,Region (slicer) - Region: South selected,3
+1653798001707,1.333112,1.3048216,6,5d242f41-c7df-43ab-8734-3e3b3986cc60,New Hires by Ethnicity (clusteredColumnChart) - Ethnicity: Group B selected,1
+1653798005367,1.4847307,1.2942505,6,5d242f41-c7df-43ab-8734-3e3b3986cc60,"New Hires by Region (clusteredBarChart) - Region: South, Region: South selected",3
+1653798009864,1.5032604,1.9152517,6,5d242f41-c7df-43ab-8734-3e3b3986cc60,"New Hires by Month and FPDesc (lineChart) - Month: Oct, FPDesc: Part-Time selected",1
+1653798012322,1.7087468,1.994234,6,5d242f41-c7df-43ab-8734-3e3b3986cc60,Ethnicity (slicer) - deselected,1
+1653798016173,5.2517247,0.40708998,6,5d242f41-c7df-43ab-8734-3e3b3986cc60,New Hires by Ethnicity (clusteredColumnChart) - Ethnicity: Group C selected,2
+1653798016774,6.6188393,-0.103785105,6,5d242f41-c7df-43ab-8734-3e3b3986cc60,Region (slicer) - deselected,1
+1653798017990,12.092569,-4.562967,6,5d242f41-c7df-43ab-8734-3e3b3986cc60,New Hires and New Hires Same Period Last Year (clusteredColumnChart) - Month: Oct selected,3
+1653798020110,6.2422996,6.5249357,6,5d242f41-c7df-43ab-8734-3e3b3986cc60,Ethnicity (slicer) - Ethnicity: Group B selected,2
+1653798021005,4.6408553,7.118965,6,5d242f41-c7df-43ab-8734-3e3b3986cc60,Region (slicer) - Region: South selected,3
