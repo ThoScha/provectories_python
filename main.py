@@ -13,7 +13,9 @@ def dataframeFromCSV():
         'timestamp': [],
         'line': [],
         'user': [],
-        'action': [],
+        'triggeredAction': [],
+        'selectedValues': [],
+        'filteredValues': [],
         'feature_vector': [],
         'x': [],
         'y': [],
@@ -32,18 +34,25 @@ def dataframeFromCSV():
             feature_vector: List[float] = []
             data['timestamp'].append(row[0])
             data['user'].append(row[1])
-            data['action'].append(row[2])
+            data['triggeredAction'].append(row[2])
+            data['selectedValues'].append(row[3])
+            data['filteredValues'].append(row[4])
             data['line'].append(i + 1)
             data['feature_vector'].append(feature_vector)
             # fill feature_vector
             for idx, column in enumerate(df):
-                if idx < 3:  # skip timestamp, user, action
+                if idx < 5:  # skip timestamp, user, action
                     continue
-                elif isinstance(row[column], str):  # category values
+                else:
+                    cell = []
+                    print(row[column])
                     for num in row[column].split(','):
-                        feature_vector.append(float(num))
-                else:  # numerical values weighted by 5
-                    feature_vector.append(float(row[column] * 5))
+                        cell.append(float(num))
+                    if "[categorical]" in column:  # categorical values encoded
+                        feature_vector.extend(cell)
+                    else:  # TODO: numerical values
+                        pass
+
     
     encoded, indicies, counts = np.unique(data['feature_vector'], axis=0, return_inverse=True, return_counts=True)
     data['multiplicity'] = counts[indicies]
@@ -54,8 +63,10 @@ df = dataframeFromCSV()
 
 X = np.array(df["feature_vector"])
 
-test = rbf_kernel(X)
-test = euclidean_distances(X)
+test = 1 - rbf_kernel(X)
+# 1 - everything
+# test = euclidean_distances(X)
+print(test)
 
 X_embedded = TSNE(n_components=2, verbose=3, metric='precomputed').fit_transform(test)
 
@@ -66,7 +77,7 @@ for row in X_embedded:
     df["x"].append(row[0])
     df["y"].append(row[1])
 
-for i, action in enumerate(df['action']):
+for i, action in enumerate(df['triggeredAction']):
     if action == 'Root':
         print(df['x'][i])
         print(df['y'][i])
@@ -75,7 +86,7 @@ for i, action in enumerate(df['action']):
 with open('/Users/Thomas/Desktop/Studium/WINF/Masterarbeit/provectories/provectories_python/csv/out/test.csv', 'w', encoding='UTF8') as f:
     writer = csv.writer(f)
 
-    writer.writerow(['timestamp', 'x', 'y', 'line', 'user', 'action', f"multiplicity[{min(df['multiplicity'])};{max(df['multiplicity'])}]"])
+    writer.writerow(['timestamp', 'x', 'y', 'line', 'user', 'triggeredAction', f"multiplicity[{min(df['multiplicity'])};{max(df['multiplicity'])}]"])
     for i, row in enumerate(df['timestamp']):
         writer.writerow([
             df['timestamp'][i],
@@ -83,7 +94,7 @@ with open('/Users/Thomas/Desktop/Studium/WINF/Masterarbeit/provectories/provecto
             df['y'][i],
             df['line'][i],
             df['user'][i],
-            df['action'][i],
+            df['triggeredAction'][i],
             df['multiplicity'][i]
         ])
 
