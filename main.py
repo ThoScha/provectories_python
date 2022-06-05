@@ -86,7 +86,7 @@ for i, action in enumerate(df['triggeredAction']):
 with open('/Users/Thomas/Desktop/Studium/WINF/Masterarbeit/provectories/provectories_python/csv/out/test.csv', 'w', encoding='UTF8') as f:
     writer = csv.writer(f)
 
-    writer.writerow(['timestamp', 'x', 'y', 'line', 'user', 'triggeredAction', f"multiplicity[{min(df['multiplicity'])};{max(df['multiplicity'])}]"])
+    writer.writerow(['timestamp', 'x', 'y', 'line', 'user', 'triggeredAction', 'selectedValues', 'filteredValues', f"multiplicity[{min(df['multiplicity'])};{max(df['multiplicity'])}]"])
     for i, row in enumerate(df['timestamp']):
         writer.writerow([
             df['timestamp'][i],
@@ -95,6 +95,8 @@ with open('/Users/Thomas/Desktop/Studium/WINF/Masterarbeit/provectories/provecto
             df['line'][i],
             df['user'][i],
             df['triggeredAction'][i],
+            df['selectedValues'][i],
+            df['filteredValues'][i],
             df['multiplicity'][i]
         ])
 
