@@ -1,299 +1,357 @@
 x,y,line,multiplicity,timestamp,answer_correct,running_time,triggeredAction,selectedValues,filteredValues
-0.8405840396881104,0.022117599844932556,1,43,1656742664980,False,598657,Root,Year.Year<categorical>,nan
-0.9998962879180908,0.25157085061073303,1,19,1656743223848,False,598657,Year (slicer) - Year: 2014 selected,Year.Year<categorical>,nan
-0.9659819602966309,0.4112919270992279,1,25,1656743235049,False,598657,Year (slicer) - Year: 2012 selected,Year.Year<categorical>,nan
-0.9999876022338867,0.2515798807144165,1,19,1656743238278,False,598657,Year (slicer) - Year: 2014 selected,Year.Year<categorical>,nan
-0.967017650604248,0.41054531931877136,1,25,1656743240947,False,598657,Year (slicer) - Year: 2012 selected,Year.Year<categorical>,nan
-1.0,0.25156229734420776,1,19,1656743246271,False,598657,Year (slicer) - Year: 2014 selected,Year.Year<categorical>,nan
-0.8405840396881104,0.022117599844932556,2,43,1656682697460,True,102564,Root,Year.Year<categorical>,nan
-0.21516074240207672,0.386441707611084,2,23,1656682723121,True,102564,Region (slicer) - Region: Northwest selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.04011502489447594,0.7178428173065186,2,52,1656682730159,True,102564,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.29021915793418884,0.9414055347442627,2,46,1656682735150,True,102564,Year (slicer) - Year: 2014 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.057848189026117325,0.7462056279182434,2,52,1656682739893,True,102564,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.2765084505081177,0.9375394582748413,2,46,1656682753497,True,102564,Year (slicer) - Year: 2014 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.057848189026117325,0.7462055683135986,2,52,1656682760060,True,102564,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.2765084207057953,0.9375394582748413,2,46,1656682774051,True,102564,Year (slicer) - Year: 2014 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.8405840396881104,0.022117599844932556,3,43,1656742415623,True,80272,Root,Year.Year<categorical>,nan
-0.9998921155929565,0.251564621925354,3,19,1656742430756,True,80272,Year (slicer) - Year: 2014 selected,Year.Year<categorical>,nan
-0.966741144657135,0.4102455973625183,3,25,1656742434783,True,80272,Year (slicer) - Year: 2012 selected,Year.Year<categorical>,nan
-0.9726830720901489,0.4478807747364044,3,3,1656742438542,True,80272,Region (slicer) - Region: Northwest selected,"Region.Region<categorical>, Year.Year<categorical>",nan
-0.28796330094337463,0.9428175091743469,3,46,1656742473706,True,80272,Year (slicer) - Year: 2014 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.8405840396881104,0.022117599844932556,4,43,1656742361462,True,65369,Root,Year.Year<categorical>,nan
-0.9669751524925232,0.4105166792869568,4,25,1656742369011,True,65369,Year (slicer) - Year: 2012 selected,Year.Year<categorical>,nan
-0.06520140171051025,0.7392847537994385,4,52,1656742372045,True,65369,Region (slicer) - Region: Northwest selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.27899107336997986,0.9410324692726135,4,46,1656742396986,True,65369,Year (slicer) - Year: 2014 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.07173975557088852,0.7141631245613098,4,52,1656742407264,True,65369,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.2738657295703888,0.91862952709198,4,46,1656742415518,True,65369,Year (slicer) - Year: 2014 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.8405840396881104,0.022117599844932556,5,43,1656496752635,True,116718,Root,Year.Year<categorical>,nan
-0.2144538313150406,0.39015471935272217,5,23,1656496758103,True,116718,Region (slicer) - Region: Northwest selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.06831400096416473,0.7364001274108887,5,52,1656496778757,True,116718,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.2985016703605652,0.9258284568786621,5,46,1656496806237,True,116718,Year (slicer) - Year: 2014 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.044895607978105545,0.7028636336326599,5,52,1656496811293,True,116718,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.29717981815338135,0.9199917316436768,5,46,1656496826728,True,116718,Year (slicer) - Year: 2014 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.8405840396881104,0.022117599844932556,6,43,1656742513885,True,54366,Root,Year.Year<categorical>,nan
-0.21443955600261688,0.3900156319141388,6,23,1656742518161,True,54366,Region (slicer) - Region: Northwest selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.05509491264820099,0.7256012558937073,6,52,1656742521510,True,54366,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.214498832821846,0.3898780345916748,6,23,1656742533264,True,54366,Year (slicer) - Year: 2013 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.056450504809617996,0.7209855318069458,6,52,1656742539511,True,54366,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.21443890035152435,0.39003387093544006,6,23,1656742545139,True,54366,Year (slicer) - Year: 2013 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.2724505066871643,0.9278789162635803,6,46,1656742546291,True,54366,Year (slicer) - Year: 2014 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.04563456401228905,0.7039378881454468,6,52,1656742553013,True,54366,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.27982938289642334,0.9417920708656311,6,46,1656742556692,True,54366,Year (slicer) - Year: 2014 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.8405840396881104,0.022117599844932556,7,43,1657146597261,True,226665,Root,Year.Year<categorical>,nan
-0.9657831192016602,0.41095441579818726,7,25,1657146627426,True,226665,Year (slicer) - Year: 2012 selected,Year.Year<categorical>,nan
-0.9998883008956909,0.25156185030937195,7,19,1657146638575,True,226665,Year (slicer) - Year: 2014 selected,Year.Year<categorical>,nan
-0.9657831192016602,0.41095441579818726,7,25,1657146639383,True,226665,Year (slicer) - Year: 2012 selected,Year.Year<categorical>,nan
-0.9999098777770996,0.25154292583465576,7,19,1657146640271,True,226665,Year (slicer) - Year: 2014 selected,Year.Year<categorical>,nan
-0.9657528400421143,0.4109944999217987,7,25,1657146643125,True,226665,Year (slicer) - Year: 2012 selected,Year.Year<categorical>,nan
-0.9727343320846558,0.4478876292705536,7,3,1657146650009,True,226665,Region (slicer) - Region: Northwest selected,"Region.Region<categorical>, Year.Year<categorical>",nan
-0.0011114788940176368,0.6950635313987732,7,2,1657146671638,True,226665,New Hires by Ethnicity (clusteredBarChart) - Ethnicity: Group A selected,"NewHiresByEthnicity.Ethnicity<categorical>, Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.0,0.6945511698722839,7,1,1657146734994,True,226665,Region (slicer) - deselected,"NewHiresByEthnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.0011124513112008572,0.6950677037239075,7,2,1657146736044,True,226665,Region (slicer) - Region: Northwest selected,"NewHiresByEthnicity.Ethnicity<categorical>, Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.05971066281199455,0.7460951805114746,7,52,1657146768749,True,226665,New Hires by Ethnicity (clusteredBarChart) - deselected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.29637834429740906,0.9358825087547302,7,46,1657146795872,True,226665,Year (slicer) - Year: 2014 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.8405840396881104,0.022117599844932556,8,43,1656427407333,True,127037,Root,Year.Year<categorical>,nan
-0.21516074240207672,0.3864416778087616,8,23,1656427416170,True,127037,Region (slicer) - Region: Northwest selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.040913742035627365,0.7142856121063232,8,52,1656427442068,True,127037,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.19479070603847504,0.4902794659137726,8,13,1656427442109,True,127037,Year (slicer) - deselected,Region.Region<categorical>,NewHiresByRegion.Region<categorical>
-0.29698219895362854,0.9328138828277588,8,46,1656427459392,True,127037,Year (slicer) - Year: 2014 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.040556591004133224,0.7167825102806091,8,52,1656427463661,True,127037,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.29637834429740906,0.9358825087547302,8,46,1656427480665,True,127037,Year (slicer) - Year: 2014 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.040670692920684814,0.716623842716217,8,52,1656427516478,True,127037,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.29637831449508667,0.935882568359375,8,46,1656427522715,True,127037,Year (slicer) - Year: 2014 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.8405840396881104,0.022117599844932556,9,43,1656683147343,True,127760,Root,Year.Year<categorical>,nan
-0.21516072750091553,0.3864416778087616,9,23,1656683166493,True,127760,Region (slicer) - Region: Northwest selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.03916872665286064,0.7243876457214355,9,52,1656683189059,True,127760,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.21516074240207672,0.386441707611084,9,23,1656683190116,True,127760,Year (slicer) - Year: 2013 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.041319675743579865,0.7337543964385986,9,52,1656683191432,True,127760,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.21516074240207672,0.3864416778087616,9,23,1656683199096,True,127760,Year (slicer) - Year: 2013 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.05800716206431389,0.7461820244789124,9,52,1656683200338,True,127760,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.28800252079963684,0.9427982568740845,9,46,1656683203569,True,127760,Year (slicer) - Year: 2014 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.04814189672470093,0.7382640242576599,9,52,1656683213904,True,127760,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.2873097360134125,0.9431058764457703,9,46,1656683217958,True,127760,Year (slicer) - Year: 2014 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.05122847110033035,0.7453608512878418,9,52,1656683229290,True,127760,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.28100213408470154,0.9427895545959473,9,46,1656683234235,True,127760,Year (slicer) - Year: 2014 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.8405840396881104,0.022117599844932556,10,43,1656742590152,True,73650,Root,Year.Year<categorical>,nan
-0.21512390673160553,0.38662683963775635,10,23,1656742603890,True,73650,Region (slicer) - Region: Northwest selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.19481052458286285,0.49027904868125916,10,13,1656742618274,True,73650,Year (slicer) - deselected,Region.Region<categorical>,NewHiresByRegion.Region<categorical>
-0.04564424231648445,0.7039375901222229,10,52,1656742618933,True,73650,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.19479450583457947,0.4902794063091278,10,13,1656742634800,True,73650,Year (slicer) - deselected,Region.Region<categorical>,NewHiresByRegion.Region<categorical>
-0.2971602976322174,0.9202733039855957,10,46,1656742635460,True,73650,Year (slicer) - Year: 2014 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.8405840396881104,0.022117599844932556,11,43,1656742312682,True,62163,Root,Year.Year<categorical>,nan
-0.21445541083812714,0.39016276597976685,11,23,1656742321857,True,62163,Region (slicer) - Region: Northwest selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.0683978870511055,0.7362737059593201,11,52,1656742332855,True,62163,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.29638949036598206,0.9189186692237854,11,46,1656742337681,True,62163,Year (slicer) - Year: 2014 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.050199396908283234,0.7006301283836365,11,52,1656742347964,True,62163,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.29638946056365967,0.9189186096191406,11,46,1656742355074,True,62163,Year (slicer) - Year: 2014 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.8405840396881104,0.022117599844932556,12,43,1656742329286,True,73642,Root,Year.Year<categorical>,nan
-0.21445539593696594,0.3901686668395996,12,23,1656742346698,True,73642,Region (slicer) - Region: Northwest selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.07053720951080322,0.7294555306434631,12,52,1656742350068,True,73642,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.2738657295703888,0.9186294674873352,12,46,1656742379574,True,73642,Year (slicer) - Year: 2014 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.8405840396881104,0.022117599844932556,13,43,1656682729048,True,96712,Root,Year.Year<categorical>,nan
-0.9667696356773376,0.410203754901886,13,25,1656682744183,True,96712,Year (slicer) - Year: 2012 selected,Year.Year<categorical>,nan
-0.999915599822998,0.25159522891044617,13,19,1656682745199,True,96712,Year (slicer) - Year: 2014 selected,Year.Year<categorical>,nan
-0.9944760203361511,0.3216387927532196,13,4,1656682746961,True,96712,"Year (slicer) - Year: 2014, 2012 selected",Year.Year<categorical>,nan
-0.17164605855941772,0.7935901880264282,13,6,1656682778053,True,96712,Region (slicer) - Region: Northwest selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.19479133188724518,0.4902787208557129,13,13,1656682782392,True,96712,Year (slicer) - deselected,Region.Region<categorical>,NewHiresByRegion.Region<categorical>
-0.2898094952106476,0.9080087542533875,13,46,1656682787394,True,96712,Year (slicer) - Year: 2014 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.19476467370986938,0.4902797043323517,13,13,1656682808530,True,96712,Year (slicer) - deselected,Region.Region<categorical>,NewHiresByRegion.Region<categorical>
-0.06860483437776566,0.7066571712493896,13,52,1656682809346,True,96712,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.194807231426239,0.4902791380882263,13,13,1656682815642,True,96712,Year (slicer) - deselected,Region.Region<categorical>,NewHiresByRegion.Region<categorical>
-0.29391753673553467,0.914286196231842,13,46,1656682815706,True,96712,Year (slicer) - Year: 2014 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.8405840396881104,0.022117599844932556,14,43,1656682784222,False,58284,Root,Year.Year<categorical>,nan
-0.7796837091445923,0.051730960607528687,14,4,1656682788631,False,58284,Region (slicer) - Region: Northwest selected,"Region.Region<categorical>, Year.Year<categorical>",nan
-0.06743355095386505,0.7056461572647095,14,52,1656682792848,False,58284,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.2775067389011383,0.9390419721603394,14,46,1656682793766,False,58284,Year (slicer) - Year: 2014 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.17166085541248322,0.793590247631073,14,6,1656682796211,False,58284,"Year (slicer) - Year: 2014, 2012 selected","Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.19479982554912567,0.4902794063091278,14,13,1656682813644,False,58284,Year (slicer) - deselected,Region.Region<categorical>,NewHiresByRegion.Region<categorical>
-0.06776374578475952,0.7049844861030579,14,52,1656682817287,False,58284,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.27612069249153137,0.9119988679885864,14,46,1656682823392,False,58284,Year (slicer) - Year: 2014 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.07308702915906906,0.7238233089447021,14,52,1656682825323,False,58284,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.22625550627708435,0.6845456957817078,14,4,1656682831006,False,58284,New Hires and New Hires Same Period Last Year (SPLY) (clusteredColumnChart) - Month: Nov selected,"NewHiresAndNewHiresSamePeriodLastYear(SPLY).Month<categorical>, Region.Region<categorical>, Year.Year<categorical>","NewHiresByMonth(Full-Time/Part-Time).Month<categorical>, NewHiresByRegion.Region<categorical>"
-0.8405840396881104,0.022117599844932556,15,43,1656742148116,False,134558,Root,Year.Year<categorical>,nan
-0.9667674899101257,0.4102034866809845,15,25,1656742224530,False,134558,Year (slicer) - Year: 2012 selected,Year.Year<categorical>,nan
-0.9998790621757507,0.2515977621078491,15,19,1656742250570,False,134558,Year (slicer) - Year: 2014 selected,Year.Year<categorical>,nan
-0.8405840396881104,0.022117599844932556,16,43,1656682655538,False,88631,Root,Year.Year<categorical>,nan
-0.8155970573425293,0.08572939038276672,16,2,1656682668490,False,88631,New Hires by Region (clusteredBarChart) - Region: Northwest selected,"NewHiresByRegion.Region<categorical>, Year.Year<categorical>",nan
-0.7856559753417969,0.06664758920669556,16,1,1656682669694,False,88631,Region (slicer) - Region: Northwest selected,"NewHiresByRegion.Region<categorical>, Region.Region<categorical>, Year.Year<categorical>",nan
-0.19101086258888245,0.5255405902862549,16,2,1656682694565,False,88631,Year (slicer) - deselected,"NewHiresByRegion.Region<categorical>, Region.Region<categorical>",NewHiresByRegion.Region<categorical>
-0.10880103707313538,0.6794400215148926,16,2,1656682695218,False,88631,Year (slicer) - Year: 2012 selected,"NewHiresByRegion.Region<categorical>, Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.24959777295589447,0.9833747148513794,16,2,1656682696263,False,88631,Year (slicer) - Year: 2014 selected,"NewHiresByRegion.Region<categorical>, Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.1675504893064499,0.7875275611877441,16,1,1656682700271,False,88631,"Year (slicer) - Year: 2014, 2012 selected","NewHiresByRegion.Region<categorical>, Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.1910010427236557,0.5255394577980042,16,2,1656682721803,False,88631,Year (slicer) - deselected,"NewHiresByRegion.Region<categorical>, Region.Region<categorical>",NewHiresByRegion.Region<categorical>
-0.10880181938409805,0.6794608235359192,16,2,1656682726392,False,88631,Year (slicer) - Year: 2012 selected,"NewHiresByRegion.Region<categorical>, Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.24969638884067535,0.9833583831787109,16,2,1656682731480,False,88631,Year (slicer) - Year: 2014 selected,"NewHiresByRegion.Region<categorical>, Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.8405840396881104,0.022117599844932556,17,43,1656742600708,True,55829,Root,Year.Year<categorical>,nan
-0.2144881933927536,0.3904385566711426,17,23,1656742607738,True,55829,Region (slicer) - Region: Northwest selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.07293164730072021,0.7259975075721741,17,52,1656742610696,True,55829,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.2810240685939789,0.9063552021980286,17,46,1656742638143,True,55829,Year (slicer) - Year: 2014 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.8405840396881104,0.022117599844932556,18,43,1656672253690,True,84284,Root,Year.Year<categorical>,nan
-0.9667704701423645,0.4102036952972412,18,25,1656672265878,True,84284,Year (slicer) - Year: 2012 selected,Year.Year<categorical>,nan
-0.9998829364776611,0.2515999674797058,18,19,1656672266700,True,84284,Year (slicer) - Year: 2014 selected,Year.Year<categorical>,nan
-0.9667691588401794,0.4102035462856293,18,25,1656672267549,True,84284,Year (slicer) - Year: 2012 selected,Year.Year<categorical>,nan
-0.9727590680122375,0.447854608297348,18,3,1656672273842,True,84284,Region (slicer) - Region: Northwest selected,"Region.Region<categorical>, Year.Year<categorical>",nan
-0.08588631451129913,0.8330217599868774,18,1,1656672282175,True,84284,New Hires by Month (Full-Time/Part-Time) (lineChart) - Month: Nov. FPDesc: Part-Time selected,"NewHiresByMonth(Full-Time/Part-Time).Month<categorical>, NewHiresByMonth(Full-Time/Part-Time).FPDesc<categorical>, Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.08858436346054077,0.8367463946342468,18,3,1656672286161,True,84284,"New Hires by Month (Full-Time/Part-Time) (lineChart) - Month: Nov, Nov. FPDesc: Full-Time, Part-Time selected","NewHiresByMonth(Full-Time/Part-Time).Month<categorical>, NewHiresByMonth(Full-Time/Part-Time).FPDesc<categorical>, Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.1929522156715393,0.9238241314888,18,3,1656672301092,True,84284,Year (slicer) - Year: 2014 selected,"NewHiresByMonth(Full-Time/Part-Time).Month<categorical>, NewHiresByMonth(Full-Time/Part-Time).FPDesc<categorical>, Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.28091534972190857,0.9058147072792053,18,46,1656672303118,True,84284,New Hires by Month (Full-Time/Part-Time) (lineChart) - deselected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.32243213057518005,0.8674511313438416,18,1,1656672308879,True,84284,New Hires by Month (Full-Time/Part-Time) (lineChart) - Month: Aug. FPDesc: Part-Time selected,"NewHiresByMonth(Full-Time/Part-Time).Month<categorical>, NewHiresByMonth(Full-Time/Part-Time).FPDesc<categorical>, Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.20447590947151184,0.9425256252288818,18,1,1656672310711,True,84284,"New Hires by Month (Full-Time/Part-Time) (lineChart) - Month: Sep, Oct, Sep, Oct. FPDesc: Full-Time, Full-Time, Part-Time, Part-Time selected","NewHiresByMonth(Full-Time/Part-Time).Month<categorical>, NewHiresByMonth(Full-Time/Part-Time).FPDesc<categorical>, Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.2037721425294876,0.9388828873634338,18,1,1656672313494,True,84284,"New Hires by Month (Full-Time/Part-Time) (lineChart) - Month: Sep, Sep. FPDesc: Full-Time, Part-Time selected","NewHiresByMonth(Full-Time/Part-Time).Month<categorical>, NewHiresByMonth(Full-Time/Part-Time).FPDesc<categorical>, Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.3220413327217102,0.8688952326774597,18,2,1656672314536,True,84284,New Hires by Month (Full-Time/Part-Time) (lineChart) - Month: Aug selected,"NewHiresByMonth(Full-Time/Part-Time).Month<categorical>, Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.2844651937484741,1.0,18,2,1656672315453,True,84284,New Hires by Month (Full-Time/Part-Time) (lineChart) - Month: Sep selected,"NewHiresByMonth(Full-Time/Part-Time).Month<categorical>, Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.23567679524421692,0.9048799872398376,18,2,1656672316853,True,84284,New Hires by Month (Full-Time/Part-Time) (lineChart) - Month: Jul selected,"NewHiresByMonth(Full-Time/Part-Time).Month<categorical>, Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.3172813951969147,0.966128408908844,18,1,1656672317883,True,84284,New Hires by Month (Full-Time/Part-Time) (lineChart) - Month: Jun selected,"NewHiresByMonth(Full-Time/Part-Time).Month<categorical>, Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.2898101508617401,0.9080092906951904,18,46,1656672318710,True,84284,New Hires by Month (Full-Time/Part-Time) (lineChart) - deselected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.3266852796077728,0.9327455163002014,18,1,1656672320103,True,84284,New Hires by Month (Full-Time/Part-Time) (lineChart) - Month: Oct selected,"NewHiresByMonth(Full-Time/Part-Time).Month<categorical>, Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.28114938735961914,0.9062637090682983,18,46,1656672320815,True,84284,New Hires by Month (Full-Time/Part-Time) (lineChart) - deselected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.28442198038101196,1.0,18,2,1656672321885,True,84284,New Hires by Month (Full-Time/Part-Time) (lineChart) - Month: Sep selected,"NewHiresByMonth(Full-Time/Part-Time).Month<categorical>, Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.32202011346817017,0.8689073324203491,18,2,1656672322369,True,84284,New Hires by Month (Full-Time/Part-Time) (lineChart) - Month: Aug selected,"NewHiresByMonth(Full-Time/Part-Time).Month<categorical>, Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.23565997183322906,0.9048900008201599,18,2,1656672322921,True,84284,New Hires by Month (Full-Time/Part-Time) (lineChart) - Month: Jul selected,"NewHiresByMonth(Full-Time/Part-Time).Month<categorical>, Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.8405840396881104,0.022117599844932556,19,43,1656742221604,False,30521,Root,Year.Year<categorical>,nan
-0.2144687920808792,0.3902662396430969,19,23,1656742226908,False,30521,Region (slicer) - Region: Northwest selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.0722501128911972,0.7175577282905579,19,52,1656742237370,False,30521,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.8405840396881104,0.022117599844932556,20,43,1656682659462,False,46497,Root,Year.Year<categorical>,nan
-0.2144550383090973,0.3901689052581787,20,23,1656682684614,False,46497,Region (slicer) - Region: Northwest selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.8405840396881104,0.022117599844932556,21,43,1656683410160,False,56435,Root,Year.Year<categorical>,nan
-0.9667691588401794,0.4102035462856293,21,25,1656683420226,False,56435,Year (slicer) - Year: 2012 selected,Year.Year<categorical>,nan
-0.9998747110366821,0.25158897042274475,21,19,1656683428893,False,56435,Year (slicer) - Year: 2014 selected,Year.Year<categorical>,nan
-0.9667680859565735,0.41020363569259644,21,25,1656683430018,False,56435,Year (slicer) - Year: 2012 selected,Year.Year<categorical>,nan
-0.9998847842216492,0.2515995502471924,21,19,1656683451110,False,56435,Year (slicer) - Year: 2014 selected,Year.Year<categorical>,nan
-0.9667660593986511,0.4102035164833069,21,25,1656683454386,False,56435,Year (slicer) - Year: 2012 selected,Year.Year<categorical>,nan
-0.9998862743377686,0.2515888512134552,21,19,1656683456230,False,56435,Year (slicer) - Year: 2014 selected,Year.Year<categorical>,nan
-0.8405840396881104,0.022117599844932556,22,43,1656683301976,False,26202,Root,Year.Year<categorical>,nan
-0.9667679071426392,0.4102036952972412,22,25,1656683306295,False,26202,Year (slicer) - Year: 2012 selected,Year.Year<categorical>,nan
-0.8176183700561523,0.018977802246809006,22,43,1656683307411,False,26202,Year (slicer) - Year: 2013 selected,Year.Year<categorical>,nan
-0.9998553395271301,0.25158920884132385,22,19,1656683308009,False,26202,Year (slicer) - Year: 2014 selected,Year.Year<categorical>,nan
-0.9667704701423645,0.41020363569259644,22,25,1656683308735,False,26202,Year (slicer) - Year: 2012 selected,Year.Year<categorical>,nan
-0.9945181608200073,0.3216319680213928,22,4,1656683310342,False,26202,"Year (slicer) - Year: 2012, 2014 selected",Year.Year<categorical>,nan
-0.9503501057624817,0.2587909400463104,22,4,1656683320837,False,26202,Year (slicer) - deselected,nan,nan
-0.9998815655708313,0.25159895420074463,22,19,1656683322340,False,26202,Year (slicer) - Year: 2014 selected,Year.Year<categorical>,nan
-0.9667704701423645,0.41020363569259644,22,25,1656683323730,False,26202,Year (slicer) - Year: 2012 selected,Year.Year<categorical>,nan
-0.8405840396881104,0.022117599844932556,23,43,1656682696291,True,85740,Root,Year.Year<categorical>,nan
-0.9667674899101257,0.4102034866809845,23,25,1656682713725,True,85740,Year (slicer) - Year: 2012 selected,Year.Year<categorical>,nan
-0.9998888373374939,0.2515711486339569,23,19,1656682720627,True,85740,Year (slicer) - Year: 2014 selected,Year.Year<categorical>,nan
-0.2759234309196472,0.912718653678894,23,46,1656682733128,True,85740,Region (slicer) - Region: Northwest selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.8405840396881104,0.022117599844932556,24,43,1656682825855,False,105432,Root,Year.Year<categorical>,nan
-0.7796533107757568,0.05172774940729141,24,4,1656682871147,False,105432,Region (slicer) - Region: Northwest selected,"Region.Region<categorical>, Year.Year<categorical>",nan
-0.07293351739645004,0.7259796857833862,24,52,1656682899162,False,105432,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.21445393562316895,0.39015504717826843,24,23,1656682900204,False,105432,Year (slicer) - Year: 2013 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.058099616318941116,0.696723222732544,24,52,1656682902091,False,105432,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.8405840396881104,0.022117599844932556,25,43,1656405117593,True,92557,Root,Year.Year<categorical>,nan
-0.9503644704818726,0.25876468420028687,25,4,1656405129118,True,92557,Year (slicer) - deselected,nan,nan
-0.9998859167098999,0.2515905499458313,25,19,1656405129404,True,92557,Year (slicer) - Year: 2014 selected,Year.Year<categorical>,nan
-0.9667674899101257,0.4102035164833069,25,25,1656405131014,True,92557,Year (slicer) - Year: 2012 selected,Year.Year<categorical>,nan
-0.8334024548530579,0.03342067822813988,25,43,1656405132826,True,92557,Year (slicer) - Year: 2013 selected,Year.Year<categorical>,nan
-0.9503271579742432,0.258798211812973,25,4,1656405133455,True,92557,Year (slicer) - deselected,nan,nan
-0.8392533659934998,0.008614283986389637,25,43,1656405133974,True,92557,Year (slicer) - Year: 2013 selected,Year.Year<categorical>,nan
-0.9667679667472839,0.4102035462856293,25,25,1656405134948,True,92557,Year (slicer) - Year: 2012 selected,Year.Year<categorical>,nan
-0.05767900496721268,0.7214596271514893,25,52,1656405141755,True,92557,Region (slicer) - Region: Northwest selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.0879213958978653,0.8373886346817017,25,1,1656405159684,True,92557,"New Hires by Month (Full-Time/Part-Time) (lineChart) - Month: Oct, Nov, Oct. FPDesc: Full-Time, Full-Time, Part-Time selected","NewHiresByMonth(Full-Time/Part-Time).Month<categorical>, NewHiresByMonth(Full-Time/Part-Time).FPDesc<categorical>, Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.08856058120727539,0.8367428779602051,25,3,1656405162014,True,92557,"New Hires by Month (Full-Time/Part-Time) (lineChart) - Month: Nov, Nov. FPDesc: Full-Time, Part-Time selected","NewHiresByMonth(Full-Time/Part-Time).Month<categorical>, NewHiresByMonth(Full-Time/Part-Time).FPDesc<categorical>, Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.19295312464237213,0.9238227605819702,25,3,1656405170371,True,92557,Year (slicer) - Year: 2014 selected,"NewHiresByMonth(Full-Time/Part-Time).Month<categorical>, NewHiresByMonth(Full-Time/Part-Time).FPDesc<categorical>, Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.20932528376579285,0.9175366759300232,25,2,1656405179681,True,92557,"New Hires by Month (Full-Time/Part-Time) (lineChart) - Month: Jul, Jul. FPDesc: Full-Time, Part-Time selected","NewHiresByMonth(Full-Time/Part-Time).Month<categorical>, NewHiresByMonth(Full-Time/Part-Time).FPDesc<categorical>, Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.22861266136169434,0.6865969896316528,25,3,1656405182903,True,92557,New Hires and New Hires Same Period Last Year (SPLY) (clusteredColumnChart) - Month: Jul selected,"NewHiresAndNewHiresSamePeriodLastYear(SPLY).Month<categorical>, Region.Region<categorical>, Year.Year<categorical>","NewHiresByMonth(Full-Time/Part-Time).Month<categorical>, NewHiresByRegion.Region<categorical>"
-0.8405840396881104,0.022117599844932556,26,43,1656682760454,True,80463,Root,Year.Year<categorical>,nan
-0.21445539593696594,0.3901687264442444,26,23,1656682801444,True,80463,Region (slicer) - Region: Northwest selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.2275816947221756,0.684249222278595,26,1,1656682814502,True,80463,Year (slicer) - Year: 2010 selected,"Region.Region<categorical>, Year.Year<categorical>","NewHiresByMonth(Full-Time/Part-Time).Month<categorical>, NewHiresByMonth(Full-Time/Part-Time).FPDesc<categorical>, NewHiresByRegion.Region<categorical>"
-0.1815098077058792,0.4909951984882355,26,1,1656682814544,True,80463,Year (slicer) - Year: 2011 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.06706734746694565,0.7391277551651001,26,52,1656682816576,True,80463,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.2907361090183258,0.9090937376022339,26,46,1656682821383,True,80463,Year (slicer) - Year: 2014 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.8405840396881104,0.022117599844932556,27,43,1656961166476,True,97000,Root,Year.Year<categorical>,nan
-0.9667676687240601,0.4102035462856293,27,25,1656961173315,True,97000,Year (slicer) - Year: 2012 selected,Year.Year<categorical>,nan
-0.9944712519645691,0.32162418961524963,27,4,1656961174680,True,97000,"Year (slicer) - Year: 2012, 2014 selected",Year.Year<categorical>,nan
-0.9503211975097656,0.2587618827819824,27,4,1656961191262,True,97000,Year (slicer) - deselected,nan,nan
-0.19480526447296143,0.4902784824371338,27,13,1656961196022,True,97000,Region (slicer) - Region: Northwest selected,Region.Region<categorical>,NewHiresByRegion.Region<categorical>
-0.05752773955464363,0.6965088248252869,27,52,1656961199417,True,97000,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.17161741852760315,0.793572187423706,27,6,1656961201759,True,97000,"Year (slicer) - Year: 2012, 2014 selected","Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.1948038786649704,0.4902784526348114,27,13,1656961205828,True,97000,Year (slicer) - deselected,Region.Region<categorical>,NewHiresByRegion.Region<categorical>
-0.27611246705055237,0.9120152592658997,27,46,1656961211537,True,97000,Year (slicer) - Year: 2014 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.19479355216026306,0.4902789890766144,27,13,1656961213724,True,97000,Year (slicer) - deselected,Region.Region<categorical>,NewHiresByRegion.Region<categorical>
-0.05779062956571579,0.6966305375099182,27,52,1656961215246,True,97000,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.22624921798706055,0.6845495700836182,27,4,1656961220356,True,97000,New Hires and New Hires Same Period Last Year (SPLY) (clusteredColumnChart) - Month: Nov selected,"NewHiresAndNewHiresSamePeriodLastYear(SPLY).Month<categorical>, Region.Region<categorical>, Year.Year<categorical>","NewHiresByMonth(Full-Time/Part-Time).Month<categorical>, NewHiresByRegion.Region<categorical>"
-0.22774147987365723,0.6858147978782654,27,1,1656961226884,True,97000,Year (slicer) - Year: 2014 selected,"NewHiresAndNewHiresSamePeriodLastYear(SPLY).Month<categorical>, Region.Region<categorical>, Year.Year<categorical>","NewHiresByMonth(Full-Time/Part-Time).Month<categorical>, NewHiresByRegion.Region<categorical>"
-0.22860684990882874,0.6865924000740051,27,3,1656961233128,True,97000,New Hires and New Hires Same Period Last Year (SPLY) (clusteredColumnChart) - Month: Jul selected,"NewHiresAndNewHiresSamePeriodLastYear(SPLY).Month<categorical>, Region.Region<categorical>, Year.Year<categorical>","NewHiresByMonth(Full-Time/Part-Time).Month<categorical>, NewHiresByRegion.Region<categorical>"
-0.22703418135643005,0.6851949095726013,27,1,1656961245992,True,97000,Year (slicer) - Year: 2012 selected,"NewHiresAndNewHiresSamePeriodLastYear(SPLY).Month<categorical>, Region.Region<categorical>, Year.Year<categorical>","NewHiresByMonth(Full-Time/Part-Time).Month<categorical>, NewHiresByRegion.Region<categorical>"
-0.2262565940618515,0.6845411658287048,27,4,1656961248029,True,97000,New Hires and New Hires Same Period Last Year (SPLY) (clusteredColumnChart) - Month: Nov selected,"NewHiresAndNewHiresSamePeriodLastYear(SPLY).Month<categorical>, Region.Region<categorical>, Year.Year<categorical>","NewHiresByMonth(Full-Time/Part-Time).Month<categorical>, NewHiresByRegion.Region<categorical>"
-0.8405840396881104,0.022117599844932556,28,43,1656743313477,False,31351,Root,Year.Year<categorical>,nan
-0.9667676091194153,0.4102034866809845,28,25,1656743317131,False,31351,Year (slicer) - Year: 2012 selected,Year.Year<categorical>,nan
-0.9998834729194641,0.2515784800052643,28,19,1656743321387,False,31351,Year (slicer) - Year: 2014 selected,Year.Year<categorical>,nan
-0.27258533239364624,0.9265737533569336,28,46,1656743329155,False,31351,Region (slicer) - Region: Northwest selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.057605303823947906,0.7212761640548706,28,52,1656743337565,False,31351,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.8405840396881104,0.022117599844932556,29,43,1656682865453,False,79007,Root,Year.Year<categorical>,nan
-0.9667702913284302,0.41020363569259644,29,25,1656682879944,False,79007,Year (slicer) - Year: 2012 selected,Year.Year<categorical>,nan
-0.9409293532371521,0.4226020276546478,29,1,1656682883288,False,79007,New Hires by Month (Full-Time/Part-Time) (lineChart) - Month: Nov. FPDesc: Part-Time selected,"NewHiresByMonth(Full-Time/Part-Time).Month<categorical>, NewHiresByMonth(Full-Time/Part-Time).FPDesc<categorical>, Year.Year<categorical>",nan
-0.9667674899101257,0.4102035164833069,29,25,1656682885021,False,79007,New Hires by Month (Full-Time/Part-Time) (lineChart) - deselected,Year.Year<categorical>,nan
-0.999883770942688,0.25158244371414185,29,19,1656682911888,False,79007,Year (slicer) - Year: 2014 selected,Year.Year<categorical>,nan
-0.8405840396881104,0.022117599844932556,30,43,1657184377530,True,131120,Root,Year.Year<categorical>,nan
-0.9667704701423645,0.41020363569259644,30,25,1657184388154,True,131120,Year (slicer) - Year: 2012 selected,Year.Year<categorical>,nan
-0.9944924116134644,0.32162079215049744,30,4,1657184389959,True,131120,"Year (slicer) - Year: 2012, 2014 selected",Year.Year<categorical>,nan
-0.9846199154853821,0.3260398805141449,30,2,1657184397403,True,131120,"New Hires by Region (clusteredBarChart) - Region: Northwest, Northwest selected","NewHiresByRegion.Region<categorical>, Year.Year<categorical>",nan
-0.9846334457397461,0.32604169845581055,30,2,1657184434917,True,131120,"New Hires by Region (clusteredBarChart) - Region: Northwest, Northwest selected","NewHiresByRegion.Region<categorical>, Year.Year<categorical>",nan
-0.9475182890892029,0.2747078537940979,30,1,1657184474426,True,131120,Year (slicer) - deselected,NewHiresByRegion.Region<categorical>,nan
-0.9666479229927063,0.36966589093208313,30,2,1657184484706,True,131120,Year (slicer) - Year: 2012 selected,"NewHiresByRegion.Region<categorical>, Year.Year<categorical>",nan
-0.9880770444869995,0.2712293267250061,30,2,1657184490733,True,131120,Year (slicer) - Year: 2014 selected,"NewHiresByRegion.Region<categorical>, Year.Year<categorical>",nan
-0.8405840396881104,0.022117599844932556,31,43,1655898953673,True,91646,Root,Year.Year<categorical>,nan
-0.9998754262924194,0.2515791356563568,31,19,1655898969433,True,91646,Year (slicer) - Year: 2014 selected,Year.Year<categorical>,nan
-0.2809392809867859,0.9063988924026489,31,46,1655898972360,True,91646,Region (slicer) - Region: Northwest selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.22072817385196686,0.9118974208831787,31,1,1655899007638,True,91646,New Hires by Month (Full-Time/Part-Time) (lineChart) - Month: Jul. FPDesc: Part-Time selected,"NewHiresByMonth(Full-Time/Part-Time).Month<categorical>, NewHiresByMonth(Full-Time/Part-Time).FPDesc<categorical>, Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.20934273302555084,0.9175370931625366,31,2,1655899009788,True,91646,"New Hires by Month (Full-Time/Part-Time) (lineChart) - Month: Jul, Jul. FPDesc: Part-Time, Full-Time selected","NewHiresByMonth(Full-Time/Part-Time).Month<categorical>, NewHiresByMonth(Full-Time/Part-Time).FPDesc<categorical>, Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.0966438576579094,0.8411454558372498,31,1,1655899016764,True,91646,Year (slicer) - Year: 2012 selected,"NewHiresByMonth(Full-Time/Part-Time).Month<categorical>, NewHiresByMonth(Full-Time/Part-Time).FPDesc<categorical>, Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.08588633686304092,0.8330217599868774,31,1,1655899021148,True,91646,New Hires by Month (Full-Time/Part-Time) (lineChart) - Month: Nov. FPDesc: Full-Time selected,"NewHiresByMonth(Full-Time/Part-Time).Month<categorical>, NewHiresByMonth(Full-Time/Part-Time).FPDesc<categorical>, Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.08859498798847198,0.8367655277252197,31,3,1655899022667,True,91646,"New Hires by Month (Full-Time/Part-Time) (lineChart) - Month: Nov, Nov. FPDesc: Full-Time, Part-Time selected","NewHiresByMonth(Full-Time/Part-Time).Month<categorical>, NewHiresByMonth(Full-Time/Part-Time).FPDesc<categorical>, Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.19297687709331512,0.9238247871398926,31,3,1655899036924,True,91646,Year (slicer) - Year: 2014 selected,"NewHiresByMonth(Full-Time/Part-Time).Month<categorical>, NewHiresByMonth(Full-Time/Part-Time).FPDesc<categorical>, Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.8405840396881104,0.022117599844932556,32,43,1656742874965,True,52932,Root,Year.Year<categorical>,nan
-0.7795864343643188,0.051717713475227356,32,4,1656742880966,True,52932,Region (slicer) - Region: Northwest selected,"Region.Region<categorical>, Year.Year<categorical>",nan
-0.04920753091573715,0.7015606164932251,32,52,1656742900365,True,52932,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.2873436212539673,0.9060882925987244,32,46,1656742903680,True,52932,Year (slicer) - Year: 2014 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.06811778992414474,0.7054973244667053,32,52,1656742910367,True,52932,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.272664874792099,0.9270151853561401,32,46,1656742922263,True,52932,Year (slicer) - Year: 2014 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.8405840396881104,0.022117599844932556,33,43,1656682644641,False,130626,Root,Year.Year<categorical>,nan
-0.8155474662780762,0.08575757592916489,33,2,1656682662356,False,130626,New Hires by Region (clusteredBarChart) - Region: Northwest selected,"NewHiresByRegion.Region<categorical>, Year.Year<categorical>",nan
-0.9666435122489929,0.36969050765037537,33,2,1656682668223,False,130626,Year (slicer) - Year: 2012 selected,"NewHiresByRegion.Region<categorical>, Year.Year<categorical>",nan
-0.988023579120636,0.2712123394012451,33,2,1656682697361,False,130626,Year (slicer) - Year: 2014 selected,"NewHiresByRegion.Region<categorical>, Year.Year<categorical>",nan
-0.8405840396881104,0.022117599844932556,34,43,1656682881632,True,33594,Root,Year.Year<categorical>,nan
-0.21445541083812714,0.3901686668395996,34,23,1656682886740,True,33594,Region (slicer) - Region: Northwest selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.07137779146432877,0.7124558687210083,34,52,1656682895046,True,33594,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.2915648818016052,0.9100126028060913,34,46,1656682902739,True,33594,Year (slicer) - Year: 2014 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.8405840396881104,0.022117599844932556,35,43,1656742477317,True,63866,Root,Year.Year<categorical>,nan
-0.21445539593696594,0.39016279578208923,35,23,1656742484637,True,63866,Region (slicer) - Region: Northwest selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.8361911177635193,0.003546865424141288,35,43,1656742490483,True,63866,Region (slicer) - deselected,Year.Year<categorical>,nan
-0.21445335447788239,0.3901555836200714,35,23,1656742501374,True,63866,Region (slicer) - Region: Northwest selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.06402983516454697,0.6995129585266113,35,52,1656742513570,True,63866,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.28914499282836914,0.9075035452842712,35,46,1656742519809,True,63866,Year (slicer) - Year: 2014 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.057605303823947906,0.7212761640548706,35,52,1656742526860,True,63866,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.2759959399700165,0.9125418066978455,35,46,1656742531657,True,63866,Year (slicer) - Year: 2014 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.8405840396881104,0.022117599844932556,36,43,1656742262735,True,173024,Root,Year.Year<categorical>,nan
-0.2144538313150406,0.39015471935272217,36,23,1656742287999,True,173024,Region (slicer) - Region: Northwest selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.059232212603092194,0.6970700621604919,36,52,1656742293126,True,173024,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.2971063256263733,0.919957160949707,36,46,1656742379695,True,173024,Year (slicer) - Year: 2014 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.05319191887974739,0.6977246403694153,36,52,1656742408539,True,173024,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.2724592685699463,0.927921712398529,36,46,1656742418588,True,173024,Year (slicer) - Year: 2014 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.8405840396881104,0.022117599844932556,37,43,1656682871627,False,49031,Root,Year.Year<categorical>,nan
-0.7796580195426941,0.05172521620988846,37,4,1656682879797,False,49031,Region (slicer) - Region: Northwest selected,"Region.Region<categorical>, Year.Year<categorical>",nan
-0.06647597253322601,0.7388430833816528,37,52,1656682888167,False,49031,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.2724592685699463,0.927921712398529,37,46,1656682914346,False,49031,Year (slicer) - Year: 2014 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.8405840396881104,0.022117599844932556,38,43,"1,65668E+12",False,-1,Root,Year.Year<categorical>,nan
-0.21448048949241638,0.3897508382797241,38,23,"1,65668E+12",False,-1,Region (slicer) - Region: Northwest selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.045665428042411804,0.741753101348877,38,52,"1,65668E+12",False,-1,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.17166520655155182,0.7935890555381775,38,6,"1,65668E+12",False,-1,"Year (slicer) - Year: 2012, 2014 selected","Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.19480468332767487,0.49027830362319946,38,13,"1,65668E+12",False,-1,Year (slicer) - deselected,Region.Region<categorical>,NewHiresByRegion.Region<categorical>
-0.04638289660215378,0.7426855564117432,38,52,"1,65668E+12",False,-1,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.17165039479732513,0.793583869934082,38,6,"1,65668E+12",False,-1,"Year (slicer) - Year: 2012, 2014 selected","Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.1948079764842987,0.49027907848358154,38,13,"1,65668E+12",False,-1,Year (slicer) - deselected,Region.Region<categorical>,NewHiresByRegion.Region<categorical>
-0.2879668176174164,0.9428158402442932,38,46,"1,65668E+12",False,-1,Year (slicer) - Year: 2014 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.04932086914777756,0.7450852394104004,38,52,"1,65668E+12",False,-1,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.17163504660129547,0.7935791611671448,38,6,"1,65668E+12",False,-1,"Year (slicer) - Year: 2012, 2014 selected","Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.19480349123477936,0.4902789294719696,38,13,"1,65668E+12",False,-1,Year (slicer) - deselected,Region.Region<categorical>,NewHiresByRegion.Region<categorical>
-0.04956433176994324,0.7092620134353638,38,52,"1,65668E+12",False,-1,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.2785489559173584,0.9405404925346375,38,46,"1,65668E+12",False,-1,Year (slicer) - Year: 2014 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.03921561315655708,0.7228524088859558,38,52,"1,65668E+12",False,-1,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.8405840396881104,0.022117599844932556,39,43,1656682706797,True,50240,Root,Year.Year<categorical>,nan
-0.21520215272903442,0.3866654336452484,39,23,1656682710810,True,50240,Region (slicer) - Region: Northwest selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.04789375513792038,0.7361935377120972,39,52,1656682722767,True,50240,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.29017961025238037,0.9414379596710205,39,46,1656682728576,True,50240,Year (slicer) - Year: 2014 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.04126632958650589,0.7334531545639038,39,52,1656682731227,True,50240,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.2262590229511261,0.6845443844795227,39,4,1656682734085,True,50240,New Hires and New Hires Same Period Last Year (SPLY) (clusteredColumnChart) - Month: Nov selected,"NewHiresAndNewHiresSamePeriodLastYear(SPLY).Month<categorical>, Region.Region<categorical>, Year.Year<categorical>","NewHiresByMonth(Full-Time/Part-Time).Month<categorical>, NewHiresByRegion.Region<categorical>"
-0.04160286858677864,0.7339625954627991,39,52,1656682737553,True,50240,New Hires and New Hires Same Period Last Year (SPLY) (clusteredColumnChart) - deselected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.29649510979652405,0.9355441331863403,39,46,1656682739305,True,50240,Year (slicer) - Year: 2014 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
-0.2286020666360855,0.686608076095581,39,3,1656682743159,True,50240,New Hires and New Hires Same Period Last Year (SPLY) (clusteredColumnChart) - Month: Jul selected,"NewHiresAndNewHiresSamePeriodLastYear(SPLY).Month<categorical>, Region.Region<categorical>, Year.Year<categorical>","NewHiresByMonth(Full-Time/Part-Time).Month<categorical>, NewHiresByRegion.Region<categorical>"
+0.8357285857200623,0.016667477786540985,1,48,1656742664980,False,598657,Root,Year.Year<categorical>,nan
+0.8990402817726135,0.4057428240776062,1,19,1656743223848,False,598657,Year (slicer) - Year: 2014 selected,Year.Year<categorical>,nan
+0.98311448097229,0.46137189865112305,1,27,1656743235049,False,598657,Year (slicer) - Year: 2012 selected,Year.Year<categorical>,nan
+0.8990224003791809,0.4058555066585541,1,19,1656743238278,False,598657,Year (slicer) - Year: 2014 selected,Year.Year<categorical>,nan
+0.9825899600982666,0.4607778489589691,1,27,1656743240947,False,598657,Year (slicer) - Year: 2012 selected,Year.Year<categorical>,nan
+0.899027407169342,0.4058549404144287,1,19,1656743246271,False,598657,Year (slicer) - Year: 2014 selected,Year.Year<categorical>,nan
+0.8357285857200623,0.016667477786540985,2,48,1656682697460,True,102564,Root,Year.Year<categorical>,nan
+0.4011474847793579,0.9999924302101135,2,25,1656682723121,True,102564,Region (slicer) - Region: Northwest selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.20218922197818756,0.7684183120727539,2,62,1656682730159,True,102564,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.3553118407726288,0.32540178298950195,2,59,1656682735150,True,102564,Year (slicer) - Year: 2014 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.19117160141468048,0.7489866614341736,2,62,1656682739893,True,102564,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.36292827129364014,0.33231595158576965,2,59,1656682753497,True,102564,Year (slicer) - Year: 2014 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.19257132709026337,0.7871827483177185,2,62,1656682760060,True,102564,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.35933637619018555,0.32743707299232483,2,59,1656682774051,True,102564,Year (slicer) - Year: 2014 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.8357285857200623,0.016667477786540985,3,48,1656742415623,True,80272,Root,Year.Year<categorical>,nan
+0.8990541696548462,0.4057445824146271,3,19,1656742430756,True,80272,Year (slicer) - Year: 2014 selected,Year.Year<categorical>,nan
+0.9827605485916138,0.46072447299957275,3,27,1656742434783,True,80272,Year (slicer) - Year: 2012 selected,Year.Year<categorical>,nan
+0.9999604225158691,0.49705809354782104,3,5,1656742438542,True,80272,Region (slicer) - Region: Northwest selected,"Region.Region<categorical>, Year.Year<categorical>",nan
+0.36283180117607117,0.3319503366947174,3,59,1656742473706,True,80272,Year (slicer) - Year: 2014 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.8357285857200623,0.016667477786540985,4,48,1656742361462,True,65369,Root,Year.Year<categorical>,nan
+0.9827531576156616,0.4607222378253937,4,27,1656742369011,True,65369,Year (slicer) - Year: 2012 selected,Year.Year<categorical>,nan
+0.19112122058868408,0.7497740387916565,4,62,1656742372045,True,65369,Region (slicer) - Region: Northwest selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.3543514311313629,0.35178589820861816,4,59,1656742396986,True,65369,Year (slicer) - Year: 2014 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.2022404968738556,0.7685582637786865,4,62,1656742407264,True,65369,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.3434913754463196,0.34432199597358704,4,59,1656742415518,True,65369,Year (slicer) - Year: 2014 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.8357285857200623,0.016667477786540985,5,48,1656496752635,True,116718,Root,Year.Year<categorical>,nan
+0.401147723197937,0.999991238117218,5,25,1656496758103,True,116718,Region (slicer) - Region: Northwest selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.20693878829479218,0.7369224429130554,5,62,1656496778757,True,116718,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.3653789162635803,0.369634747505188,5,59,1656496806237,True,116718,Year (slicer) - Year: 2014 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.20221129059791565,0.7685267329216003,5,62,1656496811293,True,116718,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.3648546636104584,0.3409583866596222,5,59,1656496826728,True,116718,Year (slicer) - Year: 2014 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.8357285857200623,0.016667477786540985,6,48,1656742513885,True,54366,Root,Year.Year<categorical>,nan
+0.4011476933956146,0.9999917149543762,6,25,1656742518161,True,54366,Region (slicer) - Region: Northwest selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.198522686958313,0.7362522482872009,6,62,1656742521510,True,54366,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.4011474549770355,0.9999999403953552,6,25,1656742533264,True,54366,Year (slicer) - Year: 2013 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.2021779716014862,0.7690412402153015,6,62,1656742539511,True,54366,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.4011474549770355,0.9999997019767761,6,25,1656742545139,True,54366,Year (slicer) - Year: 2013 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.3553118407726288,0.32540178298950195,6,59,1656742546291,True,54366,Year (slicer) - Year: 2014 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.19466829299926758,0.7433153390884399,6,62,1656742553013,True,54366,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.3628096878528595,0.33191314339637756,6,59,1656742556692,True,54366,Year (slicer) - Year: 2014 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.8357285857200623,0.016667477786540985,7,48,1657146597261,True,226665,Root,Year.Year<categorical>,nan
+0.9831148386001587,0.46137580275535583,7,27,1657146627426,True,226665,Year (slicer) - Year: 2012 selected,Year.Year<categorical>,nan
+0.8989670276641846,0.40671125054359436,7,19,1657146638575,True,226665,Year (slicer) - Year: 2014 selected,Year.Year<categorical>,nan
+0.9831143021583557,0.46137234568595886,7,27,1657146639383,True,226665,Year (slicer) - Year: 2012 selected,Year.Year<categorical>,nan
+0.8990280032157898,0.40586066246032715,7,19,1657146640271,True,226665,Year (slicer) - Year: 2014 selected,Year.Year<categorical>,nan
+0.9827994108200073,0.46081823110580444,7,27,1657146643125,True,226665,Year (slicer) - Year: 2012 selected,Year.Year<categorical>,nan
+0.9999526143074036,0.4970422387123108,7,5,1657146650009,True,226665,Region (slicer) - Region: Northwest selected,"Region.Region<categorical>, Year.Year<categorical>",nan
+0.16503958404064178,0.8289191126823425,7,2,1657146671638,True,226665,New Hires by Ethnicity (clusteredBarChart) - Ethnicity: Group A selected,"NewHiresByEthnicity.Ethnicity<categorical>, Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.16447895765304565,0.8296188116073608,7,1,1657146734994,True,226665,Region (slicer) - deselected,"NewHiresByEthnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.1650671362876892,0.8285804986953735,7,2,1657146736044,True,226665,Region (slicer) - Region: Northwest selected,"NewHiresByEthnicity.Ethnicity<categorical>, Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.1889868825674057,0.7691404819488525,7,62,1657146768749,True,226665,New Hires by Ethnicity (clusteredBarChart) - deselected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.3628305196762085,0.3319481611251831,7,59,1657146795872,True,226665,Year (slicer) - Year: 2014 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.8357285857200623,0.016667477786540985,8,48,1656427407333,True,127037,Root,Year.Year<categorical>,nan
+0.4011475145816803,1.0,8,25,1656427416170,True,127037,Region (slicer) - Region: Northwest selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.1925707310438156,0.7871808409690857,8,62,1656427442068,True,127037,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.3666090965270996,0.8434349894523621,8,15,1656427442109,True,127037,Year (slicer) - deselected,Region.Region<categorical>,NewHiresByRegion.Region<categorical>
+0.35531190037727356,0.32540181279182434,8,59,1656427459392,True,127037,Year (slicer) - Year: 2014 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.1925087869167328,0.7866562008857727,8,62,1656427463661,True,127037,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.35531121492385864,0.3254016637802124,8,59,1656427480665,True,127037,Year (slicer) - Year: 2014 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.18878810107707977,0.7663397789001465,8,62,1656427516478,True,127037,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.3537125587463379,0.3254903554916382,8,59,1656427522715,True,127037,Year (slicer) - Year: 2014 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.8357285857200623,0.016667477786540985,9,48,1656683147343,True,127760,Root,Year.Year<categorical>,nan
+0.4011474549770355,0.9999997615814209,9,25,1656683166493,True,127760,Region (slicer) - Region: Northwest selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.19173087179660797,0.7823058366775513,9,62,1656683189059,True,127760,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.4011477530002594,0.9999907612800598,9,25,1656683190116,True,127760,Year (slicer) - Year: 2013 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.18921338021755219,0.7708901166915894,9,62,1656683191432,True,127760,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.4011482000350952,0.9999926090240479,9,25,1656683199096,True,127760,Year (slicer) - Year: 2013 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.189213365316391,0.7708899974822998,9,62,1656683200338,True,127760,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.34747761487960815,0.33151474595069885,9,59,1656683203569,True,127760,Year (slicer) - Year: 2014 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.1985621303319931,0.7362304925918579,9,62,1656683213904,True,127760,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.3434912860393524,0.34432253241539,9,59,1656683217958,True,127760,Year (slicer) - Year: 2014 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.20218205451965332,0.768561840057373,9,62,1656683229290,True,127760,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.34747764468193054,0.33151477575302124,9,59,1656683234235,True,127760,Year (slicer) - Year: 2014 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.8357285857200623,0.016667477786540985,10,48,1656742590152,True,73650,Root,Year.Year<categorical>,nan
+0.4011475145816803,0.9999998211860657,10,25,1656742603890,True,73650,Region (slicer) - Region: Northwest selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.36660242080688477,0.8434179425239563,10,15,1656742618274,True,73650,Year (slicer) - deselected,Region.Region<categorical>,NewHiresByRegion.Region<categorical>
+0.2017572522163391,0.7661199569702148,10,62,1656742618933,True,73650,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.3666040897369385,0.8434340357780457,10,15,1656742634800,True,73650,Year (slicer) - deselected,Region.Region<categorical>,NewHiresByRegion.Region<categorical>
+0.34747764468193054,0.33151471614837646,10,59,1656742635460,True,73650,Year (slicer) - Year: 2014 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.8357285857200623,0.016667477786540985,11,48,1656742312682,True,62163,Root,Year.Year<categorical>,nan
+0.4011475741863251,0.9999926090240479,11,25,1656742321857,True,62163,Region (slicer) - Region: Northwest selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.19725994765758514,0.7385272979736328,11,62,1656742332855,True,62163,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.3434913754463196,0.3443220555782318,11,59,1656742337681,True,62163,Year (slicer) - Year: 2014 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.1969948559999466,0.7379201054573059,11,62,1656742347964,True,62163,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.34747764468193054,0.33151471614837646,11,59,1656742355074,True,62163,Year (slicer) - Year: 2014 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.8357285857200623,0.016667477786540985,12,48,1657570361273,True,147017,Root,Year.Year<categorical>,nan
+0.4011475741863251,0.9999926686286926,12,25,1657570369279,True,147017,Region (slicer) - Region: Northwest selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.23789562284946442,0.8437682390213013,12,1,1657570375714,True,147017,"Year (slicer) - Year: 2013, 2012 selected","Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.20212042331695557,0.735027551651001,12,62,1657570376678,True,147017,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.29100924730300903,0.5928397178649902,12,8,1657570377546,True,147017,"Year (slicer) - Year: 2012, 2014 selected","Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.36660173535346985,0.8434159159660339,12,15,1657570423272,True,147017,Year (slicer) - deselected,Region.Region<categorical>,NewHiresByRegion.Region<categorical>
+0.2097681611776352,0.778960108757019,12,62,1657570438493,True,147017,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.342520147562027,0.3630078136920929,12,59,1657570446247,True,147017,Year (slicer) - Year: 2014 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.21339571475982666,0.7874051928520203,12,62,1657570447234,True,147017,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.36470234394073486,0.3735283315181732,12,59,1657570452565,True,147017,Year (slicer) - Year: 2014 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.20976950228214264,0.7388402819633484,12,62,1657570462124,True,147017,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.3425379991531372,0.36244380474090576,12,59,1657570486265,True,147017,Year (slicer) - Year: 2014 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.8357285857200623,0.016667477786540985,13,48,1656742329286,True,73642,Root,Year.Year<categorical>,nan
+0.4007394313812256,0.9981393814086914,13,25,1656742346698,True,73642,Region (slicer) - Region: Northwest selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.21637839078903198,0.7696594595909119,13,62,1656742350068,True,73642,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.3493928611278534,0.3822934627532959,13,59,1656742379574,True,73642,Year (slicer) - Year: 2014 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.8357285857200623,0.016667477786540985,14,48,1656682729048,True,96712,Root,Year.Year<categorical>,nan
+0.9825286865234375,0.4606776535511017,14,27,1656682744183,True,96712,Year (slicer) - Year: 2012 selected,Year.Year<categorical>,nan
+0.8990573883056641,0.4057445526123047,14,19,1656682745199,True,96712,Year (slicer) - Year: 2014 selected,Year.Year<categorical>,nan
+0.9289236068725586,0.4348190426826477,14,4,1656682746961,True,96712,"Year (slicer) - Year: 2014, 2012 selected",Year.Year<categorical>,nan
+0.2910003364086151,0.5927936434745789,14,8,1656682778053,True,96712,Region (slicer) - Region: Northwest selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.36659371852874756,0.8434017300605774,14,15,1656682782392,True,96712,Year (slicer) - deselected,Region.Region<categorical>,NewHiresByRegion.Region<categorical>
+0.3590632379055023,0.3836953938007355,14,59,1656682787394,True,96712,Year (slicer) - Year: 2014 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.36660027503967285,0.8434188961982727,14,15,1656682808530,True,96712,Year (slicer) - deselected,Region.Region<categorical>,NewHiresByRegion.Region<categorical>
+0.21578271687030792,0.7524946928024292,14,62,1656682809346,True,96712,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.3665961027145386,0.8434215784072876,14,15,1656682815642,True,96712,Year (slicer) - deselected,Region.Region<categorical>,NewHiresByRegion.Region<categorical>
+0.3439388573169708,0.3652664124965668,14,59,1656682815706,True,96712,Year (slicer) - Year: 2014 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.8357285857200623,0.016667477786540985,15,48,1656682784222,False,58284,Root,Year.Year<categorical>,nan
+0.8002591729164124,0.02435055747628212,15,5,1656682788631,False,58284,Region (slicer) - Region: Northwest selected,"Region.Region<categorical>, Year.Year<categorical>",nan
+0.2141570746898651,0.785650908946991,15,62,1656682792848,False,58284,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.35328933596611023,0.385336697101593,15,59,1656682793766,False,58284,Year (slicer) - Year: 2014 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.29100939631462097,0.5928253531455994,15,8,1656682796211,False,58284,"Year (slicer) - Year: 2014, 2012 selected","Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.3665984570980072,0.8434142470359802,15,15,1656682813644,False,58284,Year (slicer) - deselected,Region.Region<categorical>,NewHiresByRegion.Region<categorical>
+0.2128128707408905,0.7462221384048462,15,62,1656682817287,False,58284,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.36398187279701233,0.37612855434417725,15,59,1656682823392,False,58284,Year (slicer) - Year: 2014 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.21274319291114807,0.7458611726760864,15,62,1656682825323,False,58284,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.12340161949396133,0.20033273100852966,15,6,1656682831006,False,58284,New Hires and New Hires Same Period Last Year (SPLY) (clusteredColumnChart) - Month: Nov selected,"NewHiresAndNewHiresSamePeriodLastYear(SPLY).Month<categorical>, Region.Region<categorical>, Year.Year<categorical>","NewHiresByMonth(Full-Time/Part-Time).Month<categorical>, NewHiresByRegion.Region<categorical>"
+0.8357285857200623,0.016667477786540985,16,48,1657537861615,True,145196,Root,Year.Year<categorical>,nan
+0.40073928236961365,0.9981338381767273,16,25,1657537874114,True,145196,Region (slicer) - Region: Northwest selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.21416063606739044,0.7856396436691284,16,62,1657537884289,True,145196,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.21581338346004486,0.7626858949661255,16,62,1657537914583,True,145196,New Hires and New Hires Same Period Last Year (SPLY) (clusteredColumnChart) - deselected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.12355617433786392,0.19963589310646057,16,1,1657537914727,True,145196,"New Hires and New Hires Same Period Last Year (SPLY) (clusteredColumnChart) - Month: Dec, Dec selected","NewHiresAndNewHiresSamePeriodLastYear(SPLY).Month<categorical>, Region.Region<categorical>, Year.Year<categorical>","NewHiresByMonth(Full-Time/Part-Time).Month<categorical>, NewHiresByRegion.Region<categorical>"
+0.1234063133597374,0.20033736526966095,16,6,1657537935791,True,145196,New Hires and New Hires Same Period Last Year (SPLY) (clusteredColumnChart) - Month: Nov selected,"NewHiresAndNewHiresSamePeriodLastYear(SPLY).Month<categorical>, Region.Region<categorical>, Year.Year<categorical>","NewHiresByMonth(Full-Time/Part-Time).Month<categorical>, NewHiresByRegion.Region<categorical>"
+0.2158041000366211,0.7613891959190369,16,62,1657537938656,True,145196,New Hires and New Hires Same Period Last Year (SPLY) (clusteredColumnChart) - deselected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.12499969452619553,0.19699430465698242,16,2,1657537940726,True,145196,New Hires and New Hires Same Period Last Year (SPLY) (clusteredColumnChart) - Month: Oct selected,"NewHiresAndNewHiresSamePeriodLastYear(SPLY).Month<categorical>, Region.Region<categorical>, Year.Year<categorical>","NewHiresByMonth(Full-Time/Part-Time).Month<categorical>, NewHiresByRegion.Region<categorical>"
+0.2158360332250595,0.7573168277740479,16,62,1657537945008,True,145196,New Hires and New Hires Same Period Last Year (SPLY) (clusteredColumnChart) - deselected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.12339112162590027,0.2003358155488968,16,6,1657537948494,True,145196,New Hires and New Hires Same Period Last Year (SPLY) (clusteredColumnChart) - Month: Nov selected,"NewHiresAndNewHiresSamePeriodLastYear(SPLY).Month<categorical>, Region.Region<categorical>, Year.Year<categorical>","NewHiresByMonth(Full-Time/Part-Time).Month<categorical>, NewHiresByRegion.Region<categorical>"
+0.1261867731809616,0.19396725296974182,16,2,1657537955782,True,145196,Year (slicer) - Year: 2014 selected,"NewHiresAndNewHiresSamePeriodLastYear(SPLY).Month<categorical>, Region.Region<categorical>, Year.Year<categorical>","NewHiresByMonth(Full-Time/Part-Time).Month<categorical>, NewHiresByRegion.Region<categorical>"
+0.3494188189506531,0.3823317289352417,16,59,1657537958357,True,145196,New Hires and New Hires Same Period Last Year (SPLY) (clusteredColumnChart) - deselected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.13054630160331726,0.18368832767009735,16,6,1657537960659,True,145196,New Hires and New Hires Same Period Last Year (SPLY) (clusteredColumnChart) - Month: Jul selected,"NewHiresAndNewHiresSamePeriodLastYear(SPLY).Month<categorical>, Region.Region<categorical>, Year.Year<categorical>","NewHiresByMonth(Full-Time/Part-Time).Month<categorical>, NewHiresByRegion.Region<categorical>"
+0.36398184299468994,0.37612858414649963,16,59,1657537962077,True,145196,New Hires and New Hires Same Period Last Year (SPLY) (clusteredColumnChart) - deselected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.12885291874408722,0.18799135088920593,16,2,1657537963098,True,145196,New Hires and New Hires Same Period Last Year (SPLY) (clusteredColumnChart) - Month: Oct selected,"NewHiresAndNewHiresSamePeriodLastYear(SPLY).Month<categorical>, Region.Region<categorical>, Year.Year<categorical>","NewHiresByMonth(Full-Time/Part-Time).Month<categorical>, NewHiresByRegion.Region<categorical>"
+0.12499780207872391,0.19700302183628082,16,2,1657537965853,True,145196,Year (slicer) - Year: 2012 selected,"NewHiresAndNewHiresSamePeriodLastYear(SPLY).Month<categorical>, Region.Region<categorical>, Year.Year<categorical>","NewHiresByMonth(Full-Time/Part-Time).Month<categorical>, NewHiresByRegion.Region<categorical>"
+0.12709614634513855,0.19264140725135803,16,1,1657537967757,True,145196,"Year (slicer) - Year: 2012, 2014 selected","NewHiresAndNewHiresSamePeriodLastYear(SPLY).Month<categorical>, Region.Region<categorical>, Year.Year<categorical>","NewHiresByMonth(Full-Time/Part-Time).Month<categorical>, NewHiresByRegion.Region<categorical>"
+0.2910158038139343,0.592832088470459,16,8,1657537971703,True,145196,New Hires and New Hires Same Period Last Year (SPLY) (clusteredColumnChart) - deselected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.36659443378448486,0.8434182405471802,16,15,1657537975823,True,145196,Year (slicer) - deselected,Region.Region<categorical>,NewHiresByRegion.Region<categorical>
+0.35329824686050415,0.3853314220905304,16,59,1657537977798,True,145196,Year (slicer) - Year: 2014 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.1305529922246933,0.18368007242679596,16,6,1657537985472,True,145196,New Hires and New Hires Same Period Last Year (SPLY) (clusteredColumnChart) - Month: Jul selected,"NewHiresAndNewHiresSamePeriodLastYear(SPLY).Month<categorical>, Region.Region<categorical>, Year.Year<categorical>","NewHiresByMonth(Full-Time/Part-Time).Month<categorical>, NewHiresByRegion.Region<categorical>"
+0.3474723696708679,0.3789239227771759,16,59,1657537986656,True,145196,New Hires and New Hires Same Period Last Year (SPLY) (clusteredColumnChart) - deselected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.1300743669271469,0.18451087176799774,16,1,1657537987464,True,145196,New Hires and New Hires Same Period Last Year (SPLY) (clusteredColumnChart) - Month: Aug selected,"NewHiresAndNewHiresSamePeriodLastYear(SPLY).Month<categorical>, Region.Region<categorical>, Year.Year<categorical>","NewHiresByMonth(Full-Time/Part-Time).Month<categorical>, NewHiresByRegion.Region<categorical>"
+0.353402704000473,0.385372519493103,16,59,1657537988507,True,145196,New Hires and New Hires Same Period Last Year (SPLY) (clusteredColumnChart) - deselected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.12885963916778564,0.1879858672618866,16,2,1657537990060,True,145196,"New Hires and New Hires Same Period Last Year (SPLY) (clusteredColumnChart) - Month: Oct, Oct selected","NewHiresAndNewHiresSamePeriodLastYear(SPLY).Month<categorical>, Region.Region<categorical>, Year.Year<categorical>","NewHiresByMonth(Full-Time/Part-Time).Month<categorical>, NewHiresByRegion.Region<categorical>"
+0.3440812826156616,0.36613985896110535,16,59,1657537991085,True,145196,New Hires and New Hires Same Period Last Year (SPLY) (clusteredColumnChart) - deselected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.1300743669271469,0.18451087176799774,16,1,1657537993018,True,145196,New Hires and New Hires Same Period Last Year (SPLY) (clusteredColumnChart) - Month: Jun selected,"NewHiresAndNewHiresSamePeriodLastYear(SPLY).Month<categorical>, Region.Region<categorical>, Year.Year<categorical>","NewHiresByMonth(Full-Time/Part-Time).Month<categorical>, NewHiresByRegion.Region<categorical>"
+0.34407591819763184,0.36610230803489685,16,59,1657537995129,True,145196,New Hires and New Hires Same Period Last Year (SPLY) (clusteredColumnChart) - deselected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.13054701685905457,0.18368636071681976,16,6,1657537996060,True,145196,New Hires and New Hires Same Period Last Year (SPLY) (clusteredColumnChart) - Month: Jul selected,"NewHiresAndNewHiresSamePeriodLastYear(SPLY).Month<categorical>, Region.Region<categorical>, Year.Year<categorical>","NewHiresByMonth(Full-Time/Part-Time).Month<categorical>, NewHiresByRegion.Region<categorical>"
+0.8357285857200623,0.016667477786540985,17,48,1657540777460,False,62305,Root,Year.Year<categorical>,nan
+0.9825291037559509,0.4606744349002838,17,27,1657540797635,False,62305,Year (slicer) - Year: 2012 selected,Year.Year<categorical>,nan
+0.9999916553497314,0.49706748127937317,17,5,1657540804016,False,62305,Region (slicer) - Region: Northwest selected,"Region.Region<categorical>, Year.Year<categorical>",nan
+0.2019842565059662,0.6150158643722534,17,3,1657540816748,False,62305,New Hires by Month (Full-Time/Part-Time) (lineChart) - Month: Nov. FPDesc: Part-Time selected,"NewHiresByMonth(Full-Time/Part-Time).Month<categorical>, NewHiresByMonth(Full-Time/Part-Time).FPDesc<categorical>, Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.0,0.584706723690033,17,1,1657540820273,False,62305,New Hires by Month (Full-Time/Part-Time) (lineChart) - Month: Sep. FPDesc: Part-Time selected,"NewHiresByMonth(Full-Time/Part-Time).Month<categorical>, NewHiresByMonth(Full-Time/Part-Time).FPDesc<categorical>, Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.2019861936569214,0.6149829626083374,17,3,1657540822725,False,62305,New Hires by Month (Full-Time/Part-Time) (lineChart) - Month: Nov. FPDesc: Part-Time selected,"NewHiresByMonth(Full-Time/Part-Time).Month<categorical>, NewHiresByMonth(Full-Time/Part-Time).FPDesc<categorical>, Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.8357285857200623,0.016667477786540985,18,48,1656742148116,False,134558,Root,Year.Year<categorical>,nan
+0.9825325608253479,0.4606670141220093,18,27,1656742224530,False,134558,Year (slicer) - Year: 2012 selected,Year.Year<categorical>,nan
+0.8990456461906433,0.4057493507862091,18,19,1656742250570,False,134558,Year (slicer) - Year: 2014 selected,Year.Year<categorical>,nan
+0.8357285857200623,0.016667477786540985,19,48,1656682655538,False,88631,Root,Year.Year<categorical>,nan
+0.8212173581123352,0.08940932899713516,19,2,1656682668490,False,88631,New Hires by Region (clusteredBarChart) - Region: Northwest selected,"NewHiresByRegion.Region<categorical>, Year.Year<categorical>",nan
+0.8012753129005432,0.040231700986623764,19,1,1656682669694,False,88631,Region (slicer) - Region: Northwest selected,"NewHiresByRegion.Region<categorical>, Region.Region<categorical>, Year.Year<categorical>",nan
+0.35438787937164307,0.8170992732048035,19,2,1656682694565,False,88631,Year (slicer) - deselected,"NewHiresByRegion.Region<categorical>, Region.Region<categorical>",NewHiresByRegion.Region<categorical>
+0.2509744465351105,0.7551161646842957,19,2,1656682695218,False,88631,Year (slicer) - Year: 2012 selected,"NewHiresByRegion.Region<categorical>, Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.36409950256347656,0.4658038914203644,19,2,1656682696263,False,88631,Year (slicer) - Year: 2014 selected,"NewHiresByRegion.Region<categorical>, Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.29434677958488464,0.6038155555725098,19,1,1656682700271,False,88631,"Year (slicer) - Year: 2014, 2012 selected","NewHiresByRegion.Region<categorical>, Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.3543887436389923,0.8170986175537109,19,2,1656682721803,False,88631,Year (slicer) - deselected,"NewHiresByRegion.Region<categorical>, Region.Region<categorical>",NewHiresByRegion.Region<categorical>
+0.25095897912979126,0.7551390528678894,19,2,1656682726392,False,88631,Year (slicer) - Year: 2012 selected,"NewHiresByRegion.Region<categorical>, Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.3641069233417511,0.4658101499080658,19,2,1656682731480,False,88631,Year (slicer) - Year: 2014 selected,"NewHiresByRegion.Region<categorical>, Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.8357285857200623,0.016667477786540985,20,48,1656742600708,True,55829,Root,Year.Year<categorical>,nan
+0.4007394313812256,0.998134195804596,20,25,1656742607738,True,55829,Region (slicer) - Region: Northwest selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.21426771581172943,0.7850275635719299,20,62,1656742610696,True,55829,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.36420148611068726,0.37540045380592346,20,59,1656742638143,True,55829,Year (slicer) - Year: 2014 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.8357285857200623,0.016667477786540985,21,48,1656672253690,True,84284,Root,Year.Year<categorical>,nan
+0.9825187921524048,0.4606783390045166,21,27,1656672265878,True,84284,Year (slicer) - Year: 2012 selected,Year.Year<categorical>,nan
+0.8990456461906433,0.4057503640651703,21,19,1656672266700,True,84284,Year (slicer) - Year: 2014 selected,Year.Year<categorical>,nan
+0.9825325012207031,0.46067383885383606,21,27,1656672267549,True,84284,Year (slicer) - Year: 2012 selected,Year.Year<categorical>,nan
+1.0,0.49705350399017334,21,5,1656672273842,True,84284,Region (slicer) - Region: Northwest selected,"Region.Region<categorical>, Year.Year<categorical>",nan
+0.20198628306388855,0.6149840354919434,21,3,1656672282175,True,84284,New Hires by Month (Full-Time/Part-Time) (lineChart) - Month: Nov. FPDesc: Part-Time selected,"NewHiresByMonth(Full-Time/Part-Time).Month<categorical>, NewHiresByMonth(Full-Time/Part-Time).FPDesc<categorical>, Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.20402555167675018,0.6083787679672241,21,3,1656672286161,True,84284,"New Hires by Month (Full-Time/Part-Time) (lineChart) - Month: Nov, Nov. FPDesc: Full-Time, Part-Time selected","NewHiresByMonth(Full-Time/Part-Time).Month<categorical>, NewHiresByMonth(Full-Time/Part-Time).FPDesc<categorical>, Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.28810933232307434,0.38954678177833557,21,3,1656672301092,True,84284,Year (slicer) - Year: 2014 selected,"NewHiresByMonth(Full-Time/Part-Time).Month<categorical>, NewHiresByMonth(Full-Time/Part-Time).FPDesc<categorical>, Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.34726178646087646,0.3784564733505249,21,59,1656672303118,True,84284,New Hires by Month (Full-Time/Part-Time) (lineChart) - deselected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.4003213047981262,0.34949788451194763,21,1,1656672308879,True,84284,New Hires by Month (Full-Time/Part-Time) (lineChart) - Month: Aug. FPDesc: Part-Time selected,"NewHiresByMonth(Full-Time/Part-Time).Month<categorical>, NewHiresByMonth(Full-Time/Part-Time).FPDesc<categorical>, Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.29778000712394714,0.39430752396583557,21,1,1656672310711,True,84284,"New Hires by Month (Full-Time/Part-Time) (lineChart) - Month: Sep, Oct, Sep, Oct. FPDesc: Full-Time, Full-Time, Part-Time, Part-Time selected","NewHiresByMonth(Full-Time/Part-Time).Month<categorical>, NewHiresByMonth(Full-Time/Part-Time).FPDesc<categorical>, Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.2967240512371063,0.3922111988067627,21,1,1656672313494,True,84284,"New Hires by Month (Full-Time/Part-Time) (lineChart) - Month: Sep, Sep. FPDesc: Full-Time, Part-Time selected","NewHiresByMonth(Full-Time/Part-Time).Month<categorical>, NewHiresByMonth(Full-Time/Part-Time).FPDesc<categorical>, Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.39975011348724365,0.3495650589466095,21,2,1656672314536,True,84284,New Hires by Month (Full-Time/Part-Time) (lineChart) - Month: Aug selected,"NewHiresByMonth(Full-Time/Part-Time).Month<categorical>, Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.32341551780700684,0.4226054251194,21,2,1656672315453,True,84284,New Hires by Month (Full-Time/Part-Time) (lineChart) - Month: Sep selected,"NewHiresByMonth(Full-Time/Part-Time).Month<categorical>, Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.30814728140830994,0.32182860374450684,21,3,1656672316853,True,84284,New Hires by Month (Full-Time/Part-Time) (lineChart) - Month: Jul selected,"NewHiresByMonth(Full-Time/Part-Time).Month<categorical>, Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.3740912675857544,0.2867022454738617,21,1,1656672317883,True,84284,New Hires by Month (Full-Time/Part-Time) (lineChart) - Month: Jun selected,"NewHiresByMonth(Full-Time/Part-Time).Month<categorical>, Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.36398187279701233,0.37612849473953247,21,59,1656672318710,True,84284,New Hires by Month (Full-Time/Part-Time) (lineChart) - deselected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.34852731227874756,0.27503299713134766,21,1,1656672320103,True,84284,New Hires by Month (Full-Time/Part-Time) (lineChart) - Month: Oct selected,"NewHiresByMonth(Full-Time/Part-Time).Month<categorical>, Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.34393882751464844,0.36526623368263245,21,59,1656672320815,True,84284,New Hires by Month (Full-Time/Part-Time) (lineChart) - deselected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.32341307401657104,0.4226011037826538,21,2,1656672321885,True,84284,New Hires by Month (Full-Time/Part-Time) (lineChart) - Month: Sep selected,"NewHiresByMonth(Full-Time/Part-Time).Month<categorical>, Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.39974483847618103,0.3495616018772125,21,2,1656672322369,True,84284,New Hires by Month (Full-Time/Part-Time) (lineChart) - Month: Aug selected,"NewHiresByMonth(Full-Time/Part-Time).Month<categorical>, Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.3081451952457428,0.32184094190597534,21,3,1656672322921,True,84284,New Hires by Month (Full-Time/Part-Time) (lineChart) - Month: Jul selected,"NewHiresByMonth(Full-Time/Part-Time).Month<categorical>, Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.8357285857200623,0.016667477786540985,22,48,1656742221604,False,30521,Root,Year.Year<categorical>,nan
+0.40111714601516724,0.9998748302459717,22,25,1656742226908,False,30521,Region (slicer) - Region: Northwest selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.19920773804187775,0.7975689768791199,22,62,1656742237370,False,30521,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.8357285857200623,0.016667477786540985,23,48,1656682659462,False,46497,Root,Year.Year<categorical>,nan
+0.40073996782302856,0.9981393218040466,23,25,1656682684614,False,46497,Region (slicer) - Region: Northwest selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.8357285857200623,0.016667477786540985,24,48,1656683410160,False,56435,Root,Year.Year<categorical>,nan
+0.9825364947319031,0.4606781303882599,24,27,1656683420226,False,56435,Year (slicer) - Year: 2012 selected,Year.Year<categorical>,nan
+0.8990477323532104,0.40574243664741516,24,19,1656683428893,False,56435,Year (slicer) - Year: 2014 selected,Year.Year<categorical>,nan
+0.982537031173706,0.4606742858886719,24,27,1656683430018,False,56435,Year (slicer) - Year: 2012 selected,Year.Year<categorical>,nan
+0.8990424871444702,0.40576237440109253,24,19,1656683451110,False,56435,Year (slicer) - Year: 2014 selected,Year.Year<categorical>,nan
+0.9825330972671509,0.4606705605983734,24,27,1656683454386,False,56435,Year (slicer) - Year: 2012 selected,Year.Year<categorical>,nan
+0.899050772190094,0.4057508707046509,24,19,1656683456230,False,56435,Year (slicer) - Year: 2014 selected,Year.Year<categorical>,nan
+0.8357285857200623,0.016667477786540985,25,48,1657556844734,True,166224,Root,Year.Year<categorical>,nan
+0.8002195954322815,0.024349240586161613,25,5,1657556880508,True,166224,Region (slicer) - Region: Northwest selected,"Region.Region<categorical>, Year.Year<categorical>",nan
+0.20716463029384613,0.7982540726661682,25,62,1657556901907,True,166224,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.3565584123134613,0.3520517647266388,25,59,1657556945251,True,166224,Year (slicer) - Year: 2014 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.8357285857200623,0.016667477786540985,26,48,1656683301976,False,26202,Root,Year.Year<categorical>,nan
+0.9825328588485718,0.4606723189353943,26,27,1656683306295,False,26202,Year (slicer) - Year: 2012 selected,Year.Year<categorical>,nan
+0.8442094326019287,0.043124981224536896,26,48,1656683307411,False,26202,Year (slicer) - Year: 2013 selected,Year.Year<categorical>,nan
+0.8990414142608643,0.4057498276233673,26,19,1656683308009,False,26202,Year (slicer) - Year: 2014 selected,Year.Year<categorical>,nan
+0.9825350642204285,0.4606781303882599,26,27,1656683308735,False,26202,Year (slicer) - Year: 2012 selected,Year.Year<categorical>,nan
+0.9289510250091553,0.434815913438797,26,4,1656683310342,False,26202,"Year (slicer) - Year: 2012, 2014 selected",Year.Year<categorical>,nan
+0.9066783785820007,0.3289477527141571,26,4,1656683320837,False,26202,Year (slicer) - deselected,nan,nan
+0.8990490436553955,0.40574735403060913,26,19,1656683322340,False,26202,Year (slicer) - Year: 2014 selected,Year.Year<categorical>,nan
+0.9825369119644165,0.46067309379577637,26,27,1656683323730,False,26202,Year (slicer) - Year: 2012 selected,Year.Year<categorical>,nan
+0.8357285857200623,0.016667477786540985,27,48,1656682696291,True,85740,Root,Year.Year<categorical>,nan
+0.9825279116630554,0.4606810510158539,27,27,1656682713725,True,85740,Year (slicer) - Year: 2012 selected,Year.Year<categorical>,nan
+0.8990364074707031,0.40573742985725403,27,19,1656682720627,True,85740,Year (slicer) - Year: 2014 selected,Year.Year<categorical>,nan
+0.3675549328327179,0.35592764616012573,27,59,1656682733128,True,85740,Region (slicer) - Region: Northwest selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.8357285857200623,0.016667477786540985,28,48,1656682825855,False,105432,Root,Year.Year<categorical>,nan
+0.8001765608787537,0.024368418380618095,28,5,1656682871147,False,105432,Region (slicer) - Region: Northwest selected,"Region.Region<categorical>, Year.Year<categorical>",nan
+0.2066534161567688,0.7981846928596497,28,62,1656682899162,False,105432,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.40073761343955994,0.9981343150138855,28,25,1656682900204,False,105432,Year (slicer) - Year: 2013 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.20665337145328522,0.7981846928596497,28,62,1656682902091,False,105432,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.8357285857200623,0.016667477786540985,29,48,1657632128216,True,59895,Root,Year.Year<categorical>,nan
+0.9825247526168823,0.46067196130752563,29,27,1657632140078,True,59895,Year (slicer) - Year: 2012 selected,Year.Year<categorical>,nan
+0.9999179840087891,0.4969881474971771,29,5,1657632148371,True,59895,Region (slicer) - Region: Northwest selected,"Region.Region<categorical>, Year.Year<categorical>",nan
+0.3565584123134613,0.3520517647266388,29,59,1657632161665,True,59895,Year (slicer) - Year: 2014 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.1992061734199524,0.7975673675537109,29,62,1657632171571,True,59895,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.36758288741111755,0.3561508357524872,29,59,1657632175854,True,59895,Year (slicer) - Year: 2014 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.30814120173454285,0.32185620069503784,29,3,1657632178236,True,59895,New Hires by Month (Full-Time/Part-Time) (lineChart) - Month: Jul selected,"NewHiresByMonth(Full-Time/Part-Time).Month<categorical>, Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.8357285857200623,0.016667477786540985,30,48,1656405117593,True,92557,Root,Year.Year<categorical>,nan
+0.9066072106361389,0.32889336347579956,30,4,1656405129118,True,92557,Year (slicer) - deselected,nan,nan
+0.8990657925605774,0.405747652053833,30,19,1656405129404,True,92557,Year (slicer) - Year: 2014 selected,Year.Year<categorical>,nan
+0.9825332760810852,0.46067044138908386,30,27,1656405131014,True,92557,Year (slicer) - Year: 2012 selected,Year.Year<categorical>,nan
+0.8359397649765015,0.025763826444745064,30,48,1656405132826,True,92557,Year (slicer) - Year: 2013 selected,Year.Year<categorical>,nan
+0.9066029787063599,0.328974187374115,30,4,1656405133455,True,92557,Year (slicer) - deselected,nan,nan
+0.8358539938926697,0.02207799442112446,30,48,1656405133974,True,92557,Year (slicer) - Year: 2013 selected,Year.Year<categorical>,nan
+0.9825366139411926,0.46067580580711365,30,27,1656405134948,True,92557,Year (slicer) - Year: 2012 selected,Year.Year<categorical>,nan
+0.20347127318382263,0.7640357613563538,30,62,1656405141755,True,92557,Region (slicer) - Region: Northwest selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.2035152018070221,0.6076505184173584,30,1,1656405159684,True,92557,"New Hires by Month (Full-Time/Part-Time) (lineChart) - Month: Oct, Nov, Oct. FPDesc: Full-Time, Full-Time, Part-Time selected","NewHiresByMonth(Full-Time/Part-Time).Month<categorical>, NewHiresByMonth(Full-Time/Part-Time).FPDesc<categorical>, Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.204025998711586,0.6083608269691467,30,3,1656405162014,True,92557,"New Hires by Month (Full-Time/Part-Time) (lineChart) - Month: Nov, Nov. FPDesc: Full-Time, Part-Time selected","NewHiresByMonth(Full-Time/Part-Time).Month<categorical>, NewHiresByMonth(Full-Time/Part-Time).FPDesc<categorical>, Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.28811439871788025,0.3895184099674225,30,3,1656405170371,True,92557,Year (slicer) - Year: 2014 selected,"NewHiresByMonth(Full-Time/Part-Time).Month<categorical>, NewHiresByMonth(Full-Time/Part-Time).FPDesc<categorical>, Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.29524317383766174,0.35965827107429504,30,2,1656405179681,True,92557,"New Hires by Month (Full-Time/Part-Time) (lineChart) - Month: Jul, Jul. FPDesc: Full-Time, Part-Time selected","NewHiresByMonth(Full-Time/Part-Time).Month<categorical>, NewHiresByMonth(Full-Time/Part-Time).FPDesc<categorical>, Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.1305529922246933,0.18368007242679596,30,6,1656405182903,True,92557,New Hires and New Hires Same Period Last Year (SPLY) (clusteredColumnChart) - Month: Jul selected,"NewHiresAndNewHiresSamePeriodLastYear(SPLY).Month<categorical>, Region.Region<categorical>, Year.Year<categorical>","NewHiresByMonth(Full-Time/Part-Time).Month<categorical>, NewHiresByRegion.Region<categorical>"
+0.8357285857200623,0.016667477786540985,31,48,1656682760454,True,80463,Root,Year.Year<categorical>,nan
+0.4011172652244568,0.9998787045478821,31,25,1656682801444,True,80463,Region (slicer) - Region: Northwest selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.12428151816129684,0.18529458343982697,31,1,1656682814502,True,80463,Year (slicer) - Year: 2010 selected,"Region.Region<categorical>, Year.Year<categorical>","NewHiresByMonth(Full-Time/Part-Time).Month<categorical>, NewHiresByMonth(Full-Time/Part-Time).FPDesc<categorical>, NewHiresByRegion.Region<categorical>"
+0.375537246465683,0.8311353325843811,31,1,1656682814544,True,80463,Year (slicer) - Year: 2011 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.19816336035728455,0.7965440154075623,31,62,1656682816576,True,80463,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.36654698848724365,0.345718652009964,31,59,1656682821383,True,80463,Year (slicer) - Year: 2014 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.8357285857200623,0.016667477786540985,32,48,1656961166476,True,97000,Root,Year.Year<categorical>,nan
+0.982532799243927,0.46067240834236145,32,27,1656961173315,True,97000,Year (slicer) - Year: 2012 selected,Year.Year<categorical>,nan
+0.928910493850708,0.4348025321960449,32,4,1656961174680,True,97000,"Year (slicer) - Year: 2012, 2014 selected",Year.Year<categorical>,nan
+0.9066491723060608,0.32904958724975586,32,4,1656961191262,True,97000,Year (slicer) - deselected,nan,nan
+0.366603285074234,0.8433943390846252,32,15,1656961196022,True,97000,Region (slicer) - Region: Northwest selected,Region.Region<categorical>,NewHiresByRegion.Region<categorical>
+0.2155756652355194,0.7506523132324219,32,62,1656961199417,True,97000,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.2909969389438629,0.5928075313568115,32,8,1656961201759,True,97000,"Year (slicer) - Year: 2012, 2014 selected","Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.3665940463542938,0.8434019684791565,32,15,1656961205828,True,97000,Year (slicer) - deselected,Region.Region<categorical>,NewHiresByRegion.Region<categorical>
+0.3546142876148224,0.3582252562046051,32,59,1656961211537,True,97000,Year (slicer) - Year: 2014 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.366593599319458,0.8433966636657715,32,15,1656961213724,True,97000,Year (slicer) - deselected,Region.Region<categorical>,NewHiresByRegion.Region<categorical>
+0.20952263474464417,0.7383719682693481,32,62,1656961215246,True,97000,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.12341532856225967,0.20034897327423096,32,6,1656961220356,True,97000,New Hires and New Hires Same Period Last Year (SPLY) (clusteredColumnChart) - Month: Nov selected,"NewHiresAndNewHiresSamePeriodLastYear(SPLY).Month<categorical>, Region.Region<categorical>, Year.Year<categorical>","NewHiresByMonth(Full-Time/Part-Time).Month<categorical>, NewHiresByRegion.Region<categorical>"
+0.12616793811321259,0.1939726173877716,32,2,1656961226884,True,97000,Year (slicer) - Year: 2014 selected,"NewHiresAndNewHiresSamePeriodLastYear(SPLY).Month<categorical>, Region.Region<categorical>, Year.Year<categorical>","NewHiresByMonth(Full-Time/Part-Time).Month<categorical>, NewHiresByRegion.Region<categorical>"
+0.13054798543453217,0.1836853176355362,32,6,1656961233128,True,97000,New Hires and New Hires Same Period Last Year (SPLY) (clusteredColumnChart) - Month: Jul selected,"NewHiresAndNewHiresSamePeriodLastYear(SPLY).Month<categorical>, Region.Region<categorical>, Year.Year<categorical>","NewHiresByMonth(Full-Time/Part-Time).Month<categorical>, NewHiresByRegion.Region<categorical>"
+0.12791800498962402,0.18984819948673248,32,1,1656961245992,True,97000,Year (slicer) - Year: 2012 selected,"NewHiresAndNewHiresSamePeriodLastYear(SPLY).Month<categorical>, Region.Region<categorical>, Year.Year<categorical>","NewHiresByMonth(Full-Time/Part-Time).Month<categorical>, NewHiresByRegion.Region<categorical>"
+0.12340280413627625,0.20033255219459534,32,6,1656961248029,True,97000,New Hires and New Hires Same Period Last Year (SPLY) (clusteredColumnChart) - Month: Nov selected,"NewHiresAndNewHiresSamePeriodLastYear(SPLY).Month<categorical>, Region.Region<categorical>, Year.Year<categorical>","NewHiresByMonth(Full-Time/Part-Time).Month<categorical>, NewHiresByRegion.Region<categorical>"
+0.8357285857200623,0.016667477786540985,33,48,1656743313477,False,31351,Root,Year.Year<categorical>,nan
+0.9825357794761658,0.4606785774230957,33,27,1656743317131,False,31351,Year (slicer) - Year: 2012 selected,Year.Year<categorical>,nan
+0.8990416526794434,0.40575116872787476,33,19,1656743321387,False,31351,Year (slicer) - Year: 2014 selected,Year.Year<categorical>,nan
+0.3674544095993042,0.3539426624774933,33,59,1656743329155,False,31351,Region (slicer) - Region: Northwest selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.2065895050764084,0.7982224225997925,33,62,1656743337565,False,31351,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.8357285857200623,0.016667477786540985,34,48,1656682865453,False,79007,Root,Year.Year<categorical>,nan
+0.9825371503829956,0.4606786370277405,34,27,1656682879944,False,79007,Year (slicer) - Year: 2012 selected,Year.Year<categorical>,nan
+0.9939039945602417,0.42473775148391724,34,1,1656682883288,False,79007,New Hires by Month (Full-Time/Part-Time) (lineChart) - Month: Nov. FPDesc: Part-Time selected,"NewHiresByMonth(Full-Time/Part-Time).Month<categorical>, NewHiresByMonth(Full-Time/Part-Time).FPDesc<categorical>, Year.Year<categorical>",nan
+0.9825277328491211,0.4606810510158539,34,27,1656682885021,False,79007,New Hires by Month (Full-Time/Part-Time) (lineChart) - deselected,Year.Year<categorical>,nan
+0.8990480899810791,0.4057447910308838,34,19,1656682911888,False,79007,Year (slicer) - Year: 2014 selected,Year.Year<categorical>,nan
+0.8357285857200623,0.016667477786540985,35,48,1657184377530,True,131120,Root,Year.Year<categorical>,nan
+0.9825289249420166,0.46067410707473755,35,27,1657184388154,True,131120,Year (slicer) - Year: 2012 selected,Year.Year<categorical>,nan
+0.9289507865905762,0.4348032772541046,35,4,1657184389959,True,131120,"Year (slicer) - Year: 2012, 2014 selected",Year.Year<categorical>,nan
+0.9361767172813416,0.4275730848312378,35,2,1657184397403,True,131120,"New Hires by Region (clusteredBarChart) - Region: Northwest, Northwest selected","NewHiresByRegion.Region<categorical>, Year.Year<categorical>",nan
+0.9361676573753357,0.42756831645965576,35,2,1657184434917,True,131120,"New Hires by Region (clusteredBarChart) - Region: Northwest, Northwest selected","NewHiresByRegion.Region<categorical>, Year.Year<categorical>",nan
+0.9149160981178284,0.3306530714035034,35,1,1657184474426,True,131120,Year (slicer) - deselected,NewHiresByRegion.Region<categorical>,nan
+0.9626100063323975,0.43717268109321594,35,2,1657184484706,True,131120,Year (slicer) - Year: 2012 selected,"NewHiresByRegion.Region<categorical>, Year.Year<categorical>",nan
+0.9100292325019836,0.39638397097587585,35,2,1657184490733,True,131120,Year (slicer) - Year: 2014 selected,"NewHiresByRegion.Region<categorical>, Year.Year<categorical>",nan
+0.8357285857200623,0.016667477786540985,36,48,1655898953673,True,91646,Root,Year.Year<categorical>,nan
+0.899004340171814,0.40574491024017334,36,19,1655898969433,True,91646,Year (slicer) - Year: 2014 selected,Year.Year<categorical>,nan
+0.3675548732280731,0.3559272587299347,36,59,1655898972360,True,91646,Region (slicer) - Region: Northwest selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.3002558946609497,0.3418719470500946,36,1,1655899007638,True,91646,New Hires by Month (Full-Time/Part-Time) (lineChart) - Month: Jul. FPDesc: Part-Time selected,"NewHiresByMonth(Full-Time/Part-Time).Month<categorical>, NewHiresByMonth(Full-Time/Part-Time).FPDesc<categorical>, Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.29522910714149475,0.35969486832618713,36,2,1655899009788,True,91646,"New Hires by Month (Full-Time/Part-Time) (lineChart) - Month: Jul, Jul. FPDesc: Part-Time, Full-Time selected","NewHiresByMonth(Full-Time/Part-Time).Month<categorical>, NewHiresByMonth(Full-Time/Part-Time).FPDesc<categorical>, Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.210724338889122,0.5946256518363953,36,1,1655899016764,True,91646,Year (slicer) - Year: 2012 selected,"NewHiresByMonth(Full-Time/Part-Time).Month<categorical>, NewHiresByMonth(Full-Time/Part-Time).FPDesc<categorical>, Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.20378544926643372,0.6120531558990479,36,1,1655899021148,True,91646,New Hires by Month (Full-Time/Part-Time) (lineChart) - Month: Nov. FPDesc: Full-Time selected,"NewHiresByMonth(Full-Time/Part-Time).Month<categorical>, NewHiresByMonth(Full-Time/Part-Time).FPDesc<categorical>, Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.2040223777294159,0.6083701252937317,36,3,1655899022667,True,91646,"New Hires by Month (Full-Time/Part-Time) (lineChart) - Month: Nov, Nov. FPDesc: Full-Time, Part-Time selected","NewHiresByMonth(Full-Time/Part-Time).Month<categorical>, NewHiresByMonth(Full-Time/Part-Time).FPDesc<categorical>, Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.2881092429161072,0.3895267844200134,36,3,1655899036924,True,91646,Year (slicer) - Year: 2014 selected,"NewHiresByMonth(Full-Time/Part-Time).Month<categorical>, NewHiresByMonth(Full-Time/Part-Time).FPDesc<categorical>, Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.8357285857200623,0.016667477786540985,37,48,1656742874965,True,52932,Root,Year.Year<categorical>,nan
+0.8002201914787292,0.02435167320072651,37,5,1656742880966,True,52932,Region (slicer) - Region: Northwest selected,"Region.Region<categorical>, Year.Year<categorical>",nan
+0.1994035691022873,0.7979077100753784,37,62,1656742900365,True,52932,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.3577987849712372,0.3846692740917206,37,59,1656742903680,True,52932,Year (slicer) - Year: 2014 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.20949184894561768,0.7381866574287415,37,62,1656742910367,True,52932,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.35778775811195374,0.3846757709980011,37,59,1656742922263,True,52932,Year (slicer) - Year: 2014 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.8357285857200623,0.016667477786540985,38,48,1656682644641,False,130626,Root,Year.Year<categorical>,nan
+0.8212605714797974,0.08943958580493927,38,2,1656682662356,False,130626,New Hires by Region (clusteredBarChart) - Region: Northwest selected,"NewHiresByRegion.Region<categorical>, Year.Year<categorical>",nan
+0.9626033902168274,0.43718552589416504,38,2,1656682668223,False,130626,Year (slicer) - Year: 2012 selected,"NewHiresByRegion.Region<categorical>, Year.Year<categorical>",nan
+0.9100320339202881,0.3963891565799713,38,2,1656682697361,False,130626,Year (slicer) - Year: 2014 selected,"NewHiresByRegion.Region<categorical>, Year.Year<categorical>",nan
+0.8357285857200623,0.016667477786540985,39,48,1656682881632,True,33594,Root,Year.Year<categorical>,nan
+0.4007393419742584,0.998134195804596,39,25,1656682886740,True,33594,Region (slicer) - Region: Northwest selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.20665347576141357,0.7981846332550049,39,62,1656682895046,True,33594,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.367582768201828,0.3561480641365051,39,59,1656682902739,True,33594,Year (slicer) - Year: 2014 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.8357285857200623,0.016667477786540985,40,48,1656742477317,True,63866,Root,Year.Year<categorical>,nan
+0.4007382094860077,0.998134195804596,40,25,1656742484637,True,63866,Region (slicer) - Region: Northwest selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.8523826003074646,0.02341575361788273,40,48,1656742490483,True,63866,Region (slicer) - deselected,Year.Year<categorical>,nan
+0.4007377326488495,0.9981337189674377,40,25,1656742501374,True,63866,Region (slicer) - Region: Northwest selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.21670468151569366,0.7703473567962646,40,62,1656742513570,True,63866,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.35466501116752625,0.35828155279159546,40,59,1656742519809,True,63866,Year (slicer) - Year: 2014 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.21671389043331146,0.7713626027107239,40,62,1656742526860,True,63866,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.3590295910835266,0.38368093967437744,40,59,1656742531657,True,63866,Year (slicer) - Year: 2014 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.8357285857200623,0.016667477786540985,41,48,1656742262735,True,173024,Root,Year.Year<categorical>,nan
+0.40074053406715393,0.9981388449668884,41,25,1656742287999,True,173024,Region (slicer) - Region: Northwest selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.21414069831371307,0.7853972315788269,41,62,1656742293126,True,173024,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.3472609221935272,0.3784545361995697,41,59,1656742379695,True,173024,Year (slicer) - Year: 2014 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.19920781254768372,0.7975689768791199,41,62,1656742408539,True,173024,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.3546624183654785,0.35826441645622253,41,59,1656742418588,True,173024,Year (slicer) - Year: 2014 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.8357285857200623,0.016667477786540985,42,48,1656682871627,False,49031,Root,Year.Year<categorical>,nan
+0.8002168536186218,0.02434043027460575,42,5,1656682879797,False,49031,Region (slicer) - Region: Northwest selected,"Region.Region<categorical>, Year.Year<categorical>",nan
+0.21026252210140228,0.7396251559257507,42,62,1656682888167,False,49031,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.3429061770439148,0.3472922444343567,42,59,1656682914346,False,49031,Year (slicer) - Year: 2014 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.8357285857200623,0.016667477786540985,43,48,"1,65668E+12",False,-1,Root,Year.Year<categorical>,nan
+0.4011477828025818,0.9999948143959045,43,25,"1,65668E+12",False,-1,Region (slicer) - Region: Northwest selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.20207563042640686,0.7350232601165771,43,62,"1,65668E+12",False,-1,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.29099926352500916,0.5928096771240234,43,8,"1,65668E+12",False,-1,"Year (slicer) - Year: 2012, 2014 selected","Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.3666016757488251,0.843451738357544,43,15,"1,65668E+12",False,-1,Year (slicer) - deselected,Region.Region<categorical>,NewHiresByRegion.Region<categorical>
+0.2031131386756897,0.7639408707618713,43,62,"1,65668E+12",False,-1,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.29101285338401794,0.5928313732147217,43,8,"1,65668E+12",False,-1,"Year (slicer) - Year: 2012, 2014 selected","Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.36661067605018616,0.8434403538703918,43,15,"1,65668E+12",False,-1,Year (slicer) - deselected,Region.Region<categorical>,NewHiresByRegion.Region<categorical>
+0.3541758060455322,0.3524319529533386,43,59,"1,65668E+12",False,-1,Year (slicer) - Year: 2014 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.20207564532756805,0.7350231409072876,43,62,"1,65668E+12",False,-1,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.2910052537918091,0.5928313136100769,43,8,"1,65668E+12",False,-1,"Year (slicer) - Year: 2012, 2014 selected","Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.36661168932914734,0.8434353470802307,43,15,"1,65668E+12",False,-1,Year (slicer) - deselected,Region.Region<categorical>,NewHiresByRegion.Region<categorical>
+0.191121906042099,0.7497378587722778,43,62,"1,65668E+12",False,-1,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.34747761487960815,0.331514835357666,43,59,"1,65668E+12",False,-1,Year (slicer) - Year: 2014 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.18878810107707977,0.7663397789001465,43,62,"1,65668E+12",False,-1,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.8357285857200623,0.016667477786540985,44,48,1656682706797,True,50240,Root,Year.Year<categorical>,nan
+0.4011477530002594,0.9999926686286926,44,25,1656682710810,True,50240,Region (slicer) - Region: Northwest selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.19100701808929443,0.7508313059806824,44,62,1656682722767,True,50240,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.3434913754463196,0.3443220853805542,44,59,1656682728576,True,50240,Year (slicer) - Year: 2014 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.1910030096769333,0.7508580088615417,44,62,1656682731227,True,50240,Year (slicer) - Year: 2012 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.1234072893857956,0.20035795867443085,44,6,1656682734085,True,50240,New Hires and New Hires Same Period Last Year (SPLY) (clusteredColumnChart) - Month: Nov selected,"NewHiresAndNewHiresSamePeriodLastYear(SPLY).Month<categorical>, Region.Region<categorical>, Year.Year<categorical>","NewHiresByMonth(Full-Time/Part-Time).Month<categorical>, NewHiresByRegion.Region<categorical>"
+0.1925712674856186,0.7871825695037842,44,62,1656682737553,True,50240,New Hires and New Hires Same Period Last Year (SPLY) (clusteredColumnChart) - deselected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.3648546636104584,0.3409583866596222,44,59,1656682739305,True,50240,Year (slicer) - Year: 2014 selected,"Region.Region<categorical>, Year.Year<categorical>",NewHiresByRegion.Region<categorical>
+0.1305456906557083,0.18366476893424988,44,6,1656682743159,True,50240,New Hires and New Hires Same Period Last Year (SPLY) (clusteredColumnChart) - Month: Jul selected,"NewHiresAndNewHiresSamePeriodLastYear(SPLY).Month<categorical>, Region.Region<categorical>, Year.Year<categorical>","NewHiresByMonth(Full-Time/Part-Time).Month<categorical>, NewHiresByRegion.Region<categorical>"

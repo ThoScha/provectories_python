@@ -1,191 +1,226 @@
 x,y,line,multiplicity,timestamp,answer_correct,running_time,triggeredAction,selectedValues,filteredValues
-0.25461506843566895,0.10540273785591125,1,48,1656742615838,True,44458,Root,Year.Year<categorical>,nan
-0.9880152940750122,0.7574561834335327,1,1,1656742618006,True,44458,Ethnicity (slicer) - Ethnicity: Group E selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
-0.9851697683334351,0.7535517811775208,1,1,1656742634213,True,44458,Ethnicity (slicer) - deselected,Year.Year<categorical>,NewHiresByEthnicity.Ethnicity<categorical>
-0.9674880504608154,0.6800562739372253,1,47,1656742634275,True,44458,Ethnicity (slicer) - Ethnicity: Group F selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
-0.8203620314598083,0.9925556778907776,1,36,1656742644978,True,44458,Year (slicer) - Year: 2012 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
-0.9777906537055969,0.6578543186187744,1,47,1656742646692,True,44458,Year (slicer) - Year: 2013 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
-0.8149193525314331,0.9724185466766357,1,36,1656742647930,True,44458,Year (slicer) - Year: 2012 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
-0.9879331588745117,0.6932589411735535,1,47,1656742648864,True,44458,Year (slicer) - Year: 2013 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
-0.8203005194664001,0.9925227761268616,1,36,1656742650322,True,44458,Year (slicer) - Year: 2012 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
-0.9912829399108887,0.6835029125213623,1,47,1656742652306,True,44458,Year (slicer) - Year: 2013 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
-0.8149191737174988,0.9724189043045044,1,36,1656742653582,True,44458,Year (slicer) - Year: 2012 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
-0.9688355326652527,0.6871035099029541,1,47,1656742655026,True,44458,Year (slicer) - Year: 2013 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
-0.25461506843566895,0.10540273785591125,2,48,1656682603248,True,41080,Root,Year.Year<categorical>,nan
-0.9674882292747498,0.6800593137741089,2,47,1656682622142,True,41080,Ethnicity (slicer) - Ethnicity: Group F selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
-0.8252602815628052,0.9885415434837341,2,36,1656682634717,True,41080,Year (slicer) - Year: 2012 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
-0.9778082370758057,0.6578528881072998,2,47,1656682636572,True,41080,Year (slicer) - Year: 2013 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
-0.25461506843566895,0.10540273785591125,3,48,1656742692209,True,20505,Root,Year.Year<categorical>,nan
-0.33667078614234924,0.008579659275710583,3,12,1656742696697,True,20505,Ethnicity (slicer) - Ethnicity: Group F selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",nan
-0.8149129152297974,0.9724293947219849,3,36,1656742702628,True,20505,Year (slicer) - Year: 2012 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
-0.9841964244842529,0.696186900138855,3,47,1656742704647,True,20505,Year (slicer) - Year: 2013 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
-0.25461506843566895,0.10540273785591125,4,48,1656742310811,False,42985,Root,Year.Year<categorical>,nan
-0.14798197150230408,0.093513123691082,4,8,1656742313109,False,42985,Year (slicer) - Year: 2012 selected,Year.Year<categorical>,nan
-0.8246471881866455,0.972205638885498,4,36,1656742322786,False,42985,Ethnicity (slicer) - Ethnicity: Group F selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
-0.9765567183494568,0.6580104231834412,4,47,1656742339489,False,42985,Year (slicer) - Year: 2013 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
-0.8131428360939026,0.9819117188453674,4,36,1656742343445,False,42985,Year (slicer) - Year: 2012 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
-0.25461506843566895,0.10540273785591125,5,48,1656496373229,True,63451,Root,Year.Year<categorical>,nan
-0.204374760389328,0.18932148814201355,5,10,1656496393535,True,63451,New Hires by Ethnicity (clusteredBarChart) - Ethnicity: Group F selected,"NewHiresByEthnicity.Ethnicity<categorical>, Year.Year<categorical>",nan
-0.25461283326148987,0.06360630691051483,5,48,1656496395608,True,63451,New Hires by Ethnicity (clusteredBarChart) - deselected,Year.Year<categorical>,nan
-0.20438680052757263,0.1893632411956787,5,10,1656496397223,True,63451,New Hires by Ethnicity (clusteredBarChart) - Ethnicity: Group F selected,"NewHiresByEthnicity.Ethnicity<categorical>, Year.Year<categorical>",nan
-0.25467169284820557,0.10541468113660812,5,48,1656496405214,True,63451,New Hires by Ethnicity (clusteredBarChart) - deselected,Year.Year<categorical>,nan
-0.20439264178276062,0.18930695950984955,5,10,1656496406275,True,63451,New Hires by Ethnicity (clusteredBarChart) - Ethnicity: Group F selected,"NewHiresByEthnicity.Ethnicity<categorical>, Year.Year<categorical>",nan
-0.26753732562065125,0.08701878041028976,5,48,1656496408495,True,63451,New Hires by Ethnicity (clusteredBarChart) - deselected,Year.Year<categorical>,nan
-0.20436641573905945,0.18936365842819214,5,10,1656496409232,True,63451,New Hires by Ethnicity (clusteredBarChart) - Ethnicity: Group F selected,"NewHiresByEthnicity.Ethnicity<categorical>, Year.Year<categorical>",nan
-0.1482062190771103,0.0986151322722435,5,5,1656496412433,True,63451,Year (slicer) - Year: 2012 selected,"NewHiresByEthnicity.Ethnicity<categorical>, Year.Year<categorical>",nan
-0.20437850058078766,0.18930110335350037,5,10,1656496425476,True,63451,Year (slicer) - Year: 2013 selected,"NewHiresByEthnicity.Ethnicity<categorical>, Year.Year<categorical>",nan
-0.25461506843566895,0.10540273785591125,6,48,1656742436518,True,24974,Root,Year.Year<categorical>,nan
-0.33665257692337036,0.00857000332325697,6,12,1656742438698,True,24974,Ethnicity (slicer) - Ethnicity: Group F selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",nan
-0.814281165599823,0.9736089110374451,6,36,1656742441781,True,24974,Year (slicer) - Year: 2012 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
-0.9756777286529541,0.6966536045074463,6,47,1656742443074,True,24974,Year (slicer) - Year: 2013 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
-0.8198709487915039,0.9925760626792908,6,36,1656742444217,True,24974,Year (slicer) - Year: 2012 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
-0.9860796332359314,0.6952667236328125,6,47,1656742453213,True,24974,Year (slicer) - Year: 2013 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
-0.25461506843566895,0.10540273785591125,7,48,1657146470604,True,40867,Root,Year.Year<categorical>,nan
-0.3366658687591553,0.008610250428318977,7,12,1657146485347,True,40867,Ethnicity (slicer) - Ethnicity: Group F selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",nan
-0.25461506843566895,0.10540273785591125,8,48,1656427379842,True,23531,Root,Year.Year<categorical>,nan
-0.9912819266319275,0.6835076212882996,8,47,1656427384901,True,23531,Ethnicity (slicer) - Ethnicity: Group F selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
-0.8248773813247681,0.972491979598999,8,36,1656427393776,True,23531,Year (slicer) - Year: 2012 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
-0.9876919984817505,0.6636600494384766,8,47,1656427395436,True,23531,Year (slicer) - Year: 2013 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
-0.25461506843566895,0.10540273785591125,9,48,1656682869898,False,64318,Root,Year.Year<categorical>,nan
-0.3366507291793823,0.00854769442230463,9,12,1656682882962,False,64318,Ethnicity (slicer) - Ethnicity: Group F selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",nan
-0.26723140478134155,0.07935164868831635,9,48,1656682894394,False,64318,Ethnicity (slicer) - deselected,Year.Year<categorical>,nan
-0.991282045841217,0.68350750207901,9,47,1656682900013,False,64318,Ethnicity (slicer) - Ethnicity: Group F selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
-0.8670443892478943,0.7857924699783325,9,8,1656682904844,False,64318,Year (slicer) - deselected,Ethnicity.Ethnicity<categorical>,NewHiresByEthnicity.Ethnicity<categorical>
-0.8202817440032959,0.9925487637519836,9,36,1656682908800,False,64318,Year (slicer) - Year: 2012 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
-0.8670305609703064,0.785695493221283,9,8,1656682913946,False,64318,Year (slicer) - deselected,Ethnicity.Ethnicity<categorical>,NewHiresByEthnicity.Ethnicity<categorical>
-0.9674083590507507,0.6794599890708923,9,47,1656682914857,False,64318,Year (slicer) - Year: 2013 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
-0.8670357465744019,0.7857086658477783,9,8,1656682918125,False,64318,Year (slicer) - deselected,Ethnicity.Ethnicity<categorical>,NewHiresByEthnicity.Ethnicity<categorical>
-0.8268874287605286,0.9811132550239563,9,36,1656682919127,False,64318,Year (slicer) - Year: 2012 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
-0.8670331835746765,0.7857715487480164,9,8,1656682925254,False,64318,Year (slicer) - deselected,Ethnicity.Ethnicity<categorical>,NewHiresByEthnicity.Ethnicity<categorical>
-0.9756694436073303,0.6966501474380493,9,47,1656682926027,False,64318,Year (slicer) - Year: 2013 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
-0.25461506843566895,0.10540273785591125,10,48,1656742700446,True,20506,Root,Year.Year<categorical>,nan
-0.9866971373558044,0.6623783111572266,10,47,1656742707565,True,20506,Ethnicity (slicer) - Ethnicity: Group F selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
-0.25461506843566895,0.10540273785591125,11,48,1656742378341,True,29939,Root,Year.Year<categorical>,nan
-0.33662331104278564,0.00850690621882677,11,12,1656742385457,True,29939,Ethnicity (slicer) - Ethnicity: Group F selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",nan
-0.8145570158958435,0.973041296005249,11,36,1656742393996,True,29939,Year (slicer) - Year: 2012 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
-0.9778087139129639,0.6578528881072998,11,47,1656742401845,True,29939,Year (slicer) - Year: 2013 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
-0.25461506843566895,0.10540273785591125,12,48,1656742302254,True,21446,Root,Year.Year<categorical>,nan
-0.9689323902130127,0.6670990586280823,12,47,1656742306935,True,21446,Ethnicity (slicer) - Ethnicity: Group F selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
-0.8268879055976868,0.9810755252838135,12,36,1656742318324,True,21446,Year (slicer) - Year: 2012 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
-0.25461506843566895,0.10540273785591125,13,48,1656682864539,True,34279,Root,Year.Year<categorical>,nan
-0.2043708860874176,0.1893811821937561,13,10,1656682870876,True,34279,New Hires by Ethnicity (clusteredBarChart) - Ethnicity: Group F selected,"NewHiresByEthnicity.Ethnicity<categorical>, Year.Year<categorical>",nan
-0.24329321086406708,0.08463666588068008,13,48,1656682878552,True,34279,New Hires by Ethnicity (clusteredBarChart) - deselected,Year.Year<categorical>,nan
-0.3366565704345703,0.0087404390797019,13,12,1656682880349,True,34279,Ethnicity (slicer) - Ethnicity: Group F selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",nan
-0.24660724401474,0.09804327040910721,13,48,1656682881024,True,34279,New Hires by Ethnicity (clusteredBarChart) - deselected,Year.Year<categorical>,nan
-0.20438046753406525,0.1893177479505539,13,10,1656682881908,True,34279,New Hires by Ethnicity (clusteredBarChart) - Ethnicity: Group F selected,"NewHiresByEthnicity.Ethnicity<categorical>, Year.Year<categorical>",nan
-0.8203005194664001,0.9925227761268616,13,36,1656682886009,True,34279,Year (slicer) - Year: 2012 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
-0.9900743961334229,0.6691884398460388,13,47,1656682890077,True,34279,Year (slicer) - Year: 2013 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
-0.82593834400177,0.9870258569717407,13,36,1656682891779,True,34279,Year (slicer) - Year: 2012 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
-0.25461506843566895,0.10540273785591125,14,48,1656682985345,True,16976,Root,Year.Year<categorical>,nan
-0.3366382420063019,0.008466617204248905,14,12,1656682989028,True,16976,Ethnicity (slicer) - Ethnicity: Group F selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",nan
-0.8133587837219238,0.9837283492088318,14,36,1656682994243,True,16976,Year (slicer) - Year: 2012 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
-0.9865812659263611,0.6622453927993774,14,47,1656682996055,True,16976,Year (slicer) - Year: 2013 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
-0.25461506843566895,0.10540273785591125,15,48,1656742290076,True,45765,Root,Year.Year<categorical>,nan
-0.969579815864563,0.6654358506202698,15,47,1656742299687,True,45765,Ethnicity (slicer) - Ethnicity: Group F selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
-0.8133401274681091,0.9835458993911743,15,36,1656742322553,True,45765,Year (slicer) - Year: 2012 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
-0.9759014248847961,0.6967446208000183,15,47,1656742328472,True,45765,Year (slicer) - Year: 2013 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
-0.25461506843566895,0.10540273785591125,16,48,1656682747576,True,37355,Root,Year.Year<categorical>,nan
-0.9918276071548462,0.6755285859107971,16,47,1656682753371,True,37355,Ethnicity (slicer) - Ethnicity: Group F selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
-0.8131420016288757,0.9819010496139526,16,36,1656682756187,True,37355,Year (slicer) - Year: 2012 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
-0.9731160998344421,0.6948103904724121,16,47,1656682758753,True,37355,Year (slicer) - Year: 2013 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
-0.9528827667236328,0.8289112448692322,16,3,1656682764730,True,37355,"Year (slicer) - Year: 2013, 2012 selected","Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
-0.8670624494552612,0.7857269644737244,16,8,1656682769845,True,37355,Year (slicer) - deselected,Ethnicity.Ethnicity<categorical>,NewHiresByEthnicity.Ethnicity<categorical>
-0.8252598643302917,0.9885554313659668,16,36,1656682772609,True,37355,Year (slicer) - Year: 2012 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
-0.9876373410224915,0.663581907749176,16,47,1656682774899,True,37355,Year (slicer) - Year: 2013 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
-0.25461506843566895,0.10540273785591125,17,48,1656742557512,True,34543,Root,Year.Year<categorical>,nan
-0.14795824885368347,0.09348927438259125,17,8,1656742561482,True,34543,Year (slicer) - Year: 2012 selected,Year.Year<categorical>,nan
-0.24329304695129395,0.08463150262832642,17,48,1656742582794,True,34543,Year (slicer) - Year: 2013 selected,Year.Year<categorical>,nan
-0.25461506843566895,0.10540273785591125,18,48,1656672450132,True,28924,Root,Year.Year<categorical>,nan
-0.33666279911994934,0.008579700253903866,18,12,1656672456086,True,28924,Ethnicity (slicer) - Ethnicity: Group F selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",nan
-0.8225194215774536,0.9697879552841187,18,36,1656672464913,True,28924,Year (slicer) - Year: 2012 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
-0.9695800542831421,0.6654354333877563,18,47,1656672472398,True,28924,Year (slicer) - Year: 2013 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
-0.25461506843566895,0.10540273785591125,19,48,1656742254938,True,18035,Root,Year.Year<categorical>,nan
-0.20436006784439087,0.18931807577610016,19,10,1656742258884,True,18035,New Hires by Ethnicity (clusteredBarChart) - Ethnicity: Group F selected,"NewHiresByEthnicity.Ethnicity<categorical>, Year.Year<categorical>",nan
-0.1482125073671341,0.09862000495195389,19,5,1656742263913,True,18035,Year (slicer) - Year: 2012 selected,"NewHiresByEthnicity.Ethnicity<categorical>, Year.Year<categorical>",nan
-0.25461506843566895,0.10540273785591125,20,48,1656682552468,True,35073,Root,Year.Year<categorical>,nan
-0.25461506843566895,0.10540273785591125,21,48,1656683555365,True,59227,Root,Year.Year<categorical>,nan
-0.3366549611091614,0.00857591349631548,21,12,1656683560310,True,59227,Ethnicity (slicer) - Ethnicity: Group F selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",nan
-0.8180918097496033,0.9692745208740234,21,36,1656683565010,True,59227,Year (slicer) - Year: 2012 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
-0.9756777286529541,0.6966536045074463,21,47,1656683605237,True,59227,Year (slicer) - Year: 2013 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
-0.25461506843566895,0.10540273785591125,22,48,1656683347204,False,5465,Root,Year.Year<categorical>,nan
-0.25461506843566895,0.10540273785591125,23,48,1656682629223,True,63244,Root,Year.Year<categorical>,nan
-0.14795422554016113,0.09348069876432419,23,8,1656682659734,True,63244,Year (slicer) - Year: 2012 selected,Year.Year<categorical>,nan
-0.25463932752609253,0.0636044293642044,23,48,1656682680581,True,63244,Year (slicer) - Year: 2013 selected,Year.Year<categorical>,nan
-0.25461506843566895,0.10540273785591125,24,48,1656683025413,True,31880,Root,Year.Year<categorical>,nan
-0.9702345728874207,0.6912088394165039,24,47,1656683029072,True,31880,Ethnicity (slicer) - Ethnicity: Group F selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
-0.8241937756538391,0.971335768699646,24,36,1656683042284,True,31880,Year (slicer) - Year: 2012 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
-0.8651636242866516,0.7837905287742615,24,2,1656683044254,True,31880,Year (slicer) - Year: 2014 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
-0.9898961782455444,0.6882429122924805,24,47,1656683047219,True,31880,Year (slicer) - Year: 2013 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
-0.25461506843566895,0.10540273785591125,25,48,1656405278820,True,72918,Root,Year.Year<categorical>,nan
-0.9843006134033203,0.6961334943771362,25,47,1656405283718,True,72918,Ethnicity (slicer) - Ethnicity: Group F selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
-0.9528256058692932,0.8289214372634888,25,3,1656405287423,True,72918,"Year (slicer) - Year: 2013, 2012 selected","Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
-0.9561575651168823,0.8230600953102112,25,1,1656405301566,True,72918,Ethnicity (slicer) - deselected,Year.Year<categorical>,NewHiresByEthnicity.Ethnicity<categorical>
-0.9529639482498169,0.8289838433265686,25,3,1656405301829,True,72918,Ethnicity (slicer) - Ethnicity: Group F selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
-0.8670194149017334,0.7857509851455688,25,8,1656405322803,True,72918,Year (slicer) - deselected,Ethnicity.Ethnicity<categorical>,NewHiresByEthnicity.Ethnicity<categorical>
-0.8205849528312683,0.9689687490463257,25,36,1656405328939,True,72918,Year (slicer) - Year: 2012 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
-0.9777888655662537,0.6578544974327087,25,47,1656405331925,True,72918,Year (slicer) - Year: 2013 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
-0.8269395232200623,0.9810428619384766,25,36,1656405337951,True,72918,Year (slicer) - Year: 2012 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
-0.8651564717292786,0.7837697863578796,25,2,1656405339441,True,72918,Year (slicer) - Year: 2014 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
-0.970212459564209,0.6901837587356567,25,47,1656405340202,True,72918,Year (slicer) - Year: 2013 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
-0.25461506843566895,0.10540273785591125,26,48,1656683021214,True,31174,Root,Year.Year<categorical>,nan
-0.9695782661437988,0.6654396057128906,26,47,1656683041573,True,31174,Ethnicity (slicer) - Ethnicity: Group F selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
-0.25461506843566895,0.10540273785591125,27,48,1656960927963,True,52692,Root,Year.Year<categorical>,nan
-0.29177069664001465,0.1766052544116974,27,1,1656960930564,True,52692,New Hires and New Hires Same Period Last Year (SPLY) (clusteredColumnChart) - Month: Jul selected,"NewHiresAndNewHiresSamePeriodLastYear(SPLY).Month<categorical>, Year.Year<categorical>",NewHiresByMonth(Full-Time/Part-Time).Month<categorical>
-0.2915407419204712,0.17712034285068512,27,1,1656960932570,True,52692,New Hires and New Hires Same Period Last Year (SPLY) (clusteredColumnChart) - Month: Aug selected,"NewHiresAndNewHiresSamePeriodLastYear(SPLY).Month<categorical>, Year.Year<categorical>",NewHiresByMonth(Full-Time/Part-Time).Month<categorical>
-0.26359236240386963,0.01358353067189455,27,1,1656960934535,True,52692,New Hires by Ethnicity (clusteredBarChart) - Ethnicity: Group B selected,"NewHiresByEthnicity.Ethnicity<categorical>, Year.Year<categorical>",nan
-0.3292141556739807,0.0,27,1,1656960950707,True,52692,Ethnicity (slicer) - Ethnicity: Group F selected,"NewHiresByEthnicity.Ethnicity<categorical>, Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",nan
-0.7901410460472107,1.0,27,1,1656960960372,True,52692,Year (slicer) - Year: 2012 selected,"NewHiresByEthnicity.Ethnicity<categorical>, Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
-1.0,0.6185709238052368,27,1,1656960968824,True,52692,Year (slicer) - Year: 2013 selected,"NewHiresByEthnicity.Ethnicity<categorical>, Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
-0.25461506843566895,0.10540273785591125,28,48,1656743348054,True,12694,Root,Year.Year<categorical>,nan
-0.9919689893722534,0.677905261516571,28,47,1656743350747,True,12694,Ethnicity (slicer) - Ethnicity: Group F selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
-0.25461506843566895,0.10540273785591125,29,48,1656682782927,True,71302,Root,Year.Year<categorical>,nan
-0.9846675992012024,0.6960558295249939,29,47,1656682799547,True,71302,Ethnicity (slicer) - Ethnicity: Group F selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
-0.8268874287605286,0.981113076210022,29,36,1656682833938,True,71302,Year (slicer) - Year: 2012 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
-0.8670185208320618,0.7857484221458435,29,8,1656682833977,True,71302,Year (slicer) - deselected,Ethnicity.Ethnicity<categorical>,NewHiresByEthnicity.Ethnicity<categorical>
-0.8189933896064758,0.9689196348190308,29,36,1656682837498,True,71302,Year (slicer) - Year: 2012 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
-0.8670227527618408,0.7857261300086975,29,8,1656682842875,True,71302,Year (slicer) - deselected,Ethnicity.Ethnicity<categorical>,NewHiresByEthnicity.Ethnicity<categorical>
-0.969548225402832,0.6655024290084839,29,47,1656682844741,True,71302,Year (slicer) - Year: 2013 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
-0.25461506843566895,0.10540273785591125,30,48,1657184510780,True,39748,Root,Year.Year<categorical>,nan
-0.20437058806419373,0.18937575817108154,30,10,1657184519922,True,39748,New Hires by Ethnicity (clusteredBarChart) - Ethnicity: Group F selected,"NewHiresByEthnicity.Ethnicity<categorical>, Year.Year<categorical>",nan
-0.14814084768295288,0.09861405193805695,30,5,1657184529185,True,39748,Year (slicer) - Year: 2012 selected,"NewHiresByEthnicity.Ethnicity<categorical>, Year.Year<categorical>",nan
-0.14795927703380585,0.09348119795322418,30,8,1657184531143,True,39748,New Hires by Ethnicity (clusteredBarChart) - deselected,Year.Year<categorical>,nan
-0.14821836352348328,0.09861696511507034,30,5,1657184531847,True,39748,New Hires by Ethnicity (clusteredBarChart) - Ethnicity: Group F selected,"NewHiresByEthnicity.Ethnicity<categorical>, Year.Year<categorical>",nan
-0.14798006415367126,0.09350192546844482,30,8,1657184535181,True,39748,New Hires by Ethnicity (clusteredBarChart) - deselected,Year.Year<categorical>,nan
-0.14821673929691315,0.09861667454242706,30,5,1657184535850,True,39748,New Hires by Ethnicity (clusteredBarChart) - Ethnicity: Group F selected,"NewHiresByEthnicity.Ethnicity<categorical>, Year.Year<categorical>",nan
-0.2043793797492981,0.18929871916770935,30,10,1657184543080,True,39748,Year (slicer) - Year: 2013 selected,"NewHiresByEthnicity.Ethnicity<categorical>, Year.Year<categorical>",nan
-0.25461506843566895,0.10540273785591125,31,48,1655899050102,True,21607,Root,Year.Year<categorical>,nan
-0.9697149991989136,0.6651265025138855,31,47,1655899055719,True,21607,Ethnicity (slicer) - Ethnicity: Group F selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
-0.8268879055976868,0.9810752868652344,31,36,1655899063558,True,21607,Year (slicer) - Year: 2012 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
-0.25461506843566895,0.10540273785591125,32,48,1656742813558,True,57312,Root,Year.Year<categorical>,nan
-0.14797818660736084,0.09349601715803146,32,8,1656742836284,True,57312,Year (slicer) - Year: 2012 selected,Year.Year<categorical>,nan
-0.8135627508163452,0.9847692847251892,32,36,1656742840402,True,57312,Ethnicity (slicer) - Ethnicity: Group F selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
-0.9826614856719971,0.6593457460403442,32,47,1656742844229,True,57312,Year (slicer) - Year: 2013 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
-0.25461506843566895,0.10540273785591125,33,48,1656682778146,True,43226,Root,Year.Year<categorical>,nan
-0.14790047705173492,0.09348136186599731,33,8,1656682786842,True,43226,Year (slicer) - Year: 2012 selected,Year.Year<categorical>,nan
-0.0,0.07780922949314117,33,1,1656682799213,True,43226,Year (slicer) - Year: 2014 selected,Year.Year<categorical>,nan
-0.25462767481803894,0.06360463798046112,33,48,1656682805224,True,43226,Year (slicer) - Year: 2013 selected,Year.Year<categorical>,nan
-0.14796949923038483,0.09347853809595108,33,8,1656682812016,True,43226,Year (slicer) - Year: 2012 selected,Year.Year<categorical>,nan
-0.25461506843566895,0.10540273785591125,34,48,1656682834999,True,40065,Root,Year.Year<categorical>,nan
-0.292111873626709,0.11463617533445358,34,1,1656682850544,True,40065,Ethnicity (slicer) - Ethnicity: Group E selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",nan
-0.9756777286529541,0.6966536045074463,34,47,1656682851987,True,40065,Ethnicity (slicer) - Ethnicity: Group F selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
-0.25461506843566895,0.10540273785591125,35,48,1656742155486,True,55453,Root,Year.Year<categorical>,nan
-0.9898677468299866,0.668751060962677,35,47,1656742165600,True,55453,Ethnicity (slicer) - Ethnicity: Group F selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
-0.8198711276054382,0.9925760626792908,35,36,1656742188938,True,55453,Year (slicer) - Year: 2012 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
-0.9913109540939331,0.6835787892341614,35,47,1656742191148,True,55453,Year (slicer) - Year: 2013 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
-0.8247393369674683,0.972260594367981,35,36,1656742199788,True,55453,Year (slicer) - Year: 2012 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
-0.25461506843566895,0.10540273785591125,36,48,1656742438614,True,23586,Root,Year.Year<categorical>,nan
-0.33666035532951355,0.008548818528652191,36,12,1656742444909,True,23586,Ethnicity (slicer) - Ethnicity: Group F selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",nan
-0.8199988007545471,0.9925762414932251,36,36,1656742452675,True,23586,Year (slicer) - Year: 2012 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
-0.9778093695640564,0.6578527688980103,36,47,1656742456143,True,23586,Year (slicer) - Year: 2013 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
-0.25461506843566895,0.10540273785591125,37,48,1656682923432,True,27936,Root,Year.Year<categorical>,nan
-0.3366720974445343,0.008555976673960686,37,12,1656682930649,True,27936,Ethnicity (slicer) - Ethnicity: Group F selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",nan
-0.8189767003059387,0.9689229130744934,37,36,1656682934746,True,27936,Year (slicer) - Year: 2012 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
-0.9915716648101807,0.6681462526321411,37,47,1656682943431,True,27936,Year (slicer) - Year: 2013 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
-0.25461506843566895,0.10540273785591125,38,48,"1,65668E+12",True,-1,Root,Year.Year<categorical>,nan
-0.3366299271583557,0.00860754493623972,38,12,"1,65668E+12",True,-1,Ethnicity (slicer) - Ethnicity: Group F selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",nan
-0.8133396506309509,0.9835432171821594,38,36,"1,65668E+12",True,-1,Year (slicer) - Year: 2012 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
-0.9860793948173523,0.695266842842102,38,47,"1,65668E+12",True,-1,Year (slicer) - Year: 2013 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
-0.25461506843566895,0.10540273785591125,39,48,1656682761248,True,17323,Root,Year.Year<categorical>,nan
-0.9674971699714661,0.6801691651344299,39,47,1656682764824,True,17323,Ethnicity (slicer) - Ethnicity: Group F selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
-0.8160014152526855,0.9904309511184692,39,36,1656682767932,True,17323,Year (slicer) - Year: 2012 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
-0.9683904647827148,0.6847035884857178,39,47,1656682773682,True,17323,Year (slicer) - Year: 2013 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.23149186372756958,0.952316164970398,1,53,1656742615838,True,44458,Root,Year.Year<categorical>,nan
+0.9803004264831543,0.18990646302700043,1,1,1656742618006,True,44458,Ethnicity (slicer) - Ethnicity: Group E selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.9599889516830444,0.18723833560943604,1,1,1656742634213,True,44458,Ethnicity (slicer) - deselected,Year.Year<categorical>,NewHiresByEthnicity.Ethnicity<categorical>
+0.8876112103462219,0.18453337252140045,1,54,1656742634275,True,44458,Ethnicity (slicer) - Ethnicity: Group F selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.475493848323822,0.03329705819487572,1,40,1656742644978,True,44458,Year (slicer) - Year: 2012 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.8945339322090149,0.18294593691825867,1,54,1656742646692,True,44458,Year (slicer) - Year: 2013 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.4764101803302765,0.03456287458539009,1,40,1656742647930,True,44458,Year (slicer) - Year: 2012 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.9014825820922852,0.17918886244297028,1,54,1656742648864,True,44458,Year (slicer) - Year: 2013 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.4735780358314514,0.028730660676956177,1,40,1656742650322,True,44458,Year (slicer) - Year: 2012 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.8945337533950806,0.18294599652290344,1,54,1656742652306,True,44458,Year (slicer) - Year: 2013 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.475493848323822,0.03329705819487572,1,40,1656742653582,True,44458,Year (slicer) - Year: 2012 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.9038057923316956,0.17638328671455383,1,54,1656742655026,True,44458,Year (slicer) - Year: 2013 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.23149186372756958,0.952316164970398,2,53,1656682603248,True,41080,Root,Year.Year<categorical>,nan
+0.861774206161499,0.17706885933876038,2,54,1656682622142,True,41080,Ethnicity (slicer) - Ethnicity: Group F selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.49952197074890137,0.024138322100043297,2,40,1656682634717,True,41080,Year (slicer) - Year: 2012 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.861774206161499,0.1770687848329544,2,54,1656682636572,True,41080,Year (slicer) - Year: 2013 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.23149186372756958,0.952316164970398,3,53,1656742692209,True,20505,Root,Year.Year<categorical>,nan
+0.39194440841674805,0.9919494986534119,3,13,1656742696697,True,20505,Ethnicity (slicer) - Ethnicity: Group F selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",nan
+0.4866529405117035,0.03854895383119583,3,40,1656742702628,True,20505,Year (slicer) - Year: 2012 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.8700777888298035,0.15770938992500305,3,54,1656742704647,True,20505,Year (slicer) - Year: 2013 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.23149186372756958,0.952316164970398,4,53,1656742310811,False,42985,Root,Year.Year<categorical>,nan
+0.17683114111423492,0.8262186050415039,4,8,1656742313109,False,42985,Year (slicer) - Year: 2012 selected,Year.Year<categorical>,nan
+0.5025930404663086,0.03204978257417679,4,40,1656742322786,False,42985,Ethnicity (slicer) - Ethnicity: Group F selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.8618336319923401,0.17731548845767975,4,54,1656742339489,False,42985,Year (slicer) - Year: 2013 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.5028095245361328,0.031125636771321297,4,40,1656742343445,False,42985,Year (slicer) - Year: 2012 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.23149186372756958,0.952316164970398,5,53,1656496373229,True,63451,Root,Year.Year<categorical>,nan
+0.3137979209423065,0.8575279712677002,5,11,1656496393535,True,63451,New Hires by Ethnicity (clusteredBarChart) - Ethnicity: Group F selected,"NewHiresByEthnicity.Ethnicity<categorical>, Year.Year<categorical>",nan
+0.21564362943172455,0.9317856431007385,5,53,1656496395608,True,63451,New Hires by Ethnicity (clusteredBarChart) - deselected,Year.Year<categorical>,nan
+0.31377461552619934,0.8574711680412292,5,11,1656496397223,True,63451,New Hires by Ethnicity (clusteredBarChart) - Ethnicity: Group F selected,"NewHiresByEthnicity.Ethnicity<categorical>, Year.Year<categorical>",nan
+0.24582162499427795,0.9511760473251343,5,53,1656496405214,True,63451,New Hires by Ethnicity (clusteredBarChart) - deselected,Year.Year<categorical>,nan
+0.3138168454170227,0.8574960827827454,5,11,1656496406275,True,63451,New Hires by Ethnicity (clusteredBarChart) - Ethnicity: Group F selected,"NewHiresByEthnicity.Ethnicity<categorical>, Year.Year<categorical>",nan
+0.22544844448566437,0.9510398507118225,5,53,1656496408495,True,63451,New Hires by Ethnicity (clusteredBarChart) - deselected,Year.Year<categorical>,nan
+0.3137977719306946,0.8574668765068054,5,11,1656496409232,True,63451,New Hires by Ethnicity (clusteredBarChart) - Ethnicity: Group F selected,"NewHiresByEthnicity.Ethnicity<categorical>, Year.Year<categorical>",nan
+0.1814846247434616,0.8250805735588074,5,5,1656496412433,True,63451,Year (slicer) - Year: 2012 selected,"NewHiresByEthnicity.Ethnicity<categorical>, Year.Year<categorical>",nan
+0.3138023912906647,0.8576249480247498,5,11,1656496425476,True,63451,Year (slicer) - Year: 2013 selected,"NewHiresByEthnicity.Ethnicity<categorical>, Year.Year<categorical>",nan
+0.23149186372756958,0.952316164970398,6,53,1656742436518,True,24974,Root,Year.Year<categorical>,nan
+0.39193806052207947,0.9919503927230835,6,13,1656742438698,True,24974,Ethnicity (slicer) - Ethnicity: Group F selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",nan
+0.4775727689266205,0.024536529555916786,6,40,1656742441781,True,24974,Year (slicer) - Year: 2012 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.8617738485336304,0.17706827819347382,6,54,1656742443074,True,24974,Year (slicer) - Year: 2013 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.48643869161605835,0.021621529012918472,6,40,1656742444217,True,24974,Year (slicer) - Year: 2012 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.8759812712669373,0.18486370146274567,6,54,1656742453213,True,24974,Year (slicer) - Year: 2013 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.23149186372756958,0.952316164970398,7,53,1657146470604,True,40867,Root,Year.Year<categorical>,nan
+0.3919464349746704,0.9919564723968506,7,13,1657146485347,True,40867,Ethnicity (slicer) - Ethnicity: Group F selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",nan
+0.23149186372756958,0.952316164970398,8,53,1656427379842,True,23531,Root,Year.Year<categorical>,nan
+0.8620162010192871,0.17742225527763367,8,54,1656427384901,True,23531,Ethnicity (slicer) - Ethnicity: Group F selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.4733937084674835,0.028639337047934532,8,40,1656427393776,True,23531,Year (slicer) - Year: 2012 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.9014820456504822,0.17918924987316132,8,54,1656427395436,True,23531,Year (slicer) - Year: 2013 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.23149186372756958,0.952316164970398,9,53,1656682869898,False,64318,Root,Year.Year<categorical>,nan
+0.39194267988204956,0.9919794797897339,9,13,1656682882962,False,64318,Ethnicity (slicer) - Ethnicity: Group F selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",nan
+0.24573613703250885,0.9254685044288635,9,53,1656682894394,False,64318,Ethnicity (slicer) - deselected,Year.Year<categorical>,nan
+0.9014071226119995,0.17930074036121368,9,54,1656682900013,False,64318,Ethnicity (slicer) - Ethnicity: Group F selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.7143890857696533,0.05978541448712349,9,9,1656682904844,False,64318,Year (slicer) - deselected,Ethnicity.Ethnicity<categorical>,NewHiresByEthnicity.Ethnicity<categorical>
+0.47357797622680664,0.02873086743056774,9,40,1656682908800,False,64318,Year (slicer) - Year: 2012 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.7143328785896301,0.05976147949695587,9,9,1656682913946,False,64318,Year (slicer) - deselected,Ethnicity.Ethnicity<categorical>,NewHiresByEthnicity.Ethnicity<categorical>
+0.8942853212356567,0.183648943901062,9,54,1656682914857,False,64318,Year (slicer) - Year: 2013 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.7143720984458923,0.05974659323692322,9,9,1656682918125,False,64318,Year (slicer) - deselected,Ethnicity.Ethnicity<categorical>,NewHiresByEthnicity.Ethnicity<categorical>
+0.47357794642448425,0.028730712831020355,9,40,1656682919127,False,64318,Year (slicer) - Year: 2012 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.7144156098365784,0.059741757810115814,9,9,1656682925254,False,64318,Year (slicer) - deselected,Ethnicity.Ethnicity<categorical>,NewHiresByEthnicity.Ethnicity<categorical>
+0.8735977411270142,0.18457140028476715,9,54,1656682926027,False,64318,Year (slicer) - Year: 2013 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.23149186372756958,0.952316164970398,10,53,1656742700446,True,20506,Root,Year.Year<categorical>,nan
+0.894533634185791,0.18294602632522583,10,54,1656742707565,True,20506,Ethnicity (slicer) - Ethnicity: Group F selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.23149186372756958,0.952316164970398,11,53,1656742378341,True,29939,Root,Year.Year<categorical>,nan
+0.3919523358345032,0.9919638633728027,11,13,1656742385457,True,29939,Ethnicity (slicer) - Ethnicity: Group F selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",nan
+0.5014192461967468,0.026451049372553825,11,40,1656742393996,True,29939,Year (slicer) - Year: 2012 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.8760603070259094,0.1848759651184082,11,54,1656742401845,True,29939,Year (slicer) - Year: 2013 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.23149186372756958,0.952316164970398,12,53,1657570791054,True,46858,Root,Year.Year<categorical>,nan
+0.88418048620224,0.15511250495910645,12,54,1657570796236,True,46858,Ethnicity (slicer) - Ethnicity: Group F selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.5013527870178223,0.026100972667336464,12,40,1657570813926,True,46858,Year (slicer) - Year: 2012 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.23149186372756958,0.952316164970398,13,53,1656742302254,True,21446,Root,Year.Year<categorical>,nan
+0.860957682132721,0.1644999086856842,13,54,1656742306935,True,21446,Ethnicity (slicer) - Ethnicity: Group F selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.4866490960121155,0.03854859620332718,13,40,1656742318324,True,21446,Year (slicer) - Year: 2012 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.23149186372756958,0.952316164970398,14,53,1656682864539,True,34279,Root,Year.Year<categorical>,nan
+0.31378957629203796,0.8574938774108887,14,11,1656682870876,True,34279,New Hires by Ethnicity (clusteredBarChart) - Ethnicity: Group F selected,"NewHiresByEthnicity.Ethnicity<categorical>, Year.Year<categorical>",nan
+0.24342460930347443,0.924895167350769,14,53,1656682878552,True,34279,New Hires by Ethnicity (clusteredBarChart) - deselected,Year.Year<categorical>,nan
+0.39193785190582275,0.9919780492782593,14,13,1656682880349,True,34279,Ethnicity (slicer) - Ethnicity: Group F selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",nan
+0.21553948521614075,0.931912362575531,14,53,1656682881024,True,34279,New Hires by Ethnicity (clusteredBarChart) - deselected,Year.Year<categorical>,nan
+0.31381693482398987,0.8575239181518555,14,11,1656682881908,True,34279,New Hires by Ethnicity (clusteredBarChart) - Ethnicity: Group F selected,"NewHiresByEthnicity.Ethnicity<categorical>, Year.Year<categorical>",nan
+0.48582372069358826,0.038560446351766586,14,40,1656682886009,True,34279,Year (slicer) - Year: 2012 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.8620136976242065,0.177419051527977,14,54,1656682890077,True,34279,Year (slicer) - Year: 2013 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.5015538334846497,0.03422354534268379,14,40,1656682891779,True,34279,Year (slicer) - Year: 2012 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.23149186372756958,0.952316164970398,15,53,1656682985345,True,16976,Root,Year.Year<categorical>,nan
+0.391934335231781,0.9919706583023071,15,13,1656682989028,True,16976,Ethnicity (slicer) - Ethnicity: Group F selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",nan
+0.499785840511322,0.024500586092472076,15,40,1656682994243,True,16976,Year (slicer) - Year: 2012 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.8595326542854309,0.16764508187770844,15,54,1656682996055,True,16976,Year (slicer) - Year: 2013 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.23149186372756958,0.952316164970398,16,53,1657537655184,True,37816,Root,Year.Year<categorical>,nan
+0.3919403553009033,0.9919531941413879,16,13,1657537666808,True,37816,Ethnicity (slicer) - Ethnicity: Group F selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",nan
+0.23149186372756958,0.952316164970398,17,53,1657540597241,True,77634,Root,Year.Year<categorical>,nan
+0.8597115278244019,0.1670672595500946,17,54,1657540611519,True,77634,Ethnicity (slicer) - Ethnicity: Group F selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.5012882351875305,0.02635764330625534,17,40,1657540623213,True,77634,Year (slicer) - Year: 2012 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.7300716638565063,0.052920687943696976,17,3,1657540650793,True,77634,Year (slicer) - Year: 2014 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.8700785040855408,0.15770918130874634,17,54,1657540661478,True,77634,Year (slicer) - Year: 2013 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.48943373560905457,0.021542571485042572,17,40,1657540664992,True,77634,Year (slicer) - Year: 2012 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.8699378371238708,0.15776754915714264,17,54,1657540666772,True,77634,Year (slicer) - Year: 2013 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.23149186372756958,0.952316164970398,18,53,1656742290076,True,45765,Root,Year.Year<categorical>,nan
+0.9005950093269348,0.15937963128089905,18,54,1656742299687,True,45765,Ethnicity (slicer) - Ethnicity: Group F selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.48847639560699463,0.021548228338360786,18,40,1656742322553,True,45765,Year (slicer) - Year: 2012 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.8759812712669373,0.18486370146274567,18,54,1656742328472,True,45765,Year (slicer) - Year: 2013 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.23149186372756958,0.952316164970398,19,53,1656682747576,True,37355,Root,Year.Year<categorical>,nan
+0.8595872521400452,0.16746006906032562,19,54,1656682753371,True,37355,Ethnicity (slicer) - Ethnicity: Group F selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.4900738596916199,0.021534163504838943,19,40,1656682756187,True,37355,Year (slicer) - Year: 2012 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.9078698754310608,0.1679970622062683,19,54,1656682758753,True,37355,Year (slicer) - Year: 2013 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.7170274257659912,0.15822087228298187,19,3,1656682764730,True,37355,"Year (slicer) - Year: 2013, 2012 selected","Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.7143476009368896,0.0597807876765728,19,9,1656682769845,True,37355,Year (slicer) - deselected,Ethnicity.Ethnicity<categorical>,NewHiresByEthnicity.Ethnicity<categorical>
+0.4973449110984802,0.03738027438521385,19,40,1656682772609,True,37355,Year (slicer) - Year: 2012 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.8850871920585632,0.1705782562494278,19,54,1656682774899,True,37355,Year (slicer) - Year: 2013 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.23149186372756958,0.952316164970398,20,53,1656742557512,True,34543,Root,Year.Year<categorical>,nan
+0.17684406042099,0.8261529803276062,20,8,1656742561482,True,34543,Year (slicer) - Year: 2012 selected,Year.Year<categorical>,nan
+0.25862205028533936,0.9427033066749573,20,53,1656742582794,True,34543,Year (slicer) - Year: 2013 selected,Year.Year<categorical>,nan
+0.23149186372756958,0.952316164970398,21,53,1656672450132,True,28924,Root,Year.Year<categorical>,nan
+0.39193978905677795,0.9919461607933044,21,13,1656672456086,True,28924,Ethnicity (slicer) - Ethnicity: Group F selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",nan
+0.49734118580818176,0.03738202527165413,21,40,1656672464913,True,28924,Year (slicer) - Year: 2012 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.9008092284202576,0.15951518714427948,21,54,1656672472398,True,28924,Year (slicer) - Year: 2013 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.23149186372756958,0.952316164970398,22,53,1656742254938,True,18035,Root,Year.Year<categorical>,nan
+0.31383731961250305,0.8574655055999756,22,11,1656742258884,True,18035,New Hires by Ethnicity (clusteredBarChart) - Ethnicity: Group F selected,"NewHiresByEthnicity.Ethnicity<categorical>, Year.Year<categorical>",nan
+0.18148401379585266,0.8251413106918335,22,5,1656742263913,True,18035,Year (slicer) - Year: 2012 selected,"NewHiresByEthnicity.Ethnicity<categorical>, Year.Year<categorical>",nan
+0.23149186372756958,0.952316164970398,23,53,1656682552468,True,35073,Root,Year.Year<categorical>,nan
+0.23149186372756958,0.952316164970398,24,53,1656683555365,True,59227,Root,Year.Year<categorical>,nan
+0.3919436037540436,0.9919506311416626,24,13,1656683560310,True,59227,Ethnicity (slicer) - Ethnicity: Group F selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",nan
+0.5012751817703247,0.03440490737557411,24,40,1656683565010,True,59227,Year (slicer) - Year: 2012 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.8842896819114685,0.15512654185295105,24,54,1656683605237,True,59227,Year (slicer) - Year: 2013 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.23149186372756958,0.952316164970398,25,53,1657556589970,True,138990,Root,Year.Year<categorical>,nan
+0.3138218820095062,0.8575071692466736,25,11,1657556596653,True,138990,New Hires by Ethnicity (clusteredBarChart) - Ethnicity: Group F selected,"NewHiresByEthnicity.Ethnicity<categorical>, Year.Year<categorical>",nan
+0.3985094428062439,0.9640184044837952,25,1,1657556616686,True,138990,Ethnicity (slicer) - Ethnicity: Group F selected,"NewHiresByEthnicity.Ethnicity<categorical>, Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",nan
+0.9653903245925903,0.23086507618427277,25,1,1657556653085,True,138990,Ethnicity (slicer) - Ethnicity: Group A selected,"NewHiresByEthnicity.Ethnicity<categorical>, Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.9902820587158203,0.22932972013950348,25,1,1657556653863,True,138990,Ethnicity (slicer) - Ethnicity: Group B selected,"NewHiresByEthnicity.Ethnicity<categorical>, Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.9987992644309998,0.2211424857378006,25,1,1657556655336,True,138990,Ethnicity (slicer) - Ethnicity: Group C selected,"NewHiresByEthnicity.Ethnicity<categorical>, Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.9972829818725586,0.2103591114282608,25,1,1657556655969,True,138990,Ethnicity (slicer) - Ethnicity: Group E selected,"NewHiresByEthnicity.Ethnicity<categorical>, Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.9836149215698242,0.23108357191085815,25,2,1657556670932,True,138990,Ethnicity (slicer) - Ethnicity: Group A selected,"NewHiresByEthnicity.Ethnicity<categorical>, Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.9962130784988403,0.22521765530109406,25,1,1657556671664,True,138990,Ethnicity (slicer) - Ethnicity: Group B selected,"NewHiresByEthnicity.Ethnicity<categorical>, Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+1.0,0.21547742187976837,25,1,1657556674617,True,138990,Ethnicity (slicer) - Ethnicity: Group C selected,"NewHiresByEthnicity.Ethnicity<categorical>, Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.9994800686836243,0.21366046369075775,25,1,1657556675776,True,138990,Ethnicity (slicer) - Ethnicity: Group D selected,"NewHiresByEthnicity.Ethnicity<categorical>, Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.9836248755455017,0.23106177151203156,25,2,1657556676905,True,138990,Ethnicity (slicer) - Ethnicity: Group A selected,"NewHiresByEthnicity.Ethnicity<categorical>, Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.9382222890853882,0.23016111552715302,25,4,1657556679434,True,138990,Ethnicity (slicer) - Ethnicity: Group F selected,"NewHiresByEthnicity.Ethnicity<categorical>, Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.4405781328678131,0.05056844279170036,25,1,1657556687661,True,138990,Year (slicer) - Year: 2012 selected,"NewHiresByEthnicity.Ethnicity<categorical>, Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.9383511543273926,0.23013612627983093,25,4,1657556700110,True,138990,Year (slicer) - Year: 2013 selected,"NewHiresByEthnicity.Ethnicity<categorical>, Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.938200831413269,0.2301493138074875,25,4,1657556711247,True,138990,New Hires by Ethnicity (clusteredBarChart) - Ethnicity: Group F selected,"NewHiresByEthnicity.Ethnicity<categorical>, Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.8601195812225342,0.16603602468967438,25,54,1657556711935,True,138990,New Hires by Ethnicity (clusteredBarChart) - deselected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.938294529914856,0.23017853498458862,25,4,1657556712704,True,138990,New Hires by Ethnicity (clusteredBarChart) - Ethnicity: Group F selected,"NewHiresByEthnicity.Ethnicity<categorical>, Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.23149186372756958,0.952316164970398,26,53,1656683347204,False,5465,Root,Year.Year<categorical>,nan
+0.23149186372756958,0.952316164970398,27,53,1656682629223,True,63244,Root,Year.Year<categorical>,nan
+0.17682164907455444,0.8262572884559631,27,8,1656682659734,True,63244,Year (slicer) - Year: 2012 selected,Year.Year<categorical>,nan
+0.22544823586940765,0.9510398507118225,27,53,1656682680581,True,63244,Year (slicer) - Year: 2013 selected,Year.Year<categorical>,nan
+0.23149186372756958,0.952316164970398,28,53,1656683025413,True,31880,Root,Year.Year<categorical>,nan
+0.9062903523445129,0.1674010008573532,28,54,1656683029072,True,31880,Ethnicity (slicer) - Ethnicity: Group F selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.4887535870075226,0.038534581661224365,28,40,1656683042284,True,31880,Year (slicer) - Year: 2012 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.7300612926483154,0.05291338637471199,28,3,1656683044254,True,31880,Year (slicer) - Year: 2014 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.8760603070259094,0.1848759651184082,28,54,1656683047219,True,31880,Year (slicer) - Year: 2013 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.23149186372756958,0.952316164970398,29,53,1657631551006,True,26914,Root,Year.Year<categorical>,nan
+0.8760601878166199,0.18487603962421417,29,54,1657631557958,True,26914,Ethnicity (slicer) - Ethnicity: Group F selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.7143505215644836,0.05981343984603882,29,9,1657631565956,True,26914,Year (slicer) - deselected,Ethnicity.Ethnicity<categorical>,NewHiresByEthnicity.Ethnicity<categorical>
+0.5018748044967651,0.03370683640241623,29,40,1657631566328,True,26914,Year (slicer) - Year: 2012 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.9062903523445129,0.1674010306596756,29,54,1657631572428,True,26914,Year (slicer) - Year: 2013 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.23149186372756958,0.952316164970398,30,53,1656405278820,True,72918,Root,Year.Year<categorical>,nan
+0.9078698754310608,0.1679970622062683,30,54,1656405283718,True,72918,Ethnicity (slicer) - Ethnicity: Group F selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.7171749472618103,0.15808220207691193,30,3,1656405287423,True,72918,"Year (slicer) - Year: 2013, 2012 selected","Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.7202416658401489,0.15892904996871948,30,1,1656405301566,True,72918,Ethnicity (slicer) - deselected,Year.Year<categorical>,NewHiresByEthnicity.Ethnicity<categorical>
+0.7169651985168457,0.15813639760017395,30,3,1656405301829,True,72918,Ethnicity (slicer) - Ethnicity: Group F selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.7143213152885437,0.05974934250116348,30,9,1656405322803,True,72918,Year (slicer) - deselected,Ethnicity.Ethnicity<categorical>,NewHiresByEthnicity.Ethnicity<categorical>
+0.4876912236213684,0.03871242329478264,30,40,1656405328939,True,72918,Year (slicer) - Year: 2012 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.8961425423622131,0.15718813240528107,30,54,1656405331925,True,72918,Year (slicer) - Year: 2013 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.49692413210868835,0.03753916919231415,30,40,1656405337951,True,72918,Year (slicer) - Year: 2012 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.730054497718811,0.052887238562107086,30,3,1656405339441,True,72918,Year (slicer) - Year: 2014 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.8843068480491638,0.1702045202255249,30,54,1656405340202,True,72918,Year (slicer) - Year: 2013 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.23149186372756958,0.952316164970398,31,53,1656683021214,True,31174,Root,Year.Year<categorical>,nan
+0.8700773119926453,0.15770964324474335,31,54,1656683041573,True,31174,Ethnicity (slicer) - Ethnicity: Group F selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.23149186372756958,0.952316164970398,32,53,1656960927963,True,52692,Root,Year.Year<categorical>,nan
+0.34656617045402527,0.9224491715431213,32,1,1656960930564,True,52692,New Hires and New Hires Same Period Last Year (SPLY) (clusteredColumnChart) - Month: Jul selected,"NewHiresAndNewHiresSamePeriodLastYear(SPLY).Month<categorical>, Year.Year<categorical>",NewHiresByMonth(Full-Time/Part-Time).Month<categorical>
+0.34662365913391113,0.9224162697792053,32,1,1656960932570,True,52692,New Hires and New Hires Same Period Last Year (SPLY) (clusteredColumnChart) - Month: Aug selected,"NewHiresAndNewHiresSamePeriodLastYear(SPLY).Month<categorical>, Year.Year<categorical>",NewHiresByMonth(Full-Time/Part-Time).Month<categorical>
+0.24712501466274261,0.9847173690795898,32,1,1656960934535,True,52692,New Hires by Ethnicity (clusteredBarChart) - Ethnicity: Group B selected,"NewHiresByEthnicity.Ethnicity<categorical>, Year.Year<categorical>",nan
+0.37925752997398376,1.0,32,1,1656960950707,True,52692,Ethnicity (slicer) - Ethnicity: Group F selected,"NewHiresByEthnicity.Ethnicity<categorical>, Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",nan
+0.45618364214897156,0.0,32,1,1656960960372,True,52692,Year (slicer) - Year: 2012 selected,"NewHiresByEthnicity.Ethnicity<categorical>, Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.8204556107521057,0.19584748148918152,32,1,1656960968824,True,52692,Year (slicer) - Year: 2013 selected,"NewHiresByEthnicity.Ethnicity<categorical>, Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.23149186372756958,0.952316164970398,33,53,1656743348054,True,12694,Root,Year.Year<categorical>,nan
+0.8644013404846191,0.1610422134399414,33,54,1656743350747,True,12694,Ethnicity (slicer) - Ethnicity: Group F selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.23149186372756958,0.952316164970398,34,53,1656682782927,True,71302,Root,Year.Year<categorical>,nan
+0.8841952681541443,0.15517455339431763,34,54,1656682799547,True,71302,Ethnicity (slicer) - Ethnicity: Group F selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.4991605579853058,0.024021029472351074,34,40,1656682833938,True,71302,Year (slicer) - Year: 2012 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.7143601179122925,0.05974540859460831,34,9,1656682833977,True,71302,Year (slicer) - deselected,Ethnicity.Ethnicity<categorical>,NewHiresByEthnicity.Ethnicity<categorical>
+0.49006712436676025,0.021533804014325142,34,40,1656682837498,True,71302,Year (slicer) - Year: 2012 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.7143920063972473,0.05974980443716049,34,9,1656682842875,True,71302,Year (slicer) - deselected,Ethnicity.Ethnicity<categorical>,NewHiresByEthnicity.Ethnicity<categorical>
+0.8977610468864441,0.1579618752002716,34,54,1656682844741,True,71302,Year (slicer) - Year: 2013 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.23149186372756958,0.952316164970398,35,53,1657184510780,True,39748,Root,Year.Year<categorical>,nan
+0.31381213665008545,0.857496976852417,35,11,1657184519922,True,39748,New Hires by Ethnicity (clusteredBarChart) - Ethnicity: Group F selected,"NewHiresByEthnicity.Ethnicity<categorical>, Year.Year<categorical>",nan
+0.18148137629032135,0.8251281380653381,35,5,1657184529185,True,39748,Year (slicer) - Year: 2012 selected,"NewHiresByEthnicity.Ethnicity<categorical>, Year.Year<categorical>",nan
+0.17684027552604675,0.8261725306510925,35,8,1657184531143,True,39748,New Hires by Ethnicity (clusteredBarChart) - deselected,Year.Year<categorical>,nan
+0.1814984679222107,0.825088381767273,35,5,1657184531847,True,39748,New Hires by Ethnicity (clusteredBarChart) - Ethnicity: Group F selected,"NewHiresByEthnicity.Ethnicity<categorical>, Year.Year<categorical>",nan
+0.1768188625574112,0.8262114524841309,35,8,1657184535181,True,39748,New Hires by Ethnicity (clusteredBarChart) - deselected,Year.Year<categorical>,nan
+0.18150578439235687,0.8250905275344849,35,5,1657184535850,True,39748,New Hires by Ethnicity (clusteredBarChart) - Ethnicity: Group F selected,"NewHiresByEthnicity.Ethnicity<categorical>, Year.Year<categorical>",nan
+0.3138251006603241,0.8574931621551514,35,11,1657184543080,True,39748,Year (slicer) - Year: 2013 selected,"NewHiresByEthnicity.Ethnicity<categorical>, Year.Year<categorical>",nan
+0.23149186372756958,0.952316164970398,36,53,1655899050102,True,21607,Root,Year.Year<categorical>,nan
+0.8973820209503174,0.15780852735042572,36,54,1655899055719,True,21607,Ethnicity (slicer) - Ethnicity: Group F selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.4858236312866211,0.038560446351766586,36,40,1655899063558,True,21607,Year (slicer) - Year: 2012 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.23149186372756958,0.952316164970398,37,53,1656742813558,True,57312,Root,Year.Year<categorical>,nan
+0.17679277062416077,0.8262004852294922,37,8,1656742836284,True,57312,Year (slicer) - Year: 2012 selected,Year.Year<categorical>,nan
+0.48664548993110657,0.038548339158296585,37,40,1656742840402,True,57312,Ethnicity (slicer) - Ethnicity: Group F selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.8699378371238708,0.15776748955249786,37,54,1656742844229,True,57312,Year (slicer) - Year: 2013 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.23149186372756958,0.952316164970398,38,53,1656682778146,True,43226,Root,Year.Year<categorical>,nan
+0.17682692408561707,0.8262119293212891,38,8,1656682786842,True,43226,Year (slicer) - Year: 2012 selected,Year.Year<categorical>,nan
+0.0,0.6949092149734497,38,1,1656682799213,True,43226,Year (slicer) - Year: 2014 selected,Year.Year<categorical>,nan
+0.23746362328529358,0.9525712132453918,38,53,1656682805224,True,43226,Year (slicer) - Year: 2013 selected,Year.Year<categorical>,nan
+0.17682814598083496,0.8261620402336121,38,8,1656682812016,True,43226,Year (slicer) - Year: 2012 selected,Year.Year<categorical>,nan
+0.23149186372756958,0.952316164970398,39,53,1656682834999,True,40065,Root,Year.Year<categorical>,nan
+0.16866381466388702,0.9576596617698669,39,1,1656682850544,True,40065,Ethnicity (slicer) - Ethnicity: Group E selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",nan
+0.9010183215141296,0.1594921499490738,39,54,1656682851987,True,40065,Ethnicity (slicer) - Ethnicity: Group F selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.23149186372756958,0.952316164970398,40,53,1656742155486,True,55453,Root,Year.Year<categorical>,nan
+0.9049763679504395,0.17665444314479828,40,54,1656742165600,True,55453,Ethnicity (slicer) - Ethnicity: Group F selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.47357797622680664,0.028736060485243797,40,40,1656742188938,True,55453,Year (slicer) - Year: 2012 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.9062903523445129,0.1674010306596756,40,54,1656742191148,True,55453,Year (slicer) - Year: 2013 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.4789205491542816,0.03612610697746277,40,40,1656742199788,True,55453,Year (slicer) - Year: 2012 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.23149186372756958,0.952316164970398,41,53,1656742438614,True,23586,Root,Year.Year<categorical>,nan
+0.3919486105442047,0.9919547438621521,41,13,1656742444909,True,23586,Ethnicity (slicer) - Ethnicity: Group F selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",nan
+0.4771542549133301,0.024434277787804604,41,40,1656742452675,True,23586,Year (slicer) - Year: 2012 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.9078698754310608,0.1679970622062683,41,54,1656742456143,True,23586,Year (slicer) - Year: 2013 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.23149186372756958,0.952316164970398,42,53,1656682923432,True,27936,Root,Year.Year<categorical>,nan
+0.3919323980808258,0.9919515252113342,42,13,1656682930649,True,27936,Ethnicity (slicer) - Ethnicity: Group F selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",nan
+0.47734755277633667,0.024629395455121994,42,40,1656682934746,True,27936,Year (slicer) - Year: 2012 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.8595532774925232,0.16757391393184662,42,54,1656682943431,True,27936,Year (slicer) - Year: 2013 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.23149186372756958,0.952316164970398,43,53,"1,65668E+12",True,-1,Root,Year.Year<categorical>,nan
+0.391938179731369,0.9919447302818298,43,13,"1,65668E+12",True,-1,Ethnicity (slicer) - Ethnicity: Group F selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",nan
+0.4900701642036438,0.02153393253684044,43,40,"1,65668E+12",True,-1,Year (slicer) - Year: 2012 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.8841952681541443,0.15517455339431763,43,54,"1,65668E+12",True,-1,Year (slicer) - Year: 2013 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.23149186372756958,0.952316164970398,44,53,1656682761248,True,17323,Root,Year.Year<categorical>,nan
+0.8759457468986511,0.18485817313194275,44,54,1656682764824,True,17323,Ethnicity (slicer) - Ethnicity: Group F selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.4884670376777649,0.021548330783843994,44,40,1656682767932,True,17323,Year (slicer) - Year: 2012 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
+0.8841969966888428,0.15511257946491241,44,54,1656682773682,True,17323,Year (slicer) - Year: 2013 selected,"Ethnicity.Ethnicity<categorical>, Year.Year<categorical>",NewHiresByEthnicity.Ethnicity<categorical>
