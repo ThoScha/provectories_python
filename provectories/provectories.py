@@ -1,7 +1,6 @@
-import re
 import glob
 import csv
-from typing import List, Literal
+from typing import Dict, List, Literal
 import pandas as pd
 import numpy as np
 from sklearn.manifold import TSNE
@@ -25,10 +24,31 @@ class Provectories:
 
         return [User(pd.read_csv(csv, sep=';', usecols=ordered_cols)[ordered_cols], idx + 1) for idx, csv in enumerate(csvs)]
 
+    def _aggregate_df_from_users(self, question_id: int, user_cols: List[str] = [], quest_cols: List[str] = []) -> pd.DataFrame:
+        user_cols.extend(['line', 'user_id'])
+        quest_cols.append('question_id')
+        state_cols = ['timestamp', 'feature_vector', 'selected_values', 'filtered_values', 'triggered_action']
+
+        data: Dict[str, List] = {col: [] for col in [*user_cols, *quest_cols, *state_cols]}
+
+        for user in self.users:
+            question = user.get_question_by_id(question_id)
+            for state in question.states:
+                for col in user_cols:
+                    data[col].append(user[col])
+                for col in quest_cols:
+                    data[col].append(question[col])
+                for col in state_cols:
+                    data[col].append(state[col])
+        
+        return pd.DataFrame.from_dict(data)
+
+
+
 
     def _calculate_distances(self, data: pd.DataFrame, distance_metric: Literal['kernel', 'euclidean'] = 'kernel') -> pd.DataFrame:
         feature_vectors = data['feature_vector'].values.tolist()
-        
+
         encoded, indicies, counts = np.unique(feature_vectors, axis=0, return_inverse=True, return_counts=True)
         data['multiplicity'] = counts[indicies]
 
@@ -54,23 +74,16 @@ class Provectories:
         coords = [data.at[0, 'x'], data.at[0, 'y']]
         
         # unify coordinates for root states
-        for i, action in enumerate(data['triggeredAction']):
+        for i, action in enumerate(data['triggered_action']):
             if action == 'Root':
                 data.at[i, 'x'] = coords[0]
                 data.at[i, 'y'] = coords[1]
+        
+        return data.drop(columns='feature_vector')
 
-        return data
 
-
-    def _write_csv(self, data: pd.DataFrame, file_name: str, columns_of_interest: List[str] = None):
-        keys = [
-            'x',
-            'y',
-            'line',
-            'multiplicity',
-            'timestamp',
-            *columns_of_interest
-        ] if columns_of_interest else data.keys()
+    def _write_csv(self, data: pd.DataFrame, file_name: str):
+        keys = data.keys()
 
         with open(
             f'/Users/Thomas/Desktop/Studium/WINF/Masterarbeit/provectories/provectories_python/csv/out/{file_name}.csv',
@@ -78,7 +91,6 @@ class Provectories:
             encoding='UTF8'
         ) as f:
             writer = csv.writer(f)
-
             csv.writer(f).writerow(keys)
 
             for i, row in enumerate(data['timestamp']):
@@ -86,8 +98,15 @@ class Provectories:
 
             f.close()
 
-    def create_csv_file(self, file_name: str, question_id: int = None, columns_of_interest: List[str] = None, distance_metric: Literal['kernel', 'euclidean'] = 'kernel'):
-        data = self.data[self.data['questionId'] == question_id].reset_index(drop=True) if question_id else self.data
-        data = self._calculate_distances(data, distance_metric=distance_metric)
-        self._write_csv(data, file_name=file_name, columns_of_interest=columns_of_interest)
+    def create_csv_file(
+        self,
+        file_name: str,
+        question_id: int,
+        user_cols: List[str] = [],
+        quest_cols: List[str] = [],
+        distance_metric: Literal['kernel', 'euclidean'] = 'kernel'
+    ):
+        data = self._aggregate_df_from_users(question_id, user_cols, quest_cols)
+        data = self._calculate_distances(data, distance_metric)
+        self._write_csv(data, file_name)
 

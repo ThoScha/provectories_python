@@ -1,18 +1,6 @@
 from provectories.provectories import Provectories
 
 provectories = Provectories()
-for user in provectories.users:
-    print(user)
-    for question in user.questions:
-        print(question)
-        # for state in question.states:
-        #     print(state)
+provectories.create_csv_file('test_file_1', 3, user_cols=['dashboard_experience'], quest_cols=['answer_correct', 'no_of_steps', 'running_time'])
 
-# for i in [1, 2, 3, 4, 5, 6, 7, 8]:
-#     provectories.create_csv_file(f"question_{i}", i, [
-#         "answer_correct",
-#         "running_time",
-#         "triggeredAction",
-#         "selectedValues",
-#         "filteredValues"
-#     ])
+print("finito")

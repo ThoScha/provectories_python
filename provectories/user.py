@@ -1,5 +1,5 @@
 import re
-from typing import List
+from typing import Dict, List
 import pandas as pd
 
 from .question import Question
@@ -24,14 +24,14 @@ class User:
         self.line = line
         self.questions: List[Question] = self._group_df_to_questions(df)
 
+    def __getitem__(self, key):
+        return getattr(self, key)
+
     def _group_df_to_questions(self, df: pd.DataFrame) -> List[Question]:
-        questions: List[Question] = []
+        data_objects: List[Dict] = []
 
         for i, row in df.iterrows():
             if row['triggeredAction'] == 'Root':
-                # create new question from previously aggregated data
-                if i > 0:
-                    questions.append(Question(pd.DataFrame.from_dict(data)))
                 # reset data for next question
                 data = {
                     col: [] for col in [
@@ -39,6 +39,7 @@ class User:
                         *[key for key in df.keys() if not isCategoricalColumn(key) and not isNumericalColumn(key)]
                     ]
                 }
+                data_objects.append(data)
             
             feature_vector: List[float] = []
             data['feature_vector'].append(feature_vector)
@@ -59,7 +60,14 @@ class User:
             if (len(feature_vector) != 101):
                 raise Exception("invalid feature vector length")
 
-        return questions
+        return [Question(pd.DataFrame.from_dict(data)) for data in data_objects]
+
 
     def __str__(self):
         return str(self.user_id + " " + str(self.dashboard_experience))
+
+    def get_question_by_id(self, id: int) -> Question:
+        for question in self.questions:
+            if question.question_id == id:
+                return question
+         

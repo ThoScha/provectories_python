@@ -21,6 +21,9 @@ class Question:
             self.running_time = -1
         self.states = self._init_states(df)
 
+    def __getitem__(self, key):
+        return getattr(self, key)
+
     def _init_states(self, df: pd.DataFrame) -> List[State]:
         return [State(
             row['timestamp'],
