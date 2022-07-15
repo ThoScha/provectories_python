@@ -91,6 +91,7 @@ class Provectories:
         data = self._aggregate_df_from_users(question_id, user_cols, quest_cols)
         data = self._calculate_distances(data, distance_metric)
         self._write_csv(data, file_name)
+        print('csv file is ready')
 
     def evaluate_data_sets(self):
         def print_seperator():
@@ -156,33 +157,57 @@ class Provectories:
         print("Total no of users: ", total_no_of_users)
         print_seperator()
 
-        # experience
-        print("Experience")
-        dash_exp = user_df.groupby(['dashboard_experience'])['user_id'].count().reset_index(name='count')
-        pbi_exp = user_df.groupby(['power_bi_experience'])['user_id'].count().reset_index(name='count')
-        pbi_exp = pbi_exp[pbi_exp['power_bi_experience'] > -1].reset_index(drop=True)
-        print("Distribution of dashboard experience:")
-        print(dash_exp)
+ # Avg result per dashboard experience
+        print("Average correctness per dashboard experience")
         print()
-        print("Distribution of Power BI experience (subset of dashboard experienced):")
-        print(pbi_exp)
-        print("Confidence [1-6 (6 = very high)] (subset of dashboard experienced):")
-        print_list_item_overview([user.confidence for user in users if user.confidence > -1])
+        df_agg = question_df.groupby(['dashboard_experience', 'user_id', 'answer_correct'])['answer_correct'].count().reset_index(name='count')
+        avg_res_dash_exp = df_agg.groupby(['dashboard_experience', 'answer_correct'])['count'].mean().reset_index(name='avg')
+        avg_res_dash_exp = avg_res_dash_exp[avg_res_dash_exp['answer_correct']].reset_index(drop=True)
+        user_count_dash_exp = question_df.groupby(['dashboard_experience'])['user_id'].nunique().reset_index(name='user_count')
+        avg_res_dash_exp = pd.merge(avg_res_dash_exp, user_count_dash_exp, how='inner')
+        print(avg_res_dash_exp)
+        print_seperator()
+
+        # Avg result per power bi experience
+        print("Average correctness per Power BI experience (subset of dashboard experience)")
+        print()
+        df_agg = question_df.groupby(['power_bi_experience', 'user_id', 'answer_correct'])['answer_correct'].count().reset_index(name='count')
+        avg_res_pbi_exp = df_agg.groupby(['power_bi_experience', 'answer_correct'])['count'].mean().reset_index(name='avg')
+        avg_res_pbi_exp = avg_res_pbi_exp[avg_res_pbi_exp['answer_correct']].reset_index(drop=True)
+        user_count_pbi_exp = question_df.groupby(['power_bi_experience'])['user_id'].nunique().reset_index(name='user_count')
+        avg_res_pbi_exp = pd.merge(avg_res_pbi_exp, user_count_pbi_exp, how='inner')
+        avg_res_pbi_exp = avg_res_pbi_exp[avg_res_pbi_exp['power_bi_experience'] > -1].reset_index(drop=True)
+        print(avg_res_pbi_exp)
+        print_seperator()
+
+        # Avg result per confidence
+        print("Average correctness per dashboard confidence [1-6 (6 - very high)] (subset of dashboard experience)")
+        print()
+        df_agg = question_df.groupby(['confidence', 'user_id', 'answer_correct'])['answer_correct'].count().reset_index(name='count')
+        avg_res_confi = df_agg.groupby(['confidence', 'answer_correct'])['count'].mean().reset_index(name='avg')
+        avg_res_confi = avg_res_confi[avg_res_confi['answer_correct']].reset_index(drop=True)
+        user_count_pbi_exp = question_df.groupby(['confidence'])['user_id'].nunique().reset_index(name='user_count')
+        avg_res_confi = pd.merge(avg_res_confi, user_count_pbi_exp, how='inner')
+        avg_res_confi = avg_res_confi[avg_res_confi['confidence'] > -1].reset_index(drop=True)
+        print(avg_res_confi)
         print_seperator()
 
         # gender
         print("Gender")
+        print()
         gender_dist = user_df['gender'].value_counts()
         print(gender_dist)
         print_seperator()
 
         # age
         print("Age")
+        print()
         print_list_item_overview([user.age for user in users])
         print_seperator()
 
         # satisfaction
         print("Satisfaction [1-6 (6 = very high)]:")
+        print
         print_list_item_overview([user.satisfaction for user in users])
 
         ###########################
@@ -210,37 +235,27 @@ class Provectories:
         print(quest_eval)
         print_seperator()
 
-        # Avg result per dashboard experience
-        print("Average correctness per dashboard experience")
+        # Experience & Satisfaction
+        print("Experience, Satisfaction & Effort")
+        print_seperator()
+        # dashboard experience
+        avg_sati_dash_exp = user_df.groupby(['dashboard_experience'])['satisfaction'].mean().reset_index(name='avg_satisfaction')
+        avg_effort_dash_exp = question_df.groupby(['dashboard_experience'])['mental_effort'].mean().reset_index(name='avg_eff_total')
+        no_user_dash_exp = user_df.groupby(['dashboard_experience'])['user_id'].count().reset_index(name='user_count')
+        sum_dash_exp = pd.merge(avg_sati_dash_exp, avg_effort_dash_exp, how='inner')
+        sum_dash_exp = pd.merge(sum_dash_exp, no_user_dash_exp, how='inner')
+        print("Overview dashboard experience")
         print()
-        df_agg = question_df.groupby(['dashboard_experience', 'user_id', 'answer_correct'])['answer_correct'].count().reset_index(name='count')
-        avg_res_dash_exp = df_agg.groupby(['dashboard_experience', 'answer_correct'])['count'].mean().reset_index(name='avg')
-        avg_res_dash_exp = avg_res_dash_exp[avg_res_dash_exp['answer_correct']].reset_index(drop=True)
-        user_count_dash_exp = question_df.groupby(['dashboard_experience'])['user_id'].nunique().reset_index(name='user_count')
-        avg_res_dash_exp = pd.merge(avg_res_dash_exp, user_count_dash_exp, how='inner')
-        print(avg_res_dash_exp)
+        print(sum_dash_exp)
         print_seperator()
 
-        # Avg result per power bi experience
-        print("Average correctness per Power BI experience (subset of dashboard experience)")
+        # power bi experience
+        avg_sati_pbi_exp = user_df.groupby(['power_bi_experience'])['satisfaction'].mean().reset_index(name='avg_satisfaction')
+        avg_effort_pbi_exp = question_df.groupby(['power_bi_experience'])['mental_effort'].mean().reset_index(name='avg_eff_total')
+        no_user_pbi_exp = user_df.groupby(['power_bi_experience'])['user_id'].count().reset_index(name='user_count')
+        sum_pbi_exp = pd.merge(avg_sati_pbi_exp, avg_effort_pbi_exp, how='inner')
+        sum_pbi_exp = pd.merge(sum_pbi_exp, no_user_pbi_exp, how='inner')
+        print("Overview power bi experience")
         print()
-        df_agg = question_df.groupby(['power_bi_experience', 'user_id', 'answer_correct'])['answer_correct'].count().reset_index(name='count')
-        avg_res_pbi_exp = df_agg.groupby(['power_bi_experience', 'answer_correct'])['count'].mean().reset_index(name='avg')
-        avg_res_pbi_exp = avg_res_pbi_exp[avg_res_pbi_exp['answer_correct']].reset_index(drop=True)
-        user_count_pbi_exp = question_df.groupby(['power_bi_experience'])['user_id'].nunique().reset_index(name='user_count')
-        avg_res_pbi_exp = pd.merge(avg_res_pbi_exp, user_count_pbi_exp, how='inner')
-        avg_res_pbi_exp = avg_res_pbi_exp[avg_res_pbi_exp['power_bi_experience'] > -1].reset_index(drop=True)
-        print(avg_res_pbi_exp)
-        print_seperator()
-
-        # Avg result per confidence
-        print("Average correctness per dashboard confidence [1-6] (subset of dashboard experience)")
-        print()
-        df_agg = question_df.groupby(['confidence', 'user_id', 'answer_correct'])['answer_correct'].count().reset_index(name='count')
-        avg_res_confi = df_agg.groupby(['confidence', 'answer_correct'])['count'].mean().reset_index(name='avg')
-        avg_res_confi = avg_res_confi[avg_res_confi['answer_correct']].reset_index(drop=True)
-        user_count_pbi_exp = question_df.groupby(['confidence'])['user_id'].nunique().reset_index(name='user_count')
-        avg_res_confi = pd.merge(avg_res_confi, user_count_pbi_exp, how='inner')
-        avg_res_confi = avg_res_confi[avg_res_confi['confidence'] > -1].reset_index(drop=True)
-        print(avg_res_confi)
+        print(sum_pbi_exp)
         print_seperator()

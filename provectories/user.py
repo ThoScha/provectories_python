@@ -31,6 +31,10 @@ class User:
         data_objects: List[Dict] = []
 
         for i, row in df.iterrows():
+            # skip rows with tracking errors caused by very fast clicking (selection updated faster than filter states)
+            if i + 1 < len(df) and (row['timestamp'] + 300) > df.at[(i + 1), 'timestamp']:
+                continue
+
             if row['triggeredAction'] == 'Root':
                 # reset data and append it to data_objects
                 data = {
@@ -49,8 +53,8 @@ class User:
                     if isCategoricalColumn(column):
                         split_col = [float(num) for num in cell.split(',')]
                         # weight year column more
-                        if "year.year" in column:
-                            split_col = [num * 5 for num in split_col]
+                        if re.search(r"(?i)\b(.*?)year.year(.*?)\b", column) and 1 in split_col:
+                            split_col = [(7/len([one for one in split_col if one == 1])) * num for num in split_col]
                         feature_vector.extend(split_col)
                     elif isNumericalColumn(column): # TODO: handle numerical cols or leave out
                         pass
@@ -59,7 +63,7 @@ class User:
 
             if (len(feature_vector) != 101):
                 raise Exception("invalid feature vector length")
-                
+
         return [Question(pd.DataFrame.from_dict(data)) for data in data_objects]
 
 
