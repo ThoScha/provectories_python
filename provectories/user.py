@@ -32,7 +32,7 @@ class User:
 
         for i, row in df.iterrows():
             if row['triggeredAction'] == 'Root':
-                # reset data for next question
+                # reset data and append it to data_objects
                 data = {
                     col: [] for col in [
                         'feature_vector',
@@ -59,7 +59,7 @@ class User:
 
             if (len(feature_vector) != 101):
                 raise Exception("invalid feature vector length")
-
+                
         return [Question(pd.DataFrame.from_dict(data)) for data in data_objects]
 
 

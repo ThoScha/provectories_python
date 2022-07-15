@@ -14,11 +14,7 @@ class Question:
         self.no_of_steps = df.shape[0]
         self.start_time = df.at[0, 'timestamp']
         self.end_time = df.at[0, 'endtime']
-        try:
-            self.running_time = int(self.end_time - self.start_time)
-        except:
-            print(f"no integer value provided")
-            self.running_time = -1
+        self.running_time = int(self.end_time - self.start_time) / 1000
         self.states = self._init_states(df)
 
     def __getitem__(self, key):
