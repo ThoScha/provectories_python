@@ -23,6 +23,7 @@ class User:
         self.satisfaction = df.at[0, 'satisfaction']
         self.line = line
         self.questions: List[Question] = self._group_df_to_questions(df)
+        self.sample = df.at[0, 'user'] == 'sample_solution'
 
     def __getitem__(self, key):
         return getattr(self, key)
@@ -54,7 +55,7 @@ class User:
                         split_col = [float(num) for num in cell.split(',')]
                         # weight year column more
                         if re.search(r"(?i)\b(.*?)year.year(.*?)\b", column) and 1 in split_col:
-                            split_col = [(7/len([one for one in split_col if one == 1])) * num for num in split_col]
+                            split_col = [((len(split_col)/2)/len([one for one in split_col if one == 1])) * num for num in split_col]
                         feature_vector.extend(split_col)
                     elif isNumericalColumn(column): # TODO: handle numerical cols or leave out
                         pass

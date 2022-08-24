@@ -42,25 +42,13 @@ class Provectories:
 
     def _calculate_distances(self, data: pd.DataFrame, distance_metric: Literal['kernel', 'euclidean'] = 'kernel') -> pd.DataFrame:
         feature_vectors = data['feature_vector'].values.tolist()
-
         encoded, indicies, counts = np.unique(feature_vectors, axis=0, return_inverse=True, return_counts=True)
         data['multiplicity'] = counts[indicies]
 
-        X = np.array(feature_vectors)
-        distance = euclidean_distances(X) if distance_metric == 'euclidean' else 1 - rbf_kernel(X)
+        distance = euclidean_distances(X) if distance_metric == 'euclidean' else 1 - rbf_kernel(encoded)
         embedded = TSNE(n_components=2, verbose=3, metric='precomputed').fit_transform(distance)
-
-        data['x'] = embedded[:,0]
-        data['y'] = embedded[:,1]
-
-        # get coordinates of first root state
-        coords = [data.at[0, 'x'], data.at[0, 'y']]
-        
-        # unify coordinates for root states
-        for i, action in enumerate(data['triggered_action']):
-            if action == 'Root':
-                data.at[i, 'x'] = coords[0]
-                data.at[i, 'y'] = coords[1]
+        data['x'] = embedded[:,0][indicies]
+        data['y'] = embedded[:,1][indicies]
         
         return data.drop(columns='feature_vector')
 
@@ -148,6 +136,12 @@ class Provectories:
         ###########################
         ##  User Evaluation  ##
         ###########################
+        pd.set_option('display.max_rows', question_df.shape[0]+1)
+
+        # pd.set_option('max_columns', None)
+        # print(question_df)
+
+        print(user_df['satisfaction'].mean())
 
         print_seperator()
         print("USER EVALUATION")
@@ -157,7 +151,7 @@ class Provectories:
         print("Total no of users: ", total_no_of_users)
         print_seperator()
 
- # Avg result per dashboard experience
+        # Avg result per dashboard experience
         print("Average correctness per dashboard experience")
         print()
         df_agg = question_df.groupby(['dashboard_experience', 'user_id', 'answer_correct'])['answer_correct'].count().reset_index(name='count')
@@ -165,8 +159,17 @@ class Provectories:
         avg_res_dash_exp = avg_res_dash_exp[avg_res_dash_exp['answer_correct']].reset_index(drop=True)
         user_count_dash_exp = question_df.groupby(['dashboard_experience'])['user_id'].nunique().reset_index(name='user_count')
         avg_res_dash_exp = pd.merge(avg_res_dash_exp, user_count_dash_exp, how='inner')
+        no_of_steps = question_df.groupby(['dashboard_experience'])['no_of_steps'].mean().reset_index(name='avg_no_of_steps')
+        avg_res_dash_exp = pd.merge(avg_res_dash_exp, no_of_steps, how='inner')
         print(avg_res_dash_exp)
         print_seperator()
+
+        print(question_df.groupby(['answer_correct'])['answer_correct'].count())
+        print()
+        print()
+        print(225/(225+127))
+        print()
+        print()
 
         # Avg result per power bi experience
         print("Average correctness per Power BI experience (subset of dashboard experience)")
@@ -177,6 +180,8 @@ class Provectories:
         user_count_pbi_exp = question_df.groupby(['power_bi_experience'])['user_id'].nunique().reset_index(name='user_count')
         avg_res_pbi_exp = pd.merge(avg_res_pbi_exp, user_count_pbi_exp, how='inner')
         avg_res_pbi_exp = avg_res_pbi_exp[avg_res_pbi_exp['power_bi_experience'] > -1].reset_index(drop=True)
+        no_of_steps = question_df.groupby(['power_bi_experience'])['no_of_steps'].mean().reset_index(name='avg_no_of_steps')
+        avg_res_pbi_exp = pd.merge(avg_res_pbi_exp, no_of_steps, how='inner')
         print(avg_res_pbi_exp)
         print_seperator()
 
@@ -189,6 +194,8 @@ class Provectories:
         user_count_pbi_exp = question_df.groupby(['confidence'])['user_id'].nunique().reset_index(name='user_count')
         avg_res_confi = pd.merge(avg_res_confi, user_count_pbi_exp, how='inner')
         avg_res_confi = avg_res_confi[avg_res_confi['confidence'] > -1].reset_index(drop=True)
+        no_of_steps = question_df.groupby(['confidence'])['no_of_steps'].mean().reset_index(name='avg_no_of_steps')
+        avg_res_confi = pd.merge(avg_res_confi, no_of_steps, how='inner')
         print(avg_res_confi)
         print_seperator()
 
@@ -221,7 +228,7 @@ class Provectories:
         # Correct answers per question
         print("General evaluation of questions:")
         print()
-        quest_eval = question_df.groupby(['question_id', 'answer_correct'])['question_id'].count().reset_index(name='corr_count')
+        quest_eval = question_df.groupby(['question_id', 'task_id', 'answer_correct'])['question_id'].count().reset_index(name='corr_count')
         quest_eval = quest_eval[quest_eval['answer_correct']].reset_index(drop=True)
         quest_eval['corr_dist'] = quest_eval['corr_count']/total_no_of_users
         quest_eval = quest_eval.drop(columns='answer_correct')
@@ -259,3 +266,5 @@ class Provectories:
         print()
         print(sum_pbi_exp)
         print_seperator()
+
+        print()
